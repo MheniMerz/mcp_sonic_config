@@ -1,6 +1,6 @@
 graph SONIC{
    "dummy" [function="fake"]
-   "oob-mgmt-server"  [function="oob-server" mgmt_ip="192.168.200.1" os="generic/ubuntu2204" vagrant_user="cumulus" memory="4096" cpu="4"]
+   "oob-mgmt-server"  [function="oob-server" mgmt_ip="192.168.200.1" os="generic/ubuntu2204" vagrant_user="cumulus" memory="8192" cpu="8"]
    "oob-mgmt-switch"  [function="oob-switch" mgmt_ip="192.168.200.2" os="CumulusCommunity/cumulus-vx" version="4.2.1" ]
 
    "spine01" [function="spine" os="sonic-vs-202311_RC.101-7a2264a36_Internal" memory="2048" mgmt_ip="192.168.200.21"]

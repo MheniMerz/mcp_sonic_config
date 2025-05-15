@@ -1148,8 +1148,8 @@
         "oob": {
             "nodes": {
                 "oob-mgmt-server": {
-                    "cpu": 4,
-                    "memory": 4096,
+                    "cpu": 8,
+                    "memory": 8192,
                     "storage": 10,
                     "positioning": {
                         "x": 275,
