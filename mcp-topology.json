@@ -5,8 +5,8 @@
     "content": {
         "nodes": {
             "border01": {
-                "cpu": 1,
-                "memory": 2048,
+                "cpu": 3,
+                "memory": 4096,
                 "storage": 10,
                 "positioning": {
                     "x": 1375,
@@ -26,8 +26,8 @@
                 "management_mac": "44:38:39:00:01:74"
             },
             "border02": {
-                "cpu": 1,
-                "memory": 2048,
+                "cpu": 3,
+                "memory": 4096,
                 "storage": 10,
                 "positioning": {
                     "x": 1925,
@@ -47,8 +47,8 @@
                 "management_mac": "44:38:39:00:01:7c"
             },
             "fw1": {
-                "cpu": 1,
-                "memory": 2048,
+                "cpu": 3,
+                "memory": 4096,
                 "storage": 10,
                 "positioning": {
                     "x": 1375,
@@ -68,8 +68,8 @@
                 "management_mac": "44:38:39:00:01:8c"
             },
             "fw2": {
-                "cpu": 1,
-                "memory": 2048,
+                "cpu": 3,
+                "memory": 4096,
                 "storage": 10,
                 "positioning": {
                     "x": 1925,
@@ -89,8 +89,8 @@
                 "management_mac": "44:38:39:00:01:8e"
             },
             "leaf01": {
-                "cpu": 1,
-                "memory": 2048,
+                "cpu": 3,
+                "memory": 4096,
                 "storage": 10,
                 "positioning": {
                     "x": 825,
@@ -110,8 +110,8 @@
                 "management_mac": "44:38:39:00:01:7a"
             },
             "leaf02": {
-                "cpu": 1,
-                "memory": 2048,
+                "cpu": 3,
+                "memory": 4096,
                 "storage": 10,
                 "positioning": {
                     "x": 1375,
@@ -131,8 +131,8 @@
                 "management_mac": "44:38:39:00:01:78"
             },
             "leaf03": {
-                "cpu": 1,
-                "memory": 2048,
+                "cpu": 3,
+                "memory": 4096,
                 "storage": 10,
                 "positioning": {
                     "x": 1925,
@@ -152,8 +152,8 @@
                 "management_mac": "44:38:39:00:01:84"
             },
             "leaf04": {
-                "cpu": 1,
-                "memory": 2048,
+                "cpu": 3,
+                "memory": 4096,
                 "storage": 10,
                 "positioning": {
                     "x": 2475,
@@ -341,8 +341,8 @@
                 "management_mac": "44:38:39:00:01:72"
             },
             "spine01": {
-                "cpu": 1,
-                "memory": 2048,
+                "cpu": 3,
+                "memory": 4096,
                 "storage": 10,
                 "positioning": {
                     "x": 825,
@@ -362,8 +362,8 @@
                 "management_mac": "44:38:39:00:01:82"
             },
             "spine02": {
-                "cpu": 1,
-                "memory": 2048,
+                "cpu": 3,
+                "memory": 4096,
                 "storage": 10,
                 "positioning": {
                     "x": 1375,
@@ -383,8 +383,8 @@
                 "management_mac": "44:38:39:00:01:92"
             },
             "spine03": {
-                "cpu": 1,
-                "memory": 2048,
+                "cpu": 3,
+                "memory": 4096,
                 "storage": 10,
                 "positioning": {
                     "x": 1925,
@@ -404,8 +404,8 @@
                 "management_mac": "44:38:39:00:01:70"
             },
             "spine04": {
-                "cpu": 1,
-                "memory": 2048,
+                "cpu": 3,
+                "memory": 4096,
                 "storage": 10,
                 "positioning": {
                     "x": 2475,
