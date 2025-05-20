@@ -1,13 +1,11 @@
 from mcp.server.fastmcp import FastMCP
-#from tools.sonic_interface import configure_interface_ip
 
-print("Initializing MCP...")
-mcp = FastMCP("SONiC RESTCONF Configurator")
+import requests
+from requests.auth import HTTPBasicAuth
+import urllib3
 
-print("Registering tools...")
-# mcp.add_tool(configure_interface_ip)
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-@mcp.tool()
 def configure_interface_ip(
     device_ip: str,
     username: str,
@@ -65,7 +63,44 @@ def configure_interface_ip(
     except requests.exceptions.RequestException as e:
         return {"status": "error", "message": str(e)}
 
-if __name__ == "__main__":
-    # print("Starting HTTP server on 0.0.0.0:11434...")
-    # use streamable-http to expose over HTTP
-    mcp.run(transport="streamable-http")
+
+def get_interface_ip_addresses(device_ip: str, username: str, password: str) -> dict:
+    """
+    Retrieves IP addresses assigned to interfaces from a SONiC device using RESTCONF.
+
+    Parameters:
+    - device_ip: Management IP of the SONiC device.
+    - username: Username for RESTCONF authentication.
+    - password: Password for RESTCONF authentication.
+
+    Returns:
+    - Dictionary mapping interface names to a list of assigned IP prefixes.
+    """
+    url = f"https://{device_ip}/restconf/data/sonic-interface:sonic-interface"
+    headers = {"Accept": "application/yang-data+json"}
+    auth = HTTPBasicAuth(username, password)
+
+    try:
+        response = requests.get(url, headers=headers, auth=auth, verify=False)
+
+        if response.status_code != 200:
+            return {
+                "status": "error",
+                "message": f"Failed to fetch data. Code: {response.status_code}, Response: {response.text}"
+            }
+
+        data = response.json()
+        ip_entries = data.get("sonic-interface:sonic-interface", {}).get("INTERFACE", {}).get("INTERFACE_IPADDR_LIST", [])
+
+        result = {}
+        for entry in ip_entries:
+            portname = entry.get("portname")
+            ip_prefix = entry.get("ip_prefix")
+            if portname and ip_prefix:
+                result.setdefault(portname, []).append(ip_prefix)
+
+        return {"status": "success", "interfaces": result}
+
+    except requests.exceptions.RequestException as e:
+        return {"status": "error", "message": str(e)}
+
