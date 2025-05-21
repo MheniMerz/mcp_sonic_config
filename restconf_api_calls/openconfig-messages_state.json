@@ -1,0 +1,498 @@
+{
+  "paths": {
+    "/data/openconfig-messages:messages/state": {
+      "get": {
+        "summary": "GET operation on \"state\"",
+        "description": "This endpoint retrieves the device's \"state\" resource at XPath: messages/state.",
+        "tags": [
+          "View State"
+        ],
+        "operationId": "GetStateById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/state/severity": {
+      "get": {
+        "summary": "GET operation on \"severity\"",
+        "description": "This endpoint retrieves the device's \"severity\" resource at XPath: messages/state/severity.",
+        "tags": [
+          "View Severity"
+        ],
+        "operationId": "GetSeverityById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/state/message": {
+      "get": {
+        "summary": "GET operation on \"message\"",
+        "description": "This endpoint retrieves the device's \"message\" resource at XPath: messages/state/message.",
+        "tags": [
+          "View Message"
+        ],
+        "operationId": "GetMessageById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/state/message/msg": {
+      "get": {
+        "summary": "GET operation on \"msg\"",
+        "description": "This endpoint retrieves the device's \"msg\" resource at XPath: messages/state/message/msg.",
+        "tags": [
+          "View Msg"
+        ],
+        "operationId": "GetMsgById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/state/message/priority": {
+      "get": {
+        "summary": "GET operation on \"priority\"",
+        "description": "This endpoint retrieves the device's \"priority\" resource at XPath: messages/state/message/priority.",
+        "tags": [
+          "View Priority"
+        ],
+        "operationId": "GetPriorityById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/state/message/app-name": {
+      "get": {
+        "summary": "GET operation on \"app-name\"",
+        "description": "This endpoint retrieves the device's \"app-name\" resource at XPath: messages/state/message/app-name.",
+        "tags": [
+          "View App-Name"
+        ],
+        "operationId": "GetApp-NameById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/state/message/procid": {
+      "get": {
+        "summary": "GET operation on \"procid\"",
+        "description": "This endpoint retrieves the device's \"procid\" resource at XPath: messages/state/message/procid.",
+        "tags": [
+          "View Procid"
+        ],
+        "operationId": "GetProcidById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/state/message/msgid": {
+      "get": {
+        "summary": "GET operation on \"msgid\"",
+        "description": "This endpoint retrieves the device's \"msgid\" resource at XPath: messages/state/message/msgid.",
+        "tags": [
+          "View Msgid"
+        ],
+        "operationId": "GetMsgidById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    }
+  },
+  "openapi": "3.0.3",
+  "info": {
+    "description": "HOST DESTINATION:  https://192.168.200.63:443 (proxy through YANG Suite server)",
+    "title": "OpenAPI v3.0.3",
+    "version": "3.0.3"
+  },
+  "servers": [
+    {
+      "url": "/restconf/proxy/https://192.168.200.63:443/restconf/data/ietf-yang-library:modules-state",
+      "description": "YANG SUITE Proxy RESTCONF API"
+    }
+  ],
+  "components": {
+    "securitySchemes": {
+      "basicAuth": {
+        "type": "http",
+        "scheme": "basic"
+      },
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "scheme": "api_key",
+        "in": "header",
+        "name": "X-API-KEY"
+      },
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JSON Web Token"
+      }
+    },
+    "schemas": {
+      "MessagesStateSchemaById": {
+        "type": "object",
+        "properties": {
+          "state": {
+            "type": "object",
+            "properties": {
+              "severity": {
+                "type": "string"
+              },
+              "message": {
+                "type": "object",
+                "properties": {
+                  "msg": {
+                    "type": "string"
+                  },
+                  "priority": {
+                    "type": "integer",
+                    "format": "uint8"
+                  },
+                  "app-name": {
+                    "type": "string"
+                  },
+                  "procid": {
+                    "type": "string"
+                  },
+                  "msgid": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "MessagesStateSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "state": {
+            "type": "object",
+            "properties": {
+              "severity": {
+                "type": "string"
+              },
+              "message": {
+                "type": "object",
+                "properties": {
+                  "msg": {
+                    "type": "string"
+                  },
+                  "priority": {
+                    "type": "integer",
+                    "format": "uint8"
+                  },
+                  "app-name": {
+                    "type": "string"
+                  },
+                  "procid": {
+                    "type": "string"
+                  },
+                  "msgid": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "state"
+        }
+      },
+      "StateMessageSchemaById": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "object",
+            "properties": {
+              "msg": {
+                "type": "string"
+              },
+              "priority": {
+                "type": "integer",
+                "format": "uint8"
+              },
+              "app-name": {
+                "type": "string"
+              },
+              "procid": {
+                "type": "string"
+              },
+              "msgid": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "StateMessageSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "object",
+            "properties": {
+              "msg": {
+                "type": "string"
+              },
+              "priority": {
+                "type": "integer",
+                "format": "uint8"
+              },
+              "app-name": {
+                "type": "string"
+              },
+              "procid": {
+                "type": "string"
+              },
+              "msgid": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "message"
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "basicAuth": [],
+      "ApiKeyAuth": [],
+      "bearerAuth": []
+    }
+  ]
+}

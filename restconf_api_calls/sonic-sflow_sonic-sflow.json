@@ -1,0 +1,4902 @@
+{
+  "paths": {
+    "/data/sonic-sflow:sonic-sflow": {
+      "patch": {
+        "summary": "PATCH operation on \"sonic-sflow\"",
+        "description": "This endpoint modifies the device's \"sonic-sflow\" resource at XPath: sonic-sflow.",
+        "tags": [
+          "Modify Sonic-Sflow"
+        ],
+        "operationId": "PatchSonic-SflowById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-SflowSonic-SflowSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-SflowSonic-SflowSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"sonic-sflow\"",
+        "description": "This endpoint replaces the device's \"sonic-sflow\" resource at XPath: sonic-sflow.",
+        "tags": [
+          "Replace Sonic-Sflow"
+        ],
+        "operationId": "PutSonic-SflowById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-SflowSonic-SflowSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-SflowSonic-SflowSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"sonic-sflow\"",
+        "description": "This endpoint adds to the device's \"sonic-sflow\" resource at XPath: sonic-sflow.",
+        "tags": [
+          "Add Sonic-Sflow"
+        ],
+        "operationId": "PostSonic-SflowById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-SflowSonic-SflowSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-SflowSonic-SflowSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"sonic-sflow\"",
+        "description": "This endpoint removes the device's \"sonic-sflow\" resource at XPath: sonic-sflow.",
+        "tags": [
+          "Remove Sonic-Sflow"
+        ],
+        "operationId": "DeleteSonic-SflowById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"sonic-sflow\"",
+        "description": "This endpoint retrieves the device's \"sonic-sflow\" resource at XPath: sonic-sflow.",
+        "tags": [
+          "View Sonic-Sflow"
+        ],
+        "operationId": "GetSonic-SflowById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-sflow:sonic-sflow/SFLOW_COLLECTOR": {
+      "patch": {
+        "summary": "PATCH operation on \"SFLOW_COLLECTOR\"",
+        "description": "This endpoint modifies the device's \"SFLOW_COLLECTOR\" resource at XPath: sonic-sflow/SFLOW_COLLECTOR.",
+        "tags": [
+          "Modify Sflow_Collector"
+        ],
+        "operationId": "PatchSflow_CollectorById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-SflowSflow_CollectorSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-SflowSflow_CollectorSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"SFLOW_COLLECTOR\"",
+        "description": "This endpoint replaces the device's \"SFLOW_COLLECTOR\" resource at XPath: sonic-sflow/SFLOW_COLLECTOR.",
+        "tags": [
+          "Replace Sflow_Collector"
+        ],
+        "operationId": "PutSflow_CollectorById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-SflowSflow_CollectorSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-SflowSflow_CollectorSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"SFLOW_COLLECTOR\"",
+        "description": "This endpoint adds to the device's \"SFLOW_COLLECTOR\" resource at XPath: sonic-sflow/SFLOW_COLLECTOR.",
+        "tags": [
+          "Add Sflow_Collector"
+        ],
+        "operationId": "PostSflow_CollectorById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-SflowSflow_CollectorSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-SflowSflow_CollectorSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"SFLOW_COLLECTOR\"",
+        "description": "This endpoint removes the device's \"SFLOW_COLLECTOR\" resource at XPath: sonic-sflow/SFLOW_COLLECTOR.",
+        "tags": [
+          "Remove Sflow_Collector"
+        ],
+        "operationId": "DeleteSflow_CollectorById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"SFLOW_COLLECTOR\"",
+        "description": "This endpoint retrieves the device's \"SFLOW_COLLECTOR\" resource at XPath: sonic-sflow/SFLOW_COLLECTOR.",
+        "tags": [
+          "View Sflow_Collector"
+        ],
+        "operationId": "GetSflow_CollectorById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-sflow:sonic-sflow/SFLOW_COLLECTOR/SFLOW_COLLECTOR_LIST": {
+      "patch": {
+        "summary": "PATCH operation on \"SFLOW_COLLECTOR_LIST\"",
+        "description": "This endpoint modifies the device's \"SFLOW_COLLECTOR_LIST\" resource at XPath: sonic-sflow/SFLOW_COLLECTOR/SFLOW_COLLECTOR_LIST.",
+        "tags": [
+          "Modify Sflow_Collector_List"
+        ],
+        "operationId": "PatchSflow_Collector_ListById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sflow_CollectorSflow_Collector_ListSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sflow_CollectorSflow_Collector_ListSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"SFLOW_COLLECTOR_LIST\"",
+        "description": "This endpoint replaces the device's \"SFLOW_COLLECTOR_LIST\" resource at XPath: sonic-sflow/SFLOW_COLLECTOR/SFLOW_COLLECTOR_LIST.",
+        "tags": [
+          "Replace Sflow_Collector_List"
+        ],
+        "operationId": "PutSflow_Collector_ListById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sflow_CollectorSflow_Collector_ListSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sflow_CollectorSflow_Collector_ListSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"SFLOW_COLLECTOR_LIST\"",
+        "description": "This endpoint adds to the device's \"SFLOW_COLLECTOR_LIST\" resource at XPath: sonic-sflow/SFLOW_COLLECTOR/SFLOW_COLLECTOR_LIST.",
+        "tags": [
+          "Add Sflow_Collector_List"
+        ],
+        "operationId": "PostSflow_Collector_ListById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sflow_CollectorSflow_Collector_ListSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sflow_CollectorSflow_Collector_ListSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"SFLOW_COLLECTOR_LIST\"",
+        "description": "This endpoint retrieves the device's \"SFLOW_COLLECTOR_LIST\" resource at XPath: sonic-sflow/SFLOW_COLLECTOR/SFLOW_COLLECTOR_LIST.",
+        "tags": [
+          "View Sflow_Collector_List"
+        ],
+        "operationId": "GetSflow_Collector_ListById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-sflow:sonic-sflow/SFLOW_COLLECTOR/SFLOW_COLLECTOR_LIST={SFLOW_COLLECTOR_LIST-name}": {
+      "get": {
+        "summary": "GET operation on \"SFLOW_COLLECTOR_LIST\"",
+        "description": "This endpoint retrieves the device's \"SFLOW_COLLECTOR_LIST\" resource at XPath: sonic-sflow/SFLOW_COLLECTOR/SFLOW_COLLECTOR_LIST.",
+        "tags": [
+          "View Sflow_Collector_List"
+        ],
+        "operationId": "GetSflow_Collector_ListElemById",
+        "parameters": [
+          {
+            "name": "SFLOW_COLLECTOR_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"SFLOW_COLLECTOR_LIST\"",
+        "description": "This endpoint removes the device's \"SFLOW_COLLECTOR_LIST\" resource at XPath: sonic-sflow/SFLOW_COLLECTOR/SFLOW_COLLECTOR_LIST.",
+        "tags": [
+          "Remove Sflow_Collector_List"
+        ],
+        "operationId": "DeleteSflow_Collector_ListById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-sflow:sonic-sflow/SFLOW_COLLECTOR/SFLOW_COLLECTOR_LIST/name": {},
+    "/data/sonic-sflow:sonic-sflow/SFLOW_COLLECTOR/SFLOW_COLLECTOR_LIST={SFLOW_COLLECTOR_LIST-name}/collector_ip": {
+      "patch": {
+        "summary": "PATCH operation on \"collector_ip\"",
+        "description": "This endpoint modifies the device's \"collector_ip\" resource at XPath: sonic-sflow/SFLOW_COLLECTOR/SFLOW_COLLECTOR_LIST/collector_ip.",
+        "tags": [
+          "Modify Collector_Ip"
+        ],
+        "operationId": "PatchCollector_IpById",
+        "requestBody": {
+          "description": "IPv4/IPv6 address of the Sflow collector",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "collector_ip"
+                ],
+                "properties": {
+                  "collector_ip": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "collector_ip"
+                },
+                "type": "object",
+                "required": [
+                  "collector_ip"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "SFLOW_COLLECTOR_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"collector_ip\"",
+        "description": "This endpoint replaces the device's \"collector_ip\" resource at XPath: sonic-sflow/SFLOW_COLLECTOR/SFLOW_COLLECTOR_LIST/collector_ip.",
+        "tags": [
+          "Replace Collector_Ip"
+        ],
+        "operationId": "PutCollector_IpById",
+        "requestBody": {
+          "description": "IPv4/IPv6 address of the Sflow collector",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "collector_ip"
+                ],
+                "properties": {
+                  "collector_ip": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "collector_ip"
+                },
+                "type": "object",
+                "required": [
+                  "collector_ip"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "SFLOW_COLLECTOR_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"collector_ip\"",
+        "description": "This endpoint retrieves the device's \"collector_ip\" resource at XPath: sonic-sflow/SFLOW_COLLECTOR/SFLOW_COLLECTOR_LIST/collector_ip.",
+        "tags": [
+          "View Collector_Ip"
+        ],
+        "operationId": "GetCollector_IpById",
+        "parameters": [
+          {
+            "name": "SFLOW_COLLECTOR_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"collector_ip\"",
+        "description": "This endpoint removes the device's \"collector_ip\" resource at XPath: sonic-sflow/SFLOW_COLLECTOR/SFLOW_COLLECTOR_LIST/collector_ip.",
+        "tags": [
+          "Remove Collector_Ip"
+        ],
+        "operationId": "DeleteCollector_IpById",
+        "parameters": [
+          {
+            "name": "SFLOW_COLLECTOR_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-sflow:sonic-sflow/SFLOW_COLLECTOR/SFLOW_COLLECTOR_LIST={SFLOW_COLLECTOR_LIST-name}/collector_port": {
+      "patch": {
+        "summary": "PATCH operation on \"collector_port\"",
+        "description": "This endpoint modifies the device's \"collector_port\" resource at XPath: sonic-sflow/SFLOW_COLLECTOR/SFLOW_COLLECTOR_LIST/collector_port.",
+        "tags": [
+          "Modify Collector_Port"
+        ],
+        "operationId": "PatchCollector_PortById",
+        "requestBody": {
+          "description": "Destination L4 port of the Sflow collector",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "collector_port"
+                ],
+                "properties": {
+                  "collector_port": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "collector_port"
+                },
+                "type": "object",
+                "required": [
+                  "collector_port"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "SFLOW_COLLECTOR_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"collector_port\"",
+        "description": "This endpoint replaces the device's \"collector_port\" resource at XPath: sonic-sflow/SFLOW_COLLECTOR/SFLOW_COLLECTOR_LIST/collector_port.",
+        "tags": [
+          "Replace Collector_Port"
+        ],
+        "operationId": "PutCollector_PortById",
+        "requestBody": {
+          "description": "Destination L4 port of the Sflow collector",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "collector_port"
+                ],
+                "properties": {
+                  "collector_port": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "collector_port"
+                },
+                "type": "object",
+                "required": [
+                  "collector_port"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "SFLOW_COLLECTOR_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"collector_port\"",
+        "description": "This endpoint retrieves the device's \"collector_port\" resource at XPath: sonic-sflow/SFLOW_COLLECTOR/SFLOW_COLLECTOR_LIST/collector_port.",
+        "tags": [
+          "View Collector_Port"
+        ],
+        "operationId": "GetCollector_PortById",
+        "parameters": [
+          {
+            "name": "SFLOW_COLLECTOR_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"collector_port\"",
+        "description": "This endpoint removes the device's \"collector_port\" resource at XPath: sonic-sflow/SFLOW_COLLECTOR/SFLOW_COLLECTOR_LIST/collector_port.",
+        "tags": [
+          "Remove Collector_Port"
+        ],
+        "operationId": "DeleteCollector_PortById",
+        "parameters": [
+          {
+            "name": "SFLOW_COLLECTOR_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-sflow:sonic-sflow/SFLOW_COLLECTOR/SFLOW_COLLECTOR_LIST={SFLOW_COLLECTOR_LIST-name}/collector_vrf": {
+      "patch": {
+        "summary": "PATCH operation on \"collector_vrf\"",
+        "description": "This endpoint modifies the device's \"collector_vrf\" resource at XPath: sonic-sflow/SFLOW_COLLECTOR/SFLOW_COLLECTOR_LIST/collector_vrf.",
+        "tags": [
+          "Modify Collector_Vrf"
+        ],
+        "operationId": "PatchCollector_VrfById",
+        "requestBody": {
+          "description": "Specify the Collector VRF. In this revision, it is either\ndefault VRF or Management VRF.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "collector_vrf"
+                ],
+                "properties": {
+                  "collector_vrf": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "collector_vrf"
+                },
+                "type": "object",
+                "required": [
+                  "collector_vrf"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "SFLOW_COLLECTOR_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"collector_vrf\"",
+        "description": "This endpoint replaces the device's \"collector_vrf\" resource at XPath: sonic-sflow/SFLOW_COLLECTOR/SFLOW_COLLECTOR_LIST/collector_vrf.",
+        "tags": [
+          "Replace Collector_Vrf"
+        ],
+        "operationId": "PutCollector_VrfById",
+        "requestBody": {
+          "description": "Specify the Collector VRF. In this revision, it is either\ndefault VRF or Management VRF.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "collector_vrf"
+                ],
+                "properties": {
+                  "collector_vrf": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "collector_vrf"
+                },
+                "type": "object",
+                "required": [
+                  "collector_vrf"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "SFLOW_COLLECTOR_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"collector_vrf\"",
+        "description": "This endpoint retrieves the device's \"collector_vrf\" resource at XPath: sonic-sflow/SFLOW_COLLECTOR/SFLOW_COLLECTOR_LIST/collector_vrf.",
+        "tags": [
+          "View Collector_Vrf"
+        ],
+        "operationId": "GetCollector_VrfById",
+        "parameters": [
+          {
+            "name": "SFLOW_COLLECTOR_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"collector_vrf\"",
+        "description": "This endpoint removes the device's \"collector_vrf\" resource at XPath: sonic-sflow/SFLOW_COLLECTOR/SFLOW_COLLECTOR_LIST/collector_vrf.",
+        "tags": [
+          "Remove Collector_Vrf"
+        ],
+        "operationId": "DeleteCollector_VrfById",
+        "parameters": [
+          {
+            "name": "SFLOW_COLLECTOR_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-sflow:sonic-sflow/SFLOW_SESSION": {
+      "patch": {
+        "summary": "PATCH operation on \"SFLOW_SESSION\"",
+        "description": "This endpoint modifies the device's \"SFLOW_SESSION\" resource at XPath: sonic-sflow/SFLOW_SESSION.",
+        "tags": [
+          "Modify Sflow_Session"
+        ],
+        "operationId": "PatchSflow_SessionById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-SflowSflow_SessionSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-SflowSflow_SessionSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"SFLOW_SESSION\"",
+        "description": "This endpoint replaces the device's \"SFLOW_SESSION\" resource at XPath: sonic-sflow/SFLOW_SESSION.",
+        "tags": [
+          "Replace Sflow_Session"
+        ],
+        "operationId": "PutSflow_SessionById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-SflowSflow_SessionSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-SflowSflow_SessionSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"SFLOW_SESSION\"",
+        "description": "This endpoint adds to the device's \"SFLOW_SESSION\" resource at XPath: sonic-sflow/SFLOW_SESSION.",
+        "tags": [
+          "Add Sflow_Session"
+        ],
+        "operationId": "PostSflow_SessionById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-SflowSflow_SessionSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-SflowSflow_SessionSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"SFLOW_SESSION\"",
+        "description": "This endpoint removes the device's \"SFLOW_SESSION\" resource at XPath: sonic-sflow/SFLOW_SESSION.",
+        "tags": [
+          "Remove Sflow_Session"
+        ],
+        "operationId": "DeleteSflow_SessionById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"SFLOW_SESSION\"",
+        "description": "This endpoint retrieves the device's \"SFLOW_SESSION\" resource at XPath: sonic-sflow/SFLOW_SESSION.",
+        "tags": [
+          "View Sflow_Session"
+        ],
+        "operationId": "GetSflow_SessionById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-sflow:sonic-sflow/SFLOW_SESSION/SFLOW_SESSION_LIST": {
+      "patch": {
+        "summary": "PATCH operation on \"SFLOW_SESSION_LIST\"",
+        "description": "This endpoint modifies the device's \"SFLOW_SESSION_LIST\" resource at XPath: sonic-sflow/SFLOW_SESSION/SFLOW_SESSION_LIST.",
+        "tags": [
+          "Modify Sflow_Session_List"
+        ],
+        "operationId": "PatchSflow_Session_ListById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sflow_SessionSflow_Session_ListSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sflow_SessionSflow_Session_ListSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"SFLOW_SESSION_LIST\"",
+        "description": "This endpoint replaces the device's \"SFLOW_SESSION_LIST\" resource at XPath: sonic-sflow/SFLOW_SESSION/SFLOW_SESSION_LIST.",
+        "tags": [
+          "Replace Sflow_Session_List"
+        ],
+        "operationId": "PutSflow_Session_ListById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sflow_SessionSflow_Session_ListSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sflow_SessionSflow_Session_ListSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"SFLOW_SESSION_LIST\"",
+        "description": "This endpoint adds to the device's \"SFLOW_SESSION_LIST\" resource at XPath: sonic-sflow/SFLOW_SESSION/SFLOW_SESSION_LIST.",
+        "tags": [
+          "Add Sflow_Session_List"
+        ],
+        "operationId": "PostSflow_Session_ListById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sflow_SessionSflow_Session_ListSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sflow_SessionSflow_Session_ListSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"SFLOW_SESSION_LIST\"",
+        "description": "This endpoint retrieves the device's \"SFLOW_SESSION_LIST\" resource at XPath: sonic-sflow/SFLOW_SESSION/SFLOW_SESSION_LIST.",
+        "tags": [
+          "View Sflow_Session_List"
+        ],
+        "operationId": "GetSflow_Session_ListById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-sflow:sonic-sflow/SFLOW_SESSION/SFLOW_SESSION_LIST={SFLOW_SESSION_LIST-port}": {
+      "get": {
+        "summary": "GET operation on \"SFLOW_SESSION_LIST\"",
+        "description": "This endpoint retrieves the device's \"SFLOW_SESSION_LIST\" resource at XPath: sonic-sflow/SFLOW_SESSION/SFLOW_SESSION_LIST.",
+        "tags": [
+          "View Sflow_Session_List"
+        ],
+        "operationId": "GetSflow_Session_ListElemById",
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"SFLOW_SESSION_LIST\"",
+        "description": "This endpoint removes the device's \"SFLOW_SESSION_LIST\" resource at XPath: sonic-sflow/SFLOW_SESSION/SFLOW_SESSION_LIST.",
+        "tags": [
+          "Remove Sflow_Session_List"
+        ],
+        "operationId": "DeleteSflow_Session_ListById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-sflow:sonic-sflow/SFLOW_SESSION/SFLOW_SESSION_LIST/port": {},
+    "/data/sonic-sflow:sonic-sflow/SFLOW_SESSION/SFLOW_SESSION_LIST={SFLOW_SESSION_LIST-port}/admin_state": {
+      "patch": {
+        "summary": "PATCH operation on \"admin_state\"",
+        "description": "This endpoint modifies the device's \"admin_state\" resource at XPath: sonic-sflow/SFLOW_SESSION/SFLOW_SESSION_LIST/admin_state.",
+        "tags": [
+          "Modify Admin_State"
+        ],
+        "operationId": "PatchAdmin_StateById",
+        "requestBody": {
+          "description": "Per port sflow admin state",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "admin_state"
+                ],
+                "properties": {
+                  "admin_state": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "admin_state"
+                },
+                "type": "object",
+                "required": [
+                  "admin_state"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"admin_state\"",
+        "description": "This endpoint replaces the device's \"admin_state\" resource at XPath: sonic-sflow/SFLOW_SESSION/SFLOW_SESSION_LIST/admin_state.",
+        "tags": [
+          "Replace Admin_State"
+        ],
+        "operationId": "PutAdmin_StateById",
+        "requestBody": {
+          "description": "Per port sflow admin state",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "admin_state"
+                ],
+                "properties": {
+                  "admin_state": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "admin_state"
+                },
+                "type": "object",
+                "required": [
+                  "admin_state"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"admin_state\"",
+        "description": "This endpoint retrieves the device's \"admin_state\" resource at XPath: sonic-sflow/SFLOW_SESSION/SFLOW_SESSION_LIST/admin_state.",
+        "tags": [
+          "View Admin_State"
+        ],
+        "operationId": "GetAdmin_StateById",
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"admin_state\"",
+        "description": "This endpoint removes the device's \"admin_state\" resource at XPath: sonic-sflow/SFLOW_SESSION/SFLOW_SESSION_LIST/admin_state.",
+        "tags": [
+          "Remove Admin_State"
+        ],
+        "operationId": "DeleteAdmin_StateById",
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-sflow:sonic-sflow/SFLOW_SESSION/SFLOW_SESSION_LIST={SFLOW_SESSION_LIST-port}/sample_rate": {
+      "patch": {
+        "summary": "PATCH operation on \"sample_rate\"",
+        "description": "This endpoint modifies the device's \"sample_rate\" resource at XPath: sonic-sflow/SFLOW_SESSION/SFLOW_SESSION_LIST/sample_rate.",
+        "tags": [
+          "Modify Sample_Rate"
+        ],
+        "operationId": "PatchSample_RateById",
+        "requestBody": {
+          "description": "Sets the packet sampling rate.  The rate is expressed as an integer N, where the intended sampling rate is 1/N packets.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "sample_rate"
+                ],
+                "properties": {
+                  "sample_rate": {
+                    "type": "integer",
+                    "format": "uint32"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "sample_rate"
+                },
+                "type": "object",
+                "required": [
+                  "sample_rate"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"sample_rate\"",
+        "description": "This endpoint replaces the device's \"sample_rate\" resource at XPath: sonic-sflow/SFLOW_SESSION/SFLOW_SESSION_LIST/sample_rate.",
+        "tags": [
+          "Replace Sample_Rate"
+        ],
+        "operationId": "PutSample_RateById",
+        "requestBody": {
+          "description": "Sets the packet sampling rate.  The rate is expressed as an integer N, where the intended sampling rate is 1/N packets.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "sample_rate"
+                ],
+                "properties": {
+                  "sample_rate": {
+                    "type": "integer",
+                    "format": "uint32"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "sample_rate"
+                },
+                "type": "object",
+                "required": [
+                  "sample_rate"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"sample_rate\"",
+        "description": "This endpoint retrieves the device's \"sample_rate\" resource at XPath: sonic-sflow/SFLOW_SESSION/SFLOW_SESSION_LIST/sample_rate.",
+        "tags": [
+          "View Sample_Rate"
+        ],
+        "operationId": "GetSample_RateById",
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"sample_rate\"",
+        "description": "This endpoint removes the device's \"sample_rate\" resource at XPath: sonic-sflow/SFLOW_SESSION/SFLOW_SESSION_LIST/sample_rate.",
+        "tags": [
+          "Remove Sample_Rate"
+        ],
+        "operationId": "DeleteSample_RateById",
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-sflow:sonic-sflow/SFLOW_SESSION/SFLOW_SESSION_LIST={SFLOW_SESSION_LIST-port}/sample_direction": {
+      "patch": {
+        "summary": "PATCH operation on \"sample_direction\"",
+        "description": "This endpoint modifies the device's \"sample_direction\" resource at XPath: sonic-sflow/SFLOW_SESSION/SFLOW_SESSION_LIST/sample_direction.",
+        "tags": [
+          "Modify Sample_Direction"
+        ],
+        "operationId": "PatchSample_DirectionById",
+        "requestBody": {
+          "description": "sflow sample direction",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "sample_direction"
+                ],
+                "properties": {
+                  "sample_direction": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "sample_direction"
+                },
+                "type": "object",
+                "required": [
+                  "sample_direction"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"sample_direction\"",
+        "description": "This endpoint replaces the device's \"sample_direction\" resource at XPath: sonic-sflow/SFLOW_SESSION/SFLOW_SESSION_LIST/sample_direction.",
+        "tags": [
+          "Replace Sample_Direction"
+        ],
+        "operationId": "PutSample_DirectionById",
+        "requestBody": {
+          "description": "sflow sample direction",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "sample_direction"
+                ],
+                "properties": {
+                  "sample_direction": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "sample_direction"
+                },
+                "type": "object",
+                "required": [
+                  "sample_direction"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"sample_direction\"",
+        "description": "This endpoint retrieves the device's \"sample_direction\" resource at XPath: sonic-sflow/SFLOW_SESSION/SFLOW_SESSION_LIST/sample_direction.",
+        "tags": [
+          "View Sample_Direction"
+        ],
+        "operationId": "GetSample_DirectionById",
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"sample_direction\"",
+        "description": "This endpoint removes the device's \"sample_direction\" resource at XPath: sonic-sflow/SFLOW_SESSION/SFLOW_SESSION_LIST/sample_direction.",
+        "tags": [
+          "Remove Sample_Direction"
+        ],
+        "operationId": "DeleteSample_DirectionById",
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-sflow:sonic-sflow/SFLOW": {
+      "patch": {
+        "summary": "PATCH operation on \"SFLOW\"",
+        "description": "This endpoint modifies the device's \"SFLOW\" resource at XPath: sonic-sflow/SFLOW.",
+        "tags": [
+          "Modify Sflow"
+        ],
+        "operationId": "PatchSflowById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-SflowSflowSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-SflowSflowSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"SFLOW\"",
+        "description": "This endpoint replaces the device's \"SFLOW\" resource at XPath: sonic-sflow/SFLOW.",
+        "tags": [
+          "Replace Sflow"
+        ],
+        "operationId": "PutSflowById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-SflowSflowSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-SflowSflowSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"SFLOW\"",
+        "description": "This endpoint adds to the device's \"SFLOW\" resource at XPath: sonic-sflow/SFLOW.",
+        "tags": [
+          "Add Sflow"
+        ],
+        "operationId": "PostSflowById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-SflowSflowSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-SflowSflowSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"SFLOW\"",
+        "description": "This endpoint removes the device's \"SFLOW\" resource at XPath: sonic-sflow/SFLOW.",
+        "tags": [
+          "Remove Sflow"
+        ],
+        "operationId": "DeleteSflowById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"SFLOW\"",
+        "description": "This endpoint retrieves the device's \"SFLOW\" resource at XPath: sonic-sflow/SFLOW.",
+        "tags": [
+          "View Sflow"
+        ],
+        "operationId": "GetSflowById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-sflow:sonic-sflow/SFLOW/global": {
+      "patch": {
+        "summary": "PATCH operation on \"global\"",
+        "description": "This endpoint modifies the device's \"global\" resource at XPath: sonic-sflow/SFLOW/global.",
+        "tags": [
+          "Modify Global"
+        ],
+        "operationId": "PatchGlobalById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SflowGlobalSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/SflowGlobalSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"global\"",
+        "description": "This endpoint replaces the device's \"global\" resource at XPath: sonic-sflow/SFLOW/global.",
+        "tags": [
+          "Replace Global"
+        ],
+        "operationId": "PutGlobalById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SflowGlobalSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/SflowGlobalSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"global\"",
+        "description": "This endpoint adds to the device's \"global\" resource at XPath: sonic-sflow/SFLOW/global.",
+        "tags": [
+          "Add Global"
+        ],
+        "operationId": "PostGlobalById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SflowGlobalSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/SflowGlobalSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"global\"",
+        "description": "This endpoint removes the device's \"global\" resource at XPath: sonic-sflow/SFLOW/global.",
+        "tags": [
+          "Remove Global"
+        ],
+        "operationId": "DeleteGlobalById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"global\"",
+        "description": "This endpoint retrieves the device's \"global\" resource at XPath: sonic-sflow/SFLOW/global.",
+        "tags": [
+          "View Global"
+        ],
+        "operationId": "GetGlobalById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-sflow:sonic-sflow/SFLOW/global/admin_state": {},
+    "/data/sonic-sflow:sonic-sflow/SFLOW/global={SFLOW_SESSION_LIST-port}/admin_state": {
+      "patch": {
+        "summary": "PATCH operation on \"admin_state\"",
+        "description": "This endpoint modifies the device's \"admin_state\" resource at XPath: sonic-sflow/SFLOW/global/admin_state.",
+        "tags": [
+          "Modify Admin_State"
+        ],
+        "operationId": "PatchAdmin_StateById",
+        "requestBody": {
+          "description": "Global sflow admin state",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "admin_state"
+                ],
+                "properties": {
+                  "admin_state": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "admin_state"
+                },
+                "type": "object",
+                "required": [
+                  "admin_state"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"admin_state\"",
+        "description": "This endpoint replaces the device's \"admin_state\" resource at XPath: sonic-sflow/SFLOW/global/admin_state.",
+        "tags": [
+          "Replace Admin_State"
+        ],
+        "operationId": "PutAdmin_StateById",
+        "requestBody": {
+          "description": "Global sflow admin state",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "admin_state"
+                ],
+                "properties": {
+                  "admin_state": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "admin_state"
+                },
+                "type": "object",
+                "required": [
+                  "admin_state"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"admin_state\"",
+        "description": "This endpoint retrieves the device's \"admin_state\" resource at XPath: sonic-sflow/SFLOW/global/admin_state.",
+        "tags": [
+          "View Admin_State"
+        ],
+        "operationId": "GetAdmin_StateById",
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"admin_state\"",
+        "description": "This endpoint removes the device's \"admin_state\" resource at XPath: sonic-sflow/SFLOW/global/admin_state.",
+        "tags": [
+          "Remove Admin_State"
+        ],
+        "operationId": "DeleteAdmin_StateById",
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-sflow:sonic-sflow/SFLOW/global/polling_interval": {},
+    "/data/sonic-sflow:sonic-sflow/SFLOW/global={SFLOW_SESSION_LIST-port}/polling_interval": {
+      "patch": {
+        "summary": "PATCH operation on \"polling_interval\"",
+        "description": "This endpoint modifies the device's \"polling_interval\" resource at XPath: sonic-sflow/SFLOW/global/polling_interval.",
+        "tags": [
+          "Modify Polling_Interval"
+        ],
+        "operationId": "PatchPolling_IntervalById",
+        "requestBody": {
+          "description": "The interval within which sFlow data is collected and sent to the configured collectors",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "polling_interval"
+                ],
+                "properties": {
+                  "polling_interval": {
+                    "type": "integer",
+                    "format": "uint16"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "polling_interval"
+                },
+                "type": "object",
+                "required": [
+                  "polling_interval"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"polling_interval\"",
+        "description": "This endpoint replaces the device's \"polling_interval\" resource at XPath: sonic-sflow/SFLOW/global/polling_interval.",
+        "tags": [
+          "Replace Polling_Interval"
+        ],
+        "operationId": "PutPolling_IntervalById",
+        "requestBody": {
+          "description": "The interval within which sFlow data is collected and sent to the configured collectors",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "polling_interval"
+                ],
+                "properties": {
+                  "polling_interval": {
+                    "type": "integer",
+                    "format": "uint16"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "polling_interval"
+                },
+                "type": "object",
+                "required": [
+                  "polling_interval"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"polling_interval\"",
+        "description": "This endpoint retrieves the device's \"polling_interval\" resource at XPath: sonic-sflow/SFLOW/global/polling_interval.",
+        "tags": [
+          "View Polling_Interval"
+        ],
+        "operationId": "GetPolling_IntervalById",
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"polling_interval\"",
+        "description": "This endpoint removes the device's \"polling_interval\" resource at XPath: sonic-sflow/SFLOW/global/polling_interval.",
+        "tags": [
+          "Remove Polling_Interval"
+        ],
+        "operationId": "DeletePolling_IntervalById",
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-sflow:sonic-sflow/SFLOW/global/agent_id": {},
+    "/data/sonic-sflow:sonic-sflow/SFLOW/global={SFLOW_SESSION_LIST-port}/agent_id": {
+      "patch": {
+        "summary": "PATCH operation on \"agent_id\"",
+        "description": "This endpoint modifies the device's \"agent_id\" resource at XPath: sonic-sflow/SFLOW/global/agent_id.",
+        "tags": [
+          "Modify Agent_Id"
+        ],
+        "operationId": "PatchAgent_IdById",
+        "requestBody": {
+          "description": "Interface name",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "agent_id"
+                ],
+                "properties": {
+                  "agent_id": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "agent_id"
+                },
+                "type": "object",
+                "required": [
+                  "agent_id"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"agent_id\"",
+        "description": "This endpoint replaces the device's \"agent_id\" resource at XPath: sonic-sflow/SFLOW/global/agent_id.",
+        "tags": [
+          "Replace Agent_Id"
+        ],
+        "operationId": "PutAgent_IdById",
+        "requestBody": {
+          "description": "Interface name",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "agent_id"
+                ],
+                "properties": {
+                  "agent_id": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "agent_id"
+                },
+                "type": "object",
+                "required": [
+                  "agent_id"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"agent_id\"",
+        "description": "This endpoint retrieves the device's \"agent_id\" resource at XPath: sonic-sflow/SFLOW/global/agent_id.",
+        "tags": [
+          "View Agent_Id"
+        ],
+        "operationId": "GetAgent_IdById",
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"agent_id\"",
+        "description": "This endpoint removes the device's \"agent_id\" resource at XPath: sonic-sflow/SFLOW/global/agent_id.",
+        "tags": [
+          "Remove Agent_Id"
+        ],
+        "operationId": "DeleteAgent_IdById",
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-sflow:sonic-sflow/SFLOW/global/sample_direction": {},
+    "/data/sonic-sflow:sonic-sflow/SFLOW/global={SFLOW_SESSION_LIST-port}/sample_direction": {
+      "patch": {
+        "summary": "PATCH operation on \"sample_direction\"",
+        "description": "This endpoint modifies the device's \"sample_direction\" resource at XPath: sonic-sflow/SFLOW/global/sample_direction.",
+        "tags": [
+          "Modify Sample_Direction"
+        ],
+        "operationId": "PatchSample_DirectionById",
+        "requestBody": {
+          "description": "sflow sample direction",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "sample_direction"
+                ],
+                "properties": {
+                  "sample_direction": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "sample_direction"
+                },
+                "type": "object",
+                "required": [
+                  "sample_direction"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"sample_direction\"",
+        "description": "This endpoint replaces the device's \"sample_direction\" resource at XPath: sonic-sflow/SFLOW/global/sample_direction.",
+        "tags": [
+          "Replace Sample_Direction"
+        ],
+        "operationId": "PutSample_DirectionById",
+        "requestBody": {
+          "description": "sflow sample direction",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "sample_direction"
+                ],
+                "properties": {
+                  "sample_direction": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "sample_direction"
+                },
+                "type": "object",
+                "required": [
+                  "sample_direction"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"sample_direction\"",
+        "description": "This endpoint retrieves the device's \"sample_direction\" resource at XPath: sonic-sflow/SFLOW/global/sample_direction.",
+        "tags": [
+          "View Sample_Direction"
+        ],
+        "operationId": "GetSample_DirectionById",
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"sample_direction\"",
+        "description": "This endpoint removes the device's \"sample_direction\" resource at XPath: sonic-sflow/SFLOW/global/sample_direction.",
+        "tags": [
+          "Remove Sample_Direction"
+        ],
+        "operationId": "DeleteSample_DirectionById",
+        "parameters": [
+          {
+            "name": "SFLOW_SESSION_LIST-port",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    }
+  },
+  "openapi": "3.0.3",
+  "info": {
+    "description": "HOST DESTINATION:  https://192.168.200.63:443 (proxy through YANG Suite server)",
+    "title": "OpenAPI v3.0.3",
+    "version": "3.0.3"
+  },
+  "servers": [
+    {
+      "url": "/restconf/proxy/https://192.168.200.63:443/restconf/data/ietf-yang-library:modules-state",
+      "description": "YANG SUITE Proxy RESTCONF API"
+    }
+  ],
+  "components": {
+    "securitySchemes": {
+      "basicAuth": {
+        "type": "http",
+        "scheme": "basic"
+      },
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "scheme": "api_key",
+        "in": "header",
+        "name": "X-API-KEY"
+      },
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JSON Web Token"
+      }
+    },
+    "schemas": {
+      "Sonic-SflowSonic-SflowSchemaById": {
+        "type": "object",
+        "properties": {
+          "sonic-sflow": {
+            "type": "object",
+            "properties": {
+              "SFLOW_COLLECTOR": {
+                "properties": {
+                  "SFLOW_COLLECTOR_LIST": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "collector_ip": {
+                        "type": "string"
+                      },
+                      "collector_port": {
+                        "type": "string"
+                      },
+                      "collector_vrf": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "type": "object"
+              },
+              "SFLOW_SESSION": {
+                "properties": {
+                  "SFLOW_SESSION_LIST": {
+                    "type": "object",
+                    "properties": {
+                      "port": {
+                        "type": "string"
+                      },
+                      "admin_state": {
+                        "type": "string"
+                      },
+                      "sample_rate": {
+                        "type": "integer",
+                        "format": "uint32"
+                      },
+                      "sample_direction": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "type": "object"
+              },
+              "SFLOW": {
+                "properties": {
+                  "global": {
+                    "type": "object",
+                    "properties": {
+                      "admin_state": {
+                        "type": "string"
+                      },
+                      "polling_interval": {
+                        "type": "integer",
+                        "format": "uint16"
+                      },
+                      "agent_id": {
+                        "type": "string"
+                      },
+                      "sample_direction": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "type": "object"
+              }
+            }
+          }
+        }
+      },
+      "Sonic-SflowSonic-SflowSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "sonic-sflow": {
+            "type": "object",
+            "properties": {
+              "SFLOW_COLLECTOR": {
+                "properties": {
+                  "SFLOW_COLLECTOR_LIST": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "collector_ip": {
+                        "type": "string"
+                      },
+                      "collector_port": {
+                        "type": "string"
+                      },
+                      "collector_vrf": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "type": "object"
+              },
+              "SFLOW_SESSION": {
+                "properties": {
+                  "SFLOW_SESSION_LIST": {
+                    "type": "object",
+                    "properties": {
+                      "port": {
+                        "type": "string"
+                      },
+                      "admin_state": {
+                        "type": "string"
+                      },
+                      "sample_rate": {
+                        "type": "integer",
+                        "format": "uint32"
+                      },
+                      "sample_direction": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "type": "object"
+              },
+              "SFLOW": {
+                "properties": {
+                  "global": {
+                    "type": "object",
+                    "properties": {
+                      "admin_state": {
+                        "type": "string"
+                      },
+                      "polling_interval": {
+                        "type": "integer",
+                        "format": "uint16"
+                      },
+                      "agent_id": {
+                        "type": "string"
+                      },
+                      "sample_direction": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "type": "object"
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "sonic-sflow"
+        }
+      },
+      "Sonic-SflowSflow_CollectorSchemaById": {
+        "type": "object",
+        "properties": {
+          "SFLOW_COLLECTOR": {
+            "type": "object",
+            "properties": {
+              "SFLOW_COLLECTOR_LIST": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "collector_ip": {
+                    "type": "string"
+                  },
+                  "collector_port": {
+                    "type": "string"
+                  },
+                  "collector_vrf": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Sonic-SflowSflow_CollectorSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "SFLOW_COLLECTOR": {
+            "type": "object",
+            "properties": {
+              "SFLOW_COLLECTOR_LIST": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "collector_ip": {
+                    "type": "string"
+                  },
+                  "collector_port": {
+                    "type": "string"
+                  },
+                  "collector_vrf": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "SFLOW_COLLECTOR"
+        }
+      },
+      "Sflow_CollectorSflow_Collector_ListSchemaById": {
+        "type": "object",
+        "properties": {
+          "SFLOW_COLLECTOR_LIST": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "x-path": ""
+                },
+                "collector_ip": {
+                  "type": "string"
+                },
+                "collector_port": {
+                  "type": "string"
+                },
+                "collector_vrf": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Sflow_CollectorSflow_Collector_ListSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "SFLOW_COLLECTOR_LIST": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "x-path": ""
+                },
+                "collector_ip": {
+                  "type": "string"
+                },
+                "collector_port": {
+                  "type": "string"
+                },
+                "collector_vrf": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "SFLOW_COLLECTOR_LIST"
+        }
+      },
+      "Sonic-SflowSflow_SessionSchemaById": {
+        "type": "object",
+        "properties": {
+          "SFLOW_SESSION": {
+            "type": "object",
+            "properties": {
+              "SFLOW_SESSION_LIST": {
+                "type": "object",
+                "properties": {
+                  "port": {
+                    "type": "string"
+                  },
+                  "admin_state": {
+                    "type": "string"
+                  },
+                  "sample_rate": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "sample_direction": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Sonic-SflowSflow_SessionSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "SFLOW_SESSION": {
+            "type": "object",
+            "properties": {
+              "SFLOW_SESSION_LIST": {
+                "type": "object",
+                "properties": {
+                  "port": {
+                    "type": "string"
+                  },
+                  "admin_state": {
+                    "type": "string"
+                  },
+                  "sample_rate": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "sample_direction": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "SFLOW_SESSION"
+        }
+      },
+      "Sflow_SessionSflow_Session_ListSchemaById": {
+        "type": "object",
+        "properties": {
+          "SFLOW_SESSION_LIST": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "port": {
+                  "type": "string"
+                },
+                "admin_state": {
+                  "type": "string"
+                },
+                "sample_rate": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "sample_direction": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Sflow_SessionSflow_Session_ListSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "SFLOW_SESSION_LIST": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "port": {
+                  "type": "string"
+                },
+                "admin_state": {
+                  "type": "string"
+                },
+                "sample_rate": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "sample_direction": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "SFLOW_SESSION_LIST"
+        }
+      },
+      "Sonic-SflowSflowSchemaById": {
+        "type": "object",
+        "properties": {
+          "SFLOW": {
+            "type": "object",
+            "properties": {
+              "global": {
+                "type": "object",
+                "properties": {
+                  "admin_state": {
+                    "type": "string"
+                  },
+                  "polling_interval": {
+                    "type": "integer",
+                    "format": "uint16"
+                  },
+                  "agent_id": {
+                    "type": "string"
+                  },
+                  "sample_direction": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Sonic-SflowSflowSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "SFLOW": {
+            "type": "object",
+            "properties": {
+              "global": {
+                "type": "object",
+                "properties": {
+                  "admin_state": {
+                    "type": "string"
+                  },
+                  "polling_interval": {
+                    "type": "integer",
+                    "format": "uint16"
+                  },
+                  "agent_id": {
+                    "type": "string"
+                  },
+                  "sample_direction": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "SFLOW"
+        }
+      },
+      "SflowGlobalSchemaById": {
+        "type": "object",
+        "properties": {
+          "global": {
+            "type": "object",
+            "properties": {
+              "admin_state": {
+                "type": "string"
+              },
+              "polling_interval": {
+                "type": "integer",
+                "format": "uint16"
+              },
+              "agent_id": {
+                "type": "string"
+              },
+              "sample_direction": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "SflowGlobalSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "global": {
+            "type": "object",
+            "properties": {
+              "admin_state": {
+                "type": "string"
+              },
+              "polling_interval": {
+                "type": "integer",
+                "format": "uint16"
+              },
+              "agent_id": {
+                "type": "string"
+              },
+              "sample_direction": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "global"
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "basicAuth": [],
+      "ApiKeyAuth": [],
+      "bearerAuth": []
+    }
+  ]
+}

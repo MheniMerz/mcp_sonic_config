@@ -1,0 +1,3446 @@
+{
+  "paths": {
+    "/data/ietf-interfaces:interfaces-state": {
+      "get": {
+        "summary": "GET operation on \"interfaces-state\"",
+        "description": "This endpoint retrieves the device's \"interfaces-state\" resource at XPath: interfaces-state.",
+        "tags": [
+          "View Interfaces-State"
+        ],
+        "operationId": "GetInterfaces-StateById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/ietf-interfaces:interfaces-state/interface": {
+      "get": {
+        "summary": "GET operation on \"interface\"",
+        "description": "This endpoint retrieves the device's \"interface\" resource at XPath: interfaces-state/interface.",
+        "tags": [
+          "View Interface"
+        ],
+        "operationId": "GetInterfaceById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}": {
+      "get": {
+        "summary": "GET operation on \"interface\"",
+        "description": "This endpoint retrieves the device's \"interface\" resource at XPath: interfaces-state/interface.",
+        "tags": [
+          "View Interface"
+        ],
+        "operationId": "GetInterfaceElemById",
+        "parameters": [
+          {
+            "name": "interface-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/ietf-interfaces:interfaces-state/interface/name": {},
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}/type": {
+      "get": {
+        "summary": "GET operation on \"type\"",
+        "description": "This endpoint retrieves the device's \"type\" resource at XPath: interfaces-state/interface/type.",
+        "tags": [
+          "View Type"
+        ],
+        "operationId": "GetTypeById",
+        "parameters": [
+          {
+            "name": "interface-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}/admin-status": {
+      "get": {
+        "summary": "GET operation on \"admin-status\"",
+        "description": "This endpoint retrieves the device's \"admin-status\" resource at XPath: interfaces-state/interface/admin-status.",
+        "tags": [
+          "View Admin-Status"
+        ],
+        "operationId": "GetAdmin-StatusById",
+        "parameters": [
+          {
+            "name": "interface-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}/oper-status": {
+      "get": {
+        "summary": "GET operation on \"oper-status\"",
+        "description": "This endpoint retrieves the device's \"oper-status\" resource at XPath: interfaces-state/interface/oper-status.",
+        "tags": [
+          "View Oper-Status"
+        ],
+        "operationId": "GetOper-StatusById",
+        "parameters": [
+          {
+            "name": "interface-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}/last-change": {
+      "get": {
+        "summary": "GET operation on \"last-change\"",
+        "description": "This endpoint retrieves the device's \"last-change\" resource at XPath: interfaces-state/interface/last-change.",
+        "tags": [
+          "View Last-Change"
+        ],
+        "operationId": "GetLast-ChangeById",
+        "parameters": [
+          {
+            "name": "interface-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}/if-index": {
+      "get": {
+        "summary": "GET operation on \"if-index\"",
+        "description": "This endpoint retrieves the device's \"if-index\" resource at XPath: interfaces-state/interface/if-index.",
+        "tags": [
+          "View If-Index"
+        ],
+        "operationId": "GetIf-IndexById",
+        "parameters": [
+          {
+            "name": "interface-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}/phys-address": {
+      "get": {
+        "summary": "GET operation on \"phys-address\"",
+        "description": "This endpoint retrieves the device's \"phys-address\" resource at XPath: interfaces-state/interface/phys-address.",
+        "tags": [
+          "View Phys-Address"
+        ],
+        "operationId": "GetPhys-AddressById",
+        "parameters": [
+          {
+            "name": "interface-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}/higher-layer-if": {},
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}/lower-layer-if": {},
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}/speed": {
+      "get": {
+        "summary": "GET operation on \"speed\"",
+        "description": "This endpoint retrieves the device's \"speed\" resource at XPath: interfaces-state/interface/speed.",
+        "tags": [
+          "View Speed"
+        ],
+        "operationId": "GetSpeedById",
+        "parameters": [
+          {
+            "name": "interface-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}/statistics": {
+      "get": {
+        "summary": "GET operation on \"statistics\"",
+        "description": "This endpoint retrieves the device's \"statistics\" resource at XPath: interfaces-state/interface/statistics.",
+        "tags": [
+          "View Statistics"
+        ],
+        "operationId": "GetStatisticsById",
+        "parameters": [
+          {
+            "name": "interface-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}/statistics/discontinuity-time": {
+      "get": {
+        "summary": "GET operation on \"discontinuity-time\"",
+        "description": "This endpoint retrieves the device's \"discontinuity-time\" resource at XPath: interfaces-state/interface/statistics/discontinuity-time.",
+        "tags": [
+          "View Discontinuity-Time"
+        ],
+        "operationId": "GetDiscontinuity-TimeById",
+        "parameters": [
+          {
+            "name": "interface-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}/statistics/in-octets": {
+      "get": {
+        "summary": "GET operation on \"in-octets\"",
+        "description": "This endpoint retrieves the device's \"in-octets\" resource at XPath: interfaces-state/interface/statistics/in-octets.",
+        "tags": [
+          "View In-Octets"
+        ],
+        "operationId": "GetIn-OctetsById",
+        "parameters": [
+          {
+            "name": "interface-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}/statistics/in-unicast-pkts": {
+      "get": {
+        "summary": "GET operation on \"in-unicast-pkts\"",
+        "description": "This endpoint retrieves the device's \"in-unicast-pkts\" resource at XPath: interfaces-state/interface/statistics/in-unicast-pkts.",
+        "tags": [
+          "View In-Unicast-Pkts"
+        ],
+        "operationId": "GetIn-Unicast-PktsById",
+        "parameters": [
+          {
+            "name": "interface-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}/statistics/in-broadcast-pkts": {
+      "get": {
+        "summary": "GET operation on \"in-broadcast-pkts\"",
+        "description": "This endpoint retrieves the device's \"in-broadcast-pkts\" resource at XPath: interfaces-state/interface/statistics/in-broadcast-pkts.",
+        "tags": [
+          "View In-Broadcast-Pkts"
+        ],
+        "operationId": "GetIn-Broadcast-PktsById",
+        "parameters": [
+          {
+            "name": "interface-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}/statistics/in-multicast-pkts": {
+      "get": {
+        "summary": "GET operation on \"in-multicast-pkts\"",
+        "description": "This endpoint retrieves the device's \"in-multicast-pkts\" resource at XPath: interfaces-state/interface/statistics/in-multicast-pkts.",
+        "tags": [
+          "View In-Multicast-Pkts"
+        ],
+        "operationId": "GetIn-Multicast-PktsById",
+        "parameters": [
+          {
+            "name": "interface-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}/statistics/in-discards": {
+      "get": {
+        "summary": "GET operation on \"in-discards\"",
+        "description": "This endpoint retrieves the device's \"in-discards\" resource at XPath: interfaces-state/interface/statistics/in-discards.",
+        "tags": [
+          "View In-Discards"
+        ],
+        "operationId": "GetIn-DiscardsById",
+        "parameters": [
+          {
+            "name": "interface-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}/statistics/in-errors": {
+      "get": {
+        "summary": "GET operation on \"in-errors\"",
+        "description": "This endpoint retrieves the device's \"in-errors\" resource at XPath: interfaces-state/interface/statistics/in-errors.",
+        "tags": [
+          "View In-Errors"
+        ],
+        "operationId": "GetIn-ErrorsById",
+        "parameters": [
+          {
+            "name": "interface-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}/statistics/in-unknown-protos": {
+      "get": {
+        "summary": "GET operation on \"in-unknown-protos\"",
+        "description": "This endpoint retrieves the device's \"in-unknown-protos\" resource at XPath: interfaces-state/interface/statistics/in-unknown-protos.",
+        "tags": [
+          "View In-Unknown-Protos"
+        ],
+        "operationId": "GetIn-Unknown-ProtosById",
+        "parameters": [
+          {
+            "name": "interface-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}/statistics/out-octets": {
+      "get": {
+        "summary": "GET operation on \"out-octets\"",
+        "description": "This endpoint retrieves the device's \"out-octets\" resource at XPath: interfaces-state/interface/statistics/out-octets.",
+        "tags": [
+          "View Out-Octets"
+        ],
+        "operationId": "GetOut-OctetsById",
+        "parameters": [
+          {
+            "name": "interface-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}/statistics/out-unicast-pkts": {
+      "get": {
+        "summary": "GET operation on \"out-unicast-pkts\"",
+        "description": "This endpoint retrieves the device's \"out-unicast-pkts\" resource at XPath: interfaces-state/interface/statistics/out-unicast-pkts.",
+        "tags": [
+          "View Out-Unicast-Pkts"
+        ],
+        "operationId": "GetOut-Unicast-PktsById",
+        "parameters": [
+          {
+            "name": "interface-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}/statistics/out-broadcast-pkts": {
+      "get": {
+        "summary": "GET operation on \"out-broadcast-pkts\"",
+        "description": "This endpoint retrieves the device's \"out-broadcast-pkts\" resource at XPath: interfaces-state/interface/statistics/out-broadcast-pkts.",
+        "tags": [
+          "View Out-Broadcast-Pkts"
+        ],
+        "operationId": "GetOut-Broadcast-PktsById",
+        "parameters": [
+          {
+            "name": "interface-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}/statistics/out-multicast-pkts": {
+      "get": {
+        "summary": "GET operation on \"out-multicast-pkts\"",
+        "description": "This endpoint retrieves the device's \"out-multicast-pkts\" resource at XPath: interfaces-state/interface/statistics/out-multicast-pkts.",
+        "tags": [
+          "View Out-Multicast-Pkts"
+        ],
+        "operationId": "GetOut-Multicast-PktsById",
+        "parameters": [
+          {
+            "name": "interface-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}/statistics/out-discards": {
+      "get": {
+        "summary": "GET operation on \"out-discards\"",
+        "description": "This endpoint retrieves the device's \"out-discards\" resource at XPath: interfaces-state/interface/statistics/out-discards.",
+        "tags": [
+          "View Out-Discards"
+        ],
+        "operationId": "GetOut-DiscardsById",
+        "parameters": [
+          {
+            "name": "interface-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/ietf-interfaces:interfaces-state/interface={interface-name}/statistics/out-errors": {
+      "get": {
+        "summary": "GET operation on \"out-errors\"",
+        "description": "This endpoint retrieves the device's \"out-errors\" resource at XPath: interfaces-state/interface/statistics/out-errors.",
+        "tags": [
+          "View Out-Errors"
+        ],
+        "operationId": "GetOut-ErrorsById",
+        "parameters": [
+          {
+            "name": "interface-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    }
+  },
+  "openapi": "3.0.3",
+  "info": {
+    "description": "HOST DESTINATION:  https://192.168.200.63:443 (proxy through YANG Suite server)",
+    "title": "OpenAPI v3.0.3",
+    "version": "3.0.3"
+  },
+  "servers": [
+    {
+      "url": "/restconf/proxy/https://192.168.200.63:443/restconf/data/ietf-yang-library:modules-state",
+      "description": "YANG SUITE Proxy RESTCONF API"
+    }
+  ],
+  "components": {
+    "securitySchemes": {
+      "basicAuth": {
+        "type": "http",
+        "scheme": "basic"
+      },
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "scheme": "api_key",
+        "in": "header",
+        "name": "X-API-KEY"
+      },
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JSON Web Token"
+      }
+    },
+    "schemas": {
+      "Ietf-InterfacesInterfaces-StateSchemaById": {
+        "type": "object",
+        "properties": {
+          "interfaces-state": {
+            "type": "object",
+            "properties": {
+              "interface": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "x-path": ""
+                  },
+                  "config": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "integer",
+                        "format": "oc-if:interface-id"
+                      },
+                      "interface": {
+                        "type": "string",
+                        "x-path": ""
+                      },
+                      "subinterface": {
+                        "type": "string",
+                        "x-path": ""
+                      },
+                      "set-name": {
+                        "type": "string",
+                        "x-path": ""
+                      },
+                      "type": {
+                        "type": "string",
+                        "x-path": ""
+                      }
+                    }
+                  },
+                  "state": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "integer",
+                        "format": "oc-if:interface-id"
+                      },
+                      "interface": {
+                        "type": "string",
+                        "x-path": ""
+                      },
+                      "subinterface": {
+                        "type": "string",
+                        "x-path": ""
+                      },
+                      "set-name": {
+                        "type": "string",
+                        "x-path": ""
+                      },
+                      "type": {
+                        "type": "string",
+                        "x-path": ""
+                      },
+                      "sequence-id": {
+                        "type": "string",
+                        "x-path": ""
+                      },
+                      "matched-packets": {
+                        "type": "string"
+                      },
+                      "matched-octets": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "interface-ref": {
+                    "properties": {
+                      "config": {
+                        "type": "object",
+                        "properties": {
+                          "interface": {
+                            "type": "string",
+                            "x-path": ""
+                          },
+                          "subinterface": {
+                            "type": "string",
+                            "x-path": ""
+                          }
+                        }
+                      },
+                      "state": {
+                        "type": "object",
+                        "properties": {
+                          "interface": {
+                            "type": "string",
+                            "x-path": ""
+                          },
+                          "subinterface": {
+                            "type": "string",
+                            "x-path": ""
+                          }
+                        }
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "ingress-acl-sets": {
+                    "properties": {
+                      "ingress-acl-set": {
+                        "type": "object",
+                        "properties": {
+                          "set-name": {
+                            "type": "string",
+                            "x-path": ""
+                          },
+                          "type": {
+                            "type": "string",
+                            "x-path": ""
+                          },
+                          "config": {
+                            "type": "object",
+                            "properties": {
+                              "set-name": {
+                                "type": "string",
+                                "x-path": ""
+                              },
+                              "type": {
+                                "type": "string",
+                                "x-path": ""
+                              }
+                            }
+                          },
+                          "state": {
+                            "type": "object",
+                            "properties": {
+                              "set-name": {
+                                "type": "string",
+                                "x-path": ""
+                              },
+                              "type": {
+                                "type": "string",
+                                "x-path": ""
+                              }
+                            }
+                          },
+                          "acl-entries": {
+                            "properties": {
+                              "acl-entry": {
+                                "type": "object",
+                                "properties": {
+                                  "sequence-id": {
+                                    "type": "string",
+                                    "x-path": ""
+                                  },
+                                  "state": {
+                                    "type": "object",
+                                    "properties": {
+                                      "sequence-id": {
+                                        "type": "string",
+                                        "x-path": ""
+                                      },
+                                      "matched-packets": {
+                                        "type": "string"
+                                      },
+                                      "matched-octets": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "type": "object"
+                          }
+                        }
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "egress-acl-sets": {
+                    "properties": {
+                      "egress-acl-set": {
+                        "type": "object",
+                        "properties": {
+                          "set-name": {
+                            "type": "string",
+                            "x-path": ""
+                          },
+                          "type": {
+                            "type": "string",
+                            "x-path": ""
+                          },
+                          "config": {
+                            "type": "object",
+                            "properties": {
+                              "set-name": {
+                                "type": "string",
+                                "x-path": ""
+                              },
+                              "type": {
+                                "type": "string",
+                                "x-path": ""
+                              }
+                            }
+                          },
+                          "state": {
+                            "type": "object",
+                            "properties": {
+                              "set-name": {
+                                "type": "string",
+                                "x-path": ""
+                              },
+                              "type": {
+                                "type": "string",
+                                "x-path": ""
+                              }
+                            }
+                          },
+                          "acl-entries": {
+                            "properties": {
+                              "acl-entry": {
+                                "type": "object",
+                                "properties": {
+                                  "sequence-id": {
+                                    "type": "string",
+                                    "x-path": ""
+                                  },
+                                  "state": {
+                                    "type": "object",
+                                    "properties": {
+                                      "sequence-id": {
+                                        "type": "string",
+                                        "x-path": ""
+                                      },
+                                      "matched-packets": {
+                                        "type": "string"
+                                      },
+                                      "matched-octets": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "type": "object"
+                          }
+                        }
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "ianaift:a12MppSwitch",
+                      "ianaift:aal2",
+                      "ianaift:aal5",
+                      "ianaift:actelisMetaLOOP",
+                      "ianaift:adsl",
+                      "ianaift:adsl2",
+                      "ianaift:adsl2plus",
+                      "ianaift:aflane8023",
+                      "ianaift:aflane8025",
+                      "ianaift:aluELP",
+                      "ianaift:aluEpon",
+                      "ianaift:aluEponLogicalLink",
+                      "ianaift:aluEponOnu",
+                      "ianaift:aluEponPhysicalUni",
+                      "ianaift:aluGponOnu",
+                      "ianaift:aluGponPhysicalUni",
+                      "ianaift:arap",
+                      "ianaift:arcnet",
+                      "ianaift:arcnetPlus",
+                      "ianaift:async",
+                      "ianaift:atm",
+                      "ianaift:atmDxi",
+                      "ianaift:atmFuni",
+                      "ianaift:atmIma",
+                      "ianaift:atmLogical",
+                      "ianaift:atmRadio",
+                      "ianaift:atmSubInterface",
+                      "ianaift:atmVciEndPt",
+                      "ianaift:atmVirtual",
+                      "ianaift:atmbond",
+                      "ianaift:aviciOpticalEther",
+                      "ianaift:basicISDN",
+                      "ianaift:bgppolicyaccounting",
+                      "ianaift:bits",
+                      "ianaift:bridge",
+                      "ianaift:bsc",
+                      "ianaift:cableDownstreamRfPort",
+                      "ianaift:capwapDot11Bss",
+                      "ianaift:capwapDot11Profile",
+                      "ianaift:capwapWtpVirtualRadio",
+                      "ianaift:cblVectaStar",
+                      "ianaift:cctEmul",
+                      "ianaift:ces",
+                      "ianaift:channel",
+                      "ianaift:ciscoISLvlan",
+                      "ianaift:cnr",
+                      "ianaift:coffee",
+                      "ianaift:compositeLink",
+                      "ianaift:dcn",
+                      "ianaift:ddnX25",
+                      "ianaift:digitalPowerline",
+                      "ianaift:digitalWrapperOverheadChannel",
+                      "ianaift:dlsw",
+                      "ianaift:docsCableDownstream",
+                      "ianaift:docsCableMCmtsDownstream",
+                      "ianaift:docsCableMaclayer",
+                      "ianaift:docsCableUpstream",
+                      "ianaift:docsCableUpstreamChannel",
+                      "ianaift:docsCableUpstreamRfPort",
+                      "ianaift:docsOfdmDownstream",
+                      "ianaift:docsOfdmaUpstream",
+                      "ianaift:ds0",
+                      "ianaift:ds0Bundle",
+                      "ianaift:ds1",
+                      "ianaift:ds1FDL",
+                      "ianaift:ds3",
+                      "ianaift:dtm",
+                      "ianaift:dvbAsiIn",
+                      "ianaift:dvbAsiOut",
+                      "ianaift:dvbRccDownstream",
+                      "ianaift:dvbRccMacLayer",
+                      "ianaift:dvbRccUpstream",
+                      "ianaift:dvbRcsMacLayer",
+                      "ianaift:dvbRcsTdma",
+                      "ianaift:dvbTdm",
+                      "ianaift:e1",
+                      "ianaift:econet",
+                      "ianaift:eon",
+                      "ianaift:eplrs",
+                      "ianaift:escon",
+                      "ianaift:ethernet3Mbit",
+                      "ianaift:ethernetCsmacd",
+                      "ianaift:fast",
+                      "ianaift:fastEther",
+                      "ianaift:fastEtherFX",
+                      "ianaift:fcipLink",
+                      "ianaift:fddi",
+                      "ianaift:fibreChannel",
+                      "ianaift:frDlciEndPt",
+                      "ianaift:frForward",
+                      "ianaift:frameRelay",
+                      "ianaift:frameRelayInterconnect",
+                      "ianaift:frameRelayMPI",
+                      "ianaift:frameRelayService",
+                      "ianaift:frf16MfrBundle",
+                      "ianaift:g703at2mb",
+                      "ianaift:g703at64k",
+                      "ianaift:g9981",
+                      "ianaift:g9982",
+                      "ianaift:g9983",
+                      "ianaift:gfast",
+                      "ianaift:gfp",
+                      "ianaift:gigabitEthernet",
+                      "ianaift:gpon",
+                      "ianaift:gr303IDT",
+                      "ianaift:gr303RDT",
+                      "ianaift:gtp",
+                      "ianaift:h323Gatekeeper",
+                      "ianaift:h323Proxy",
+                      "ianaift:hdh1822",
+                      "ianaift:hdlc",
+                      "ianaift:hdsl2",
+                      "ianaift:hiperlan2",
+                      "ianaift:hippi",
+                      "ianaift:hippiInterface",
+                      "ianaift:homepna",
+                      "ianaift:hostPad",
+                      "ianaift:hssi",
+                      "ianaift:hyperchannel",
+                      "ianaift:ibm370parChan",
+                      "ianaift:idsl",
+                      "ianaift:ieee1394",
+                      "ianaift:ieee80211",
+                      "ianaift:ieee80212",
+                      "ianaift:ieee802154",
+                      "ianaift:ieee80216WMAN",
+                      "ianaift:ieee8023adLag",
+                      "ianaift:if-gsn",
+                      "ianaift:ifPwType",
+                      "ianaift:ifVfiType",
+                      "ianaift:ilan",
+                      "ianaift:imt",
+                      "ianaift:infiniband",
+                      "ianaift:interleave",
+                      "ianaift:ip",
+                      "ianaift:ipForward",
+                      "ianaift:ipOverAtm",
+                      "ianaift:ipOverCdlc",
+                      "ianaift:ipOverClaw",
+                      "ianaift:ipSwitch",
+                      "ianaift:isdn",
+                      "ianaift:isdns",
+                      "ianaift:isdnu",
+                      "ianaift:iso88022llc",
+                      "ianaift:iso88023Csmacd",
+                      "ianaift:iso88024TokenBus",
+                      "ianaift:iso88025CRFPInt",
+                      "ianaift:iso88025Dtr",
+                      "ianaift:iso88025Fiber",
+                      "ianaift:iso88025TokenRing",
+                      "ianaift:iso88026Man",
+                      "ianaift:isup",
+                      "ianaift:l2vlan",
+                      "ianaift:l3ipvlan",
+                      "ianaift:l3ipxvlan",
+                      "ianaift:lapb",
+                      "ianaift:lapd",
+                      "ianaift:lapf",
+                      "ianaift:linegroup",
+                      "ianaift:lmp",
+                      "ianaift:localTalk",
+                      "ianaift:macSecControlledIF",
+                      "ianaift:macSecUncontrolledIF",
+                      "ianaift:mediaMailOverIp",
+                      "ianaift:mfSigLink",
+                      "ianaift:miox25",
+                      "ianaift:mocaVersion1",
+                      "ianaift:modem",
+                      "ianaift:mpc",
+                      "ianaift:mpegTransport",
+                      "ianaift:mpls",
+                      "ianaift:mplsTunnel",
+                      "ianaift:msdsl",
+                      "ianaift:mvl",
+                      "ianaift:myrinet",
+                      "ianaift:nfas",
+                      "ianaift:nsip",
+                      "ianaift:opticalChannel",
+                      "ianaift:opticalChannelGroup",
+                      "ianaift:opticalTransport",
+                      "ianaift:other",
+                      "ianaift:otnOdu",
+                      "ianaift:otnOtu",
+                      "ianaift:para",
+                      "ianaift:pdnEtherLoop1",
+                      "ianaift:pdnEtherLoop2",
+                      "ianaift:pip",
+                      "ianaift:plc",
+                      "ianaift:pon155",
+                      "ianaift:pon622",
+                      "ianaift:pos",
+                      "ianaift:ppp",
+                      "ianaift:pppMultilinkBundle",
+                      "ianaift:primaryISDN",
+                      "ianaift:propAtm",
+                      "ianaift:propBWAp2Mp",
+                      "ianaift:propCnls",
+                      "ianaift:propDocsWirelessDownstream",
+                      "ianaift:propDocsWirelessMaclayer",
+                      "ianaift:propDocsWirelessUpstream",
+                      "ianaift:propMultiplexor",
+                      "ianaift:propPointToPointSerial",
+                      "ianaift:propVirtual",
+                      "ianaift:propWirelessP2P",
+                      "ianaift:proteon10Mbit",
+                      "ianaift:proteon80Mbit",
+                      "ianaift:q2931",
+                      "ianaift:qam",
+                      "ianaift:qllc",
+                      "ianaift:radioMAC",
+                      "ianaift:radsl",
+                      "ianaift:reachDSL",
+                      "ianaift:regular1822",
+                      "ianaift:rfc1483",
+                      "ianaift:rfc877x25",
+                      "ianaift:rpr",
+                      "ianaift:rs232",
+                      "ianaift:rsrb",
+                      "ianaift:sdci",
+                      "ianaift:sdlc",
+                      "ianaift:sdsl",
+                      "ianaift:shdsl",
+                      "ianaift:sip",
+                      "ianaift:sipSig",
+                      "ianaift:sipTg",
+                      "ianaift:sixToFour",
+                      "ianaift:slip",
+                      "ianaift:smdsDxi",
+                      "ianaift:smdsIcip",
+                      "ianaift:softwareLoopback",
+                      "ianaift:sonet",
+                      "ianaift:sonetOverheadChannel",
+                      "ianaift:sonetPath",
+                      "ianaift:sonetVT",
+                      "ianaift:srp",
+                      "ianaift:ss7SigLink",
+                      "ianaift:stackToStack",
+                      "ianaift:starLan",
+                      "ianaift:tdlc",
+                      "ianaift:teLink",
+                      "ianaift:termPad",
+                      "ianaift:tr008",
+                      "ianaift:transpHdlc",
+                      "ianaift:tunnel",
+                      "ianaift:ultra",
+                      "ianaift:usb",
+                      "ianaift:v11",
+                      "ianaift:v35",
+                      "ianaift:v36",
+                      "ianaift:v37",
+                      "ianaift:vdsl",
+                      "ianaift:vdsl2",
+                      "ianaift:virtualIpAddress",
+                      "ianaift:virtualTg",
+                      "ianaift:vmwareNicTeam",
+                      "ianaift:vmwareVirtualNic",
+                      "ianaift:voiceDID",
+                      "ianaift:voiceEBS",
+                      "ianaift:voiceEM",
+                      "ianaift:voiceEMFGD",
+                      "ianaift:voiceEncap",
+                      "ianaift:voiceFGDEANA",
+                      "ianaift:voiceFGDOS",
+                      "ianaift:voiceFXO",
+                      "ianaift:voiceFXS",
+                      "ianaift:voiceOverAtm",
+                      "ianaift:voiceOverCable",
+                      "ianaift:voiceOverFrameRelay",
+                      "ianaift:voiceOverIp",
+                      "ianaift:wwanPP",
+                      "ianaift:wwanPP2",
+                      "ianaift:x213",
+                      "ianaift:x25huntGroup",
+                      "ianaift:x25mlp",
+                      "ianaift:x25ple",
+                      "ianaift:x86Laps"
+                    ]
+                  },
+                  "enabled": {
+                    "type": "boolean"
+                  },
+                  "link-up-down-trap-enable": {
+                    "type": "string",
+                    "enum": [
+                      "enabled",
+                      "disabled"
+                    ]
+                  },
+                  "admin-status": {
+                    "type": "string",
+                    "enum": [
+                      "up",
+                      "down",
+                      "testing"
+                    ]
+                  },
+                  "oper-status": {
+                    "type": "string",
+                    "enum": [
+                      "up",
+                      "down",
+                      "testing",
+                      "unknown",
+                      "dormant",
+                      "not-present",
+                      "lower-layer-down"
+                    ]
+                  },
+                  "last-change": {
+                    "type": "string"
+                  },
+                  "if-index": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "phys-address": {
+                    "type": "string"
+                  },
+                  "higher-layer-if": {
+                    "type": "integer",
+                    "format": "interface-ref"
+                  },
+                  "lower-layer-if": {
+                    "type": "integer",
+                    "format": "interface-ref"
+                  },
+                  "speed": {
+                    "type": "string"
+                  },
+                  "statistics": {
+                    "type": "object",
+                    "properties": {
+                      "discontinuity-time": {
+                        "type": "string"
+                      },
+                      "in-octets": {
+                        "type": "string"
+                      },
+                      "in-unicast-pkts": {
+                        "type": "string"
+                      },
+                      "in-broadcast-pkts": {
+                        "type": "string"
+                      },
+                      "in-multicast-pkts": {
+                        "type": "string"
+                      },
+                      "in-discards": {
+                        "type": "string"
+                      },
+                      "in-errors": {
+                        "type": "string"
+                      },
+                      "in-unknown-protos": {
+                        "type": "string"
+                      },
+                      "out-octets": {
+                        "type": "string"
+                      },
+                      "out-unicast-pkts": {
+                        "type": "string"
+                      },
+                      "out-broadcast-pkts": {
+                        "type": "string"
+                      },
+                      "out-multicast-pkts": {
+                        "type": "string"
+                      },
+                      "out-discards": {
+                        "type": "string"
+                      },
+                      "out-errors": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "x-path": ""
+              }
+            }
+          }
+        }
+      },
+      "Ietf-InterfacesInterfaces-StateSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "interfaces-state": {
+            "type": "object",
+            "properties": {
+              "interface": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "x-path": ""
+                  },
+                  "config": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "integer",
+                        "format": "oc-if:interface-id"
+                      },
+                      "interface": {
+                        "type": "string",
+                        "x-path": ""
+                      },
+                      "subinterface": {
+                        "type": "string",
+                        "x-path": ""
+                      },
+                      "set-name": {
+                        "type": "string",
+                        "x-path": ""
+                      },
+                      "type": {
+                        "type": "string",
+                        "x-path": ""
+                      }
+                    }
+                  },
+                  "state": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "integer",
+                        "format": "oc-if:interface-id"
+                      },
+                      "interface": {
+                        "type": "string",
+                        "x-path": ""
+                      },
+                      "subinterface": {
+                        "type": "string",
+                        "x-path": ""
+                      },
+                      "set-name": {
+                        "type": "string",
+                        "x-path": ""
+                      },
+                      "type": {
+                        "type": "string",
+                        "x-path": ""
+                      },
+                      "sequence-id": {
+                        "type": "string",
+                        "x-path": ""
+                      },
+                      "matched-packets": {
+                        "type": "string"
+                      },
+                      "matched-octets": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "interface-ref": {
+                    "properties": {
+                      "config": {
+                        "type": "object",
+                        "properties": {
+                          "interface": {
+                            "type": "string",
+                            "x-path": ""
+                          },
+                          "subinterface": {
+                            "type": "string",
+                            "x-path": ""
+                          }
+                        }
+                      },
+                      "state": {
+                        "type": "object",
+                        "properties": {
+                          "interface": {
+                            "type": "string",
+                            "x-path": ""
+                          },
+                          "subinterface": {
+                            "type": "string",
+                            "x-path": ""
+                          }
+                        }
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "ingress-acl-sets": {
+                    "properties": {
+                      "ingress-acl-set": {
+                        "type": "object",
+                        "properties": {
+                          "set-name": {
+                            "type": "string",
+                            "x-path": ""
+                          },
+                          "type": {
+                            "type": "string",
+                            "x-path": ""
+                          },
+                          "config": {
+                            "type": "object",
+                            "properties": {
+                              "set-name": {
+                                "type": "string",
+                                "x-path": ""
+                              },
+                              "type": {
+                                "type": "string",
+                                "x-path": ""
+                              }
+                            }
+                          },
+                          "state": {
+                            "type": "object",
+                            "properties": {
+                              "set-name": {
+                                "type": "string",
+                                "x-path": ""
+                              },
+                              "type": {
+                                "type": "string",
+                                "x-path": ""
+                              }
+                            }
+                          },
+                          "acl-entries": {
+                            "properties": {
+                              "acl-entry": {
+                                "type": "object",
+                                "properties": {
+                                  "sequence-id": {
+                                    "type": "string",
+                                    "x-path": ""
+                                  },
+                                  "state": {
+                                    "type": "object",
+                                    "properties": {
+                                      "sequence-id": {
+                                        "type": "string",
+                                        "x-path": ""
+                                      },
+                                      "matched-packets": {
+                                        "type": "string"
+                                      },
+                                      "matched-octets": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "type": "object"
+                          }
+                        }
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "egress-acl-sets": {
+                    "properties": {
+                      "egress-acl-set": {
+                        "type": "object",
+                        "properties": {
+                          "set-name": {
+                            "type": "string",
+                            "x-path": ""
+                          },
+                          "type": {
+                            "type": "string",
+                            "x-path": ""
+                          },
+                          "config": {
+                            "type": "object",
+                            "properties": {
+                              "set-name": {
+                                "type": "string",
+                                "x-path": ""
+                              },
+                              "type": {
+                                "type": "string",
+                                "x-path": ""
+                              }
+                            }
+                          },
+                          "state": {
+                            "type": "object",
+                            "properties": {
+                              "set-name": {
+                                "type": "string",
+                                "x-path": ""
+                              },
+                              "type": {
+                                "type": "string",
+                                "x-path": ""
+                              }
+                            }
+                          },
+                          "acl-entries": {
+                            "properties": {
+                              "acl-entry": {
+                                "type": "object",
+                                "properties": {
+                                  "sequence-id": {
+                                    "type": "string",
+                                    "x-path": ""
+                                  },
+                                  "state": {
+                                    "type": "object",
+                                    "properties": {
+                                      "sequence-id": {
+                                        "type": "string",
+                                        "x-path": ""
+                                      },
+                                      "matched-packets": {
+                                        "type": "string"
+                                      },
+                                      "matched-octets": {
+                                        "type": "string"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "type": "object"
+                          }
+                        }
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "ianaift:a12MppSwitch",
+                      "ianaift:aal2",
+                      "ianaift:aal5",
+                      "ianaift:actelisMetaLOOP",
+                      "ianaift:adsl",
+                      "ianaift:adsl2",
+                      "ianaift:adsl2plus",
+                      "ianaift:aflane8023",
+                      "ianaift:aflane8025",
+                      "ianaift:aluELP",
+                      "ianaift:aluEpon",
+                      "ianaift:aluEponLogicalLink",
+                      "ianaift:aluEponOnu",
+                      "ianaift:aluEponPhysicalUni",
+                      "ianaift:aluGponOnu",
+                      "ianaift:aluGponPhysicalUni",
+                      "ianaift:arap",
+                      "ianaift:arcnet",
+                      "ianaift:arcnetPlus",
+                      "ianaift:async",
+                      "ianaift:atm",
+                      "ianaift:atmDxi",
+                      "ianaift:atmFuni",
+                      "ianaift:atmIma",
+                      "ianaift:atmLogical",
+                      "ianaift:atmRadio",
+                      "ianaift:atmSubInterface",
+                      "ianaift:atmVciEndPt",
+                      "ianaift:atmVirtual",
+                      "ianaift:atmbond",
+                      "ianaift:aviciOpticalEther",
+                      "ianaift:basicISDN",
+                      "ianaift:bgppolicyaccounting",
+                      "ianaift:bits",
+                      "ianaift:bridge",
+                      "ianaift:bsc",
+                      "ianaift:cableDownstreamRfPort",
+                      "ianaift:capwapDot11Bss",
+                      "ianaift:capwapDot11Profile",
+                      "ianaift:capwapWtpVirtualRadio",
+                      "ianaift:cblVectaStar",
+                      "ianaift:cctEmul",
+                      "ianaift:ces",
+                      "ianaift:channel",
+                      "ianaift:ciscoISLvlan",
+                      "ianaift:cnr",
+                      "ianaift:coffee",
+                      "ianaift:compositeLink",
+                      "ianaift:dcn",
+                      "ianaift:ddnX25",
+                      "ianaift:digitalPowerline",
+                      "ianaift:digitalWrapperOverheadChannel",
+                      "ianaift:dlsw",
+                      "ianaift:docsCableDownstream",
+                      "ianaift:docsCableMCmtsDownstream",
+                      "ianaift:docsCableMaclayer",
+                      "ianaift:docsCableUpstream",
+                      "ianaift:docsCableUpstreamChannel",
+                      "ianaift:docsCableUpstreamRfPort",
+                      "ianaift:docsOfdmDownstream",
+                      "ianaift:docsOfdmaUpstream",
+                      "ianaift:ds0",
+                      "ianaift:ds0Bundle",
+                      "ianaift:ds1",
+                      "ianaift:ds1FDL",
+                      "ianaift:ds3",
+                      "ianaift:dtm",
+                      "ianaift:dvbAsiIn",
+                      "ianaift:dvbAsiOut",
+                      "ianaift:dvbRccDownstream",
+                      "ianaift:dvbRccMacLayer",
+                      "ianaift:dvbRccUpstream",
+                      "ianaift:dvbRcsMacLayer",
+                      "ianaift:dvbRcsTdma",
+                      "ianaift:dvbTdm",
+                      "ianaift:e1",
+                      "ianaift:econet",
+                      "ianaift:eon",
+                      "ianaift:eplrs",
+                      "ianaift:escon",
+                      "ianaift:ethernet3Mbit",
+                      "ianaift:ethernetCsmacd",
+                      "ianaift:fast",
+                      "ianaift:fastEther",
+                      "ianaift:fastEtherFX",
+                      "ianaift:fcipLink",
+                      "ianaift:fddi",
+                      "ianaift:fibreChannel",
+                      "ianaift:frDlciEndPt",
+                      "ianaift:frForward",
+                      "ianaift:frameRelay",
+                      "ianaift:frameRelayInterconnect",
+                      "ianaift:frameRelayMPI",
+                      "ianaift:frameRelayService",
+                      "ianaift:frf16MfrBundle",
+                      "ianaift:g703at2mb",
+                      "ianaift:g703at64k",
+                      "ianaift:g9981",
+                      "ianaift:g9982",
+                      "ianaift:g9983",
+                      "ianaift:gfast",
+                      "ianaift:gfp",
+                      "ianaift:gigabitEthernet",
+                      "ianaift:gpon",
+                      "ianaift:gr303IDT",
+                      "ianaift:gr303RDT",
+                      "ianaift:gtp",
+                      "ianaift:h323Gatekeeper",
+                      "ianaift:h323Proxy",
+                      "ianaift:hdh1822",
+                      "ianaift:hdlc",
+                      "ianaift:hdsl2",
+                      "ianaift:hiperlan2",
+                      "ianaift:hippi",
+                      "ianaift:hippiInterface",
+                      "ianaift:homepna",
+                      "ianaift:hostPad",
+                      "ianaift:hssi",
+                      "ianaift:hyperchannel",
+                      "ianaift:ibm370parChan",
+                      "ianaift:idsl",
+                      "ianaift:ieee1394",
+                      "ianaift:ieee80211",
+                      "ianaift:ieee80212",
+                      "ianaift:ieee802154",
+                      "ianaift:ieee80216WMAN",
+                      "ianaift:ieee8023adLag",
+                      "ianaift:if-gsn",
+                      "ianaift:ifPwType",
+                      "ianaift:ifVfiType",
+                      "ianaift:ilan",
+                      "ianaift:imt",
+                      "ianaift:infiniband",
+                      "ianaift:interleave",
+                      "ianaift:ip",
+                      "ianaift:ipForward",
+                      "ianaift:ipOverAtm",
+                      "ianaift:ipOverCdlc",
+                      "ianaift:ipOverClaw",
+                      "ianaift:ipSwitch",
+                      "ianaift:isdn",
+                      "ianaift:isdns",
+                      "ianaift:isdnu",
+                      "ianaift:iso88022llc",
+                      "ianaift:iso88023Csmacd",
+                      "ianaift:iso88024TokenBus",
+                      "ianaift:iso88025CRFPInt",
+                      "ianaift:iso88025Dtr",
+                      "ianaift:iso88025Fiber",
+                      "ianaift:iso88025TokenRing",
+                      "ianaift:iso88026Man",
+                      "ianaift:isup",
+                      "ianaift:l2vlan",
+                      "ianaift:l3ipvlan",
+                      "ianaift:l3ipxvlan",
+                      "ianaift:lapb",
+                      "ianaift:lapd",
+                      "ianaift:lapf",
+                      "ianaift:linegroup",
+                      "ianaift:lmp",
+                      "ianaift:localTalk",
+                      "ianaift:macSecControlledIF",
+                      "ianaift:macSecUncontrolledIF",
+                      "ianaift:mediaMailOverIp",
+                      "ianaift:mfSigLink",
+                      "ianaift:miox25",
+                      "ianaift:mocaVersion1",
+                      "ianaift:modem",
+                      "ianaift:mpc",
+                      "ianaift:mpegTransport",
+                      "ianaift:mpls",
+                      "ianaift:mplsTunnel",
+                      "ianaift:msdsl",
+                      "ianaift:mvl",
+                      "ianaift:myrinet",
+                      "ianaift:nfas",
+                      "ianaift:nsip",
+                      "ianaift:opticalChannel",
+                      "ianaift:opticalChannelGroup",
+                      "ianaift:opticalTransport",
+                      "ianaift:other",
+                      "ianaift:otnOdu",
+                      "ianaift:otnOtu",
+                      "ianaift:para",
+                      "ianaift:pdnEtherLoop1",
+                      "ianaift:pdnEtherLoop2",
+                      "ianaift:pip",
+                      "ianaift:plc",
+                      "ianaift:pon155",
+                      "ianaift:pon622",
+                      "ianaift:pos",
+                      "ianaift:ppp",
+                      "ianaift:pppMultilinkBundle",
+                      "ianaift:primaryISDN",
+                      "ianaift:propAtm",
+                      "ianaift:propBWAp2Mp",
+                      "ianaift:propCnls",
+                      "ianaift:propDocsWirelessDownstream",
+                      "ianaift:propDocsWirelessMaclayer",
+                      "ianaift:propDocsWirelessUpstream",
+                      "ianaift:propMultiplexor",
+                      "ianaift:propPointToPointSerial",
+                      "ianaift:propVirtual",
+                      "ianaift:propWirelessP2P",
+                      "ianaift:proteon10Mbit",
+                      "ianaift:proteon80Mbit",
+                      "ianaift:q2931",
+                      "ianaift:qam",
+                      "ianaift:qllc",
+                      "ianaift:radioMAC",
+                      "ianaift:radsl",
+                      "ianaift:reachDSL",
+                      "ianaift:regular1822",
+                      "ianaift:rfc1483",
+                      "ianaift:rfc877x25",
+                      "ianaift:rpr",
+                      "ianaift:rs232",
+                      "ianaift:rsrb",
+                      "ianaift:sdci",
+                      "ianaift:sdlc",
+                      "ianaift:sdsl",
+                      "ianaift:shdsl",
+                      "ianaift:sip",
+                      "ianaift:sipSig",
+                      "ianaift:sipTg",
+                      "ianaift:sixToFour",
+                      "ianaift:slip",
+                      "ianaift:smdsDxi",
+                      "ianaift:smdsIcip",
+                      "ianaift:softwareLoopback",
+                      "ianaift:sonet",
+                      "ianaift:sonetOverheadChannel",
+                      "ianaift:sonetPath",
+                      "ianaift:sonetVT",
+                      "ianaift:srp",
+                      "ianaift:ss7SigLink",
+                      "ianaift:stackToStack",
+                      "ianaift:starLan",
+                      "ianaift:tdlc",
+                      "ianaift:teLink",
+                      "ianaift:termPad",
+                      "ianaift:tr008",
+                      "ianaift:transpHdlc",
+                      "ianaift:tunnel",
+                      "ianaift:ultra",
+                      "ianaift:usb",
+                      "ianaift:v11",
+                      "ianaift:v35",
+                      "ianaift:v36",
+                      "ianaift:v37",
+                      "ianaift:vdsl",
+                      "ianaift:vdsl2",
+                      "ianaift:virtualIpAddress",
+                      "ianaift:virtualTg",
+                      "ianaift:vmwareNicTeam",
+                      "ianaift:vmwareVirtualNic",
+                      "ianaift:voiceDID",
+                      "ianaift:voiceEBS",
+                      "ianaift:voiceEM",
+                      "ianaift:voiceEMFGD",
+                      "ianaift:voiceEncap",
+                      "ianaift:voiceFGDEANA",
+                      "ianaift:voiceFGDOS",
+                      "ianaift:voiceFXO",
+                      "ianaift:voiceFXS",
+                      "ianaift:voiceOverAtm",
+                      "ianaift:voiceOverCable",
+                      "ianaift:voiceOverFrameRelay",
+                      "ianaift:voiceOverIp",
+                      "ianaift:wwanPP",
+                      "ianaift:wwanPP2",
+                      "ianaift:x213",
+                      "ianaift:x25huntGroup",
+                      "ianaift:x25mlp",
+                      "ianaift:x25ple",
+                      "ianaift:x86Laps"
+                    ]
+                  },
+                  "enabled": {
+                    "type": "boolean"
+                  },
+                  "link-up-down-trap-enable": {
+                    "type": "string",
+                    "enum": [
+                      "enabled",
+                      "disabled"
+                    ]
+                  },
+                  "admin-status": {
+                    "type": "string",
+                    "enum": [
+                      "up",
+                      "down",
+                      "testing"
+                    ]
+                  },
+                  "oper-status": {
+                    "type": "string",
+                    "enum": [
+                      "up",
+                      "down",
+                      "testing",
+                      "unknown",
+                      "dormant",
+                      "not-present",
+                      "lower-layer-down"
+                    ]
+                  },
+                  "last-change": {
+                    "type": "string"
+                  },
+                  "if-index": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "phys-address": {
+                    "type": "string"
+                  },
+                  "higher-layer-if": {
+                    "type": "integer",
+                    "format": "interface-ref"
+                  },
+                  "lower-layer-if": {
+                    "type": "integer",
+                    "format": "interface-ref"
+                  },
+                  "speed": {
+                    "type": "string"
+                  },
+                  "statistics": {
+                    "type": "object",
+                    "properties": {
+                      "discontinuity-time": {
+                        "type": "string"
+                      },
+                      "in-octets": {
+                        "type": "string"
+                      },
+                      "in-unicast-pkts": {
+                        "type": "string"
+                      },
+                      "in-broadcast-pkts": {
+                        "type": "string"
+                      },
+                      "in-multicast-pkts": {
+                        "type": "string"
+                      },
+                      "in-discards": {
+                        "type": "string"
+                      },
+                      "in-errors": {
+                        "type": "string"
+                      },
+                      "in-unknown-protos": {
+                        "type": "string"
+                      },
+                      "out-octets": {
+                        "type": "string"
+                      },
+                      "out-unicast-pkts": {
+                        "type": "string"
+                      },
+                      "out-broadcast-pkts": {
+                        "type": "string"
+                      },
+                      "out-multicast-pkts": {
+                        "type": "string"
+                      },
+                      "out-discards": {
+                        "type": "string"
+                      },
+                      "out-errors": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "x-path": ""
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "interfaces-state"
+        }
+      },
+      "Interfaces-StateInterfaceSchemaById": {
+        "type": "object",
+        "properties": {
+          "interface": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "ianaift:a12MppSwitch",
+                    "ianaift:aal2",
+                    "ianaift:aal5",
+                    "ianaift:actelisMetaLOOP",
+                    "ianaift:adsl",
+                    "ianaift:adsl2",
+                    "ianaift:adsl2plus",
+                    "ianaift:aflane8023",
+                    "ianaift:aflane8025",
+                    "ianaift:aluELP",
+                    "ianaift:aluEpon",
+                    "ianaift:aluEponLogicalLink",
+                    "ianaift:aluEponOnu",
+                    "ianaift:aluEponPhysicalUni",
+                    "ianaift:aluGponOnu",
+                    "ianaift:aluGponPhysicalUni",
+                    "ianaift:arap",
+                    "ianaift:arcnet",
+                    "ianaift:arcnetPlus",
+                    "ianaift:async",
+                    "ianaift:atm",
+                    "ianaift:atmDxi",
+                    "ianaift:atmFuni",
+                    "ianaift:atmIma",
+                    "ianaift:atmLogical",
+                    "ianaift:atmRadio",
+                    "ianaift:atmSubInterface",
+                    "ianaift:atmVciEndPt",
+                    "ianaift:atmVirtual",
+                    "ianaift:atmbond",
+                    "ianaift:aviciOpticalEther",
+                    "ianaift:basicISDN",
+                    "ianaift:bgppolicyaccounting",
+                    "ianaift:bits",
+                    "ianaift:bridge",
+                    "ianaift:bsc",
+                    "ianaift:cableDownstreamRfPort",
+                    "ianaift:capwapDot11Bss",
+                    "ianaift:capwapDot11Profile",
+                    "ianaift:capwapWtpVirtualRadio",
+                    "ianaift:cblVectaStar",
+                    "ianaift:cctEmul",
+                    "ianaift:ces",
+                    "ianaift:channel",
+                    "ianaift:ciscoISLvlan",
+                    "ianaift:cnr",
+                    "ianaift:coffee",
+                    "ianaift:compositeLink",
+                    "ianaift:dcn",
+                    "ianaift:ddnX25",
+                    "ianaift:digitalPowerline",
+                    "ianaift:digitalWrapperOverheadChannel",
+                    "ianaift:dlsw",
+                    "ianaift:docsCableDownstream",
+                    "ianaift:docsCableMCmtsDownstream",
+                    "ianaift:docsCableMaclayer",
+                    "ianaift:docsCableUpstream",
+                    "ianaift:docsCableUpstreamChannel",
+                    "ianaift:docsCableUpstreamRfPort",
+                    "ianaift:docsOfdmDownstream",
+                    "ianaift:docsOfdmaUpstream",
+                    "ianaift:ds0",
+                    "ianaift:ds0Bundle",
+                    "ianaift:ds1",
+                    "ianaift:ds1FDL",
+                    "ianaift:ds3",
+                    "ianaift:dtm",
+                    "ianaift:dvbAsiIn",
+                    "ianaift:dvbAsiOut",
+                    "ianaift:dvbRccDownstream",
+                    "ianaift:dvbRccMacLayer",
+                    "ianaift:dvbRccUpstream",
+                    "ianaift:dvbRcsMacLayer",
+                    "ianaift:dvbRcsTdma",
+                    "ianaift:dvbTdm",
+                    "ianaift:e1",
+                    "ianaift:econet",
+                    "ianaift:eon",
+                    "ianaift:eplrs",
+                    "ianaift:escon",
+                    "ianaift:ethernet3Mbit",
+                    "ianaift:ethernetCsmacd",
+                    "ianaift:fast",
+                    "ianaift:fastEther",
+                    "ianaift:fastEtherFX",
+                    "ianaift:fcipLink",
+                    "ianaift:fddi",
+                    "ianaift:fibreChannel",
+                    "ianaift:frDlciEndPt",
+                    "ianaift:frForward",
+                    "ianaift:frameRelay",
+                    "ianaift:frameRelayInterconnect",
+                    "ianaift:frameRelayMPI",
+                    "ianaift:frameRelayService",
+                    "ianaift:frf16MfrBundle",
+                    "ianaift:g703at2mb",
+                    "ianaift:g703at64k",
+                    "ianaift:g9981",
+                    "ianaift:g9982",
+                    "ianaift:g9983",
+                    "ianaift:gfast",
+                    "ianaift:gfp",
+                    "ianaift:gigabitEthernet",
+                    "ianaift:gpon",
+                    "ianaift:gr303IDT",
+                    "ianaift:gr303RDT",
+                    "ianaift:gtp",
+                    "ianaift:h323Gatekeeper",
+                    "ianaift:h323Proxy",
+                    "ianaift:hdh1822",
+                    "ianaift:hdlc",
+                    "ianaift:hdsl2",
+                    "ianaift:hiperlan2",
+                    "ianaift:hippi",
+                    "ianaift:hippiInterface",
+                    "ianaift:homepna",
+                    "ianaift:hostPad",
+                    "ianaift:hssi",
+                    "ianaift:hyperchannel",
+                    "ianaift:ibm370parChan",
+                    "ianaift:idsl",
+                    "ianaift:ieee1394",
+                    "ianaift:ieee80211",
+                    "ianaift:ieee80212",
+                    "ianaift:ieee802154",
+                    "ianaift:ieee80216WMAN",
+                    "ianaift:ieee8023adLag",
+                    "ianaift:if-gsn",
+                    "ianaift:ifPwType",
+                    "ianaift:ifVfiType",
+                    "ianaift:ilan",
+                    "ianaift:imt",
+                    "ianaift:infiniband",
+                    "ianaift:interleave",
+                    "ianaift:ip",
+                    "ianaift:ipForward",
+                    "ianaift:ipOverAtm",
+                    "ianaift:ipOverCdlc",
+                    "ianaift:ipOverClaw",
+                    "ianaift:ipSwitch",
+                    "ianaift:isdn",
+                    "ianaift:isdns",
+                    "ianaift:isdnu",
+                    "ianaift:iso88022llc",
+                    "ianaift:iso88023Csmacd",
+                    "ianaift:iso88024TokenBus",
+                    "ianaift:iso88025CRFPInt",
+                    "ianaift:iso88025Dtr",
+                    "ianaift:iso88025Fiber",
+                    "ianaift:iso88025TokenRing",
+                    "ianaift:iso88026Man",
+                    "ianaift:isup",
+                    "ianaift:l2vlan",
+                    "ianaift:l3ipvlan",
+                    "ianaift:l3ipxvlan",
+                    "ianaift:lapb",
+                    "ianaift:lapd",
+                    "ianaift:lapf",
+                    "ianaift:linegroup",
+                    "ianaift:lmp",
+                    "ianaift:localTalk",
+                    "ianaift:macSecControlledIF",
+                    "ianaift:macSecUncontrolledIF",
+                    "ianaift:mediaMailOverIp",
+                    "ianaift:mfSigLink",
+                    "ianaift:miox25",
+                    "ianaift:mocaVersion1",
+                    "ianaift:modem",
+                    "ianaift:mpc",
+                    "ianaift:mpegTransport",
+                    "ianaift:mpls",
+                    "ianaift:mplsTunnel",
+                    "ianaift:msdsl",
+                    "ianaift:mvl",
+                    "ianaift:myrinet",
+                    "ianaift:nfas",
+                    "ianaift:nsip",
+                    "ianaift:opticalChannel",
+                    "ianaift:opticalChannelGroup",
+                    "ianaift:opticalTransport",
+                    "ianaift:other",
+                    "ianaift:otnOdu",
+                    "ianaift:otnOtu",
+                    "ianaift:para",
+                    "ianaift:pdnEtherLoop1",
+                    "ianaift:pdnEtherLoop2",
+                    "ianaift:pip",
+                    "ianaift:plc",
+                    "ianaift:pon155",
+                    "ianaift:pon622",
+                    "ianaift:pos",
+                    "ianaift:ppp",
+                    "ianaift:pppMultilinkBundle",
+                    "ianaift:primaryISDN",
+                    "ianaift:propAtm",
+                    "ianaift:propBWAp2Mp",
+                    "ianaift:propCnls",
+                    "ianaift:propDocsWirelessDownstream",
+                    "ianaift:propDocsWirelessMaclayer",
+                    "ianaift:propDocsWirelessUpstream",
+                    "ianaift:propMultiplexor",
+                    "ianaift:propPointToPointSerial",
+                    "ianaift:propVirtual",
+                    "ianaift:propWirelessP2P",
+                    "ianaift:proteon10Mbit",
+                    "ianaift:proteon80Mbit",
+                    "ianaift:q2931",
+                    "ianaift:qam",
+                    "ianaift:qllc",
+                    "ianaift:radioMAC",
+                    "ianaift:radsl",
+                    "ianaift:reachDSL",
+                    "ianaift:regular1822",
+                    "ianaift:rfc1483",
+                    "ianaift:rfc877x25",
+                    "ianaift:rpr",
+                    "ianaift:rs232",
+                    "ianaift:rsrb",
+                    "ianaift:sdci",
+                    "ianaift:sdlc",
+                    "ianaift:sdsl",
+                    "ianaift:shdsl",
+                    "ianaift:sip",
+                    "ianaift:sipSig",
+                    "ianaift:sipTg",
+                    "ianaift:sixToFour",
+                    "ianaift:slip",
+                    "ianaift:smdsDxi",
+                    "ianaift:smdsIcip",
+                    "ianaift:softwareLoopback",
+                    "ianaift:sonet",
+                    "ianaift:sonetOverheadChannel",
+                    "ianaift:sonetPath",
+                    "ianaift:sonetVT",
+                    "ianaift:srp",
+                    "ianaift:ss7SigLink",
+                    "ianaift:stackToStack",
+                    "ianaift:starLan",
+                    "ianaift:tdlc",
+                    "ianaift:teLink",
+                    "ianaift:termPad",
+                    "ianaift:tr008",
+                    "ianaift:transpHdlc",
+                    "ianaift:tunnel",
+                    "ianaift:ultra",
+                    "ianaift:usb",
+                    "ianaift:v11",
+                    "ianaift:v35",
+                    "ianaift:v36",
+                    "ianaift:v37",
+                    "ianaift:vdsl",
+                    "ianaift:vdsl2",
+                    "ianaift:virtualIpAddress",
+                    "ianaift:virtualTg",
+                    "ianaift:vmwareNicTeam",
+                    "ianaift:vmwareVirtualNic",
+                    "ianaift:voiceDID",
+                    "ianaift:voiceEBS",
+                    "ianaift:voiceEM",
+                    "ianaift:voiceEMFGD",
+                    "ianaift:voiceEncap",
+                    "ianaift:voiceFGDEANA",
+                    "ianaift:voiceFGDOS",
+                    "ianaift:voiceFXO",
+                    "ianaift:voiceFXS",
+                    "ianaift:voiceOverAtm",
+                    "ianaift:voiceOverCable",
+                    "ianaift:voiceOverFrameRelay",
+                    "ianaift:voiceOverIp",
+                    "ianaift:wwanPP",
+                    "ianaift:wwanPP2",
+                    "ianaift:x213",
+                    "ianaift:x25huntGroup",
+                    "ianaift:x25mlp",
+                    "ianaift:x25ple",
+                    "ianaift:x86Laps"
+                  ]
+                },
+                "admin-status": {
+                  "type": "string",
+                  "enum": [
+                    "up",
+                    "down",
+                    "testing"
+                  ]
+                },
+                "oper-status": {
+                  "type": "string",
+                  "enum": [
+                    "up",
+                    "down",
+                    "testing",
+                    "unknown",
+                    "dormant",
+                    "not-present",
+                    "lower-layer-down"
+                  ]
+                },
+                "last-change": {
+                  "type": "string"
+                },
+                "if-index": {
+                  "type": "integer",
+                  "format": "int32"
+                },
+                "phys-address": {
+                  "type": "string"
+                },
+                "higher-layer-if": {
+                  "type": "integer",
+                  "format": "interface-state-ref"
+                },
+                "lower-layer-if": {
+                  "type": "integer",
+                  "format": "interface-state-ref"
+                },
+                "speed": {
+                  "type": "string"
+                },
+                "statistics": {
+                  "type": "object",
+                  "properties": {
+                    "discontinuity-time": {
+                      "type": "string"
+                    },
+                    "in-octets": {
+                      "type": "string"
+                    },
+                    "in-unicast-pkts": {
+                      "type": "string"
+                    },
+                    "in-broadcast-pkts": {
+                      "type": "string"
+                    },
+                    "in-multicast-pkts": {
+                      "type": "string"
+                    },
+                    "in-discards": {
+                      "type": "string"
+                    },
+                    "in-errors": {
+                      "type": "string"
+                    },
+                    "in-unknown-protos": {
+                      "type": "string"
+                    },
+                    "out-octets": {
+                      "type": "string"
+                    },
+                    "out-unicast-pkts": {
+                      "type": "string"
+                    },
+                    "out-broadcast-pkts": {
+                      "type": "string"
+                    },
+                    "out-multicast-pkts": {
+                      "type": "string"
+                    },
+                    "out-discards": {
+                      "type": "string"
+                    },
+                    "out-errors": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Interfaces-StateInterfaceSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "interface": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "ianaift:a12MppSwitch",
+                    "ianaift:aal2",
+                    "ianaift:aal5",
+                    "ianaift:actelisMetaLOOP",
+                    "ianaift:adsl",
+                    "ianaift:adsl2",
+                    "ianaift:adsl2plus",
+                    "ianaift:aflane8023",
+                    "ianaift:aflane8025",
+                    "ianaift:aluELP",
+                    "ianaift:aluEpon",
+                    "ianaift:aluEponLogicalLink",
+                    "ianaift:aluEponOnu",
+                    "ianaift:aluEponPhysicalUni",
+                    "ianaift:aluGponOnu",
+                    "ianaift:aluGponPhysicalUni",
+                    "ianaift:arap",
+                    "ianaift:arcnet",
+                    "ianaift:arcnetPlus",
+                    "ianaift:async",
+                    "ianaift:atm",
+                    "ianaift:atmDxi",
+                    "ianaift:atmFuni",
+                    "ianaift:atmIma",
+                    "ianaift:atmLogical",
+                    "ianaift:atmRadio",
+                    "ianaift:atmSubInterface",
+                    "ianaift:atmVciEndPt",
+                    "ianaift:atmVirtual",
+                    "ianaift:atmbond",
+                    "ianaift:aviciOpticalEther",
+                    "ianaift:basicISDN",
+                    "ianaift:bgppolicyaccounting",
+                    "ianaift:bits",
+                    "ianaift:bridge",
+                    "ianaift:bsc",
+                    "ianaift:cableDownstreamRfPort",
+                    "ianaift:capwapDot11Bss",
+                    "ianaift:capwapDot11Profile",
+                    "ianaift:capwapWtpVirtualRadio",
+                    "ianaift:cblVectaStar",
+                    "ianaift:cctEmul",
+                    "ianaift:ces",
+                    "ianaift:channel",
+                    "ianaift:ciscoISLvlan",
+                    "ianaift:cnr",
+                    "ianaift:coffee",
+                    "ianaift:compositeLink",
+                    "ianaift:dcn",
+                    "ianaift:ddnX25",
+                    "ianaift:digitalPowerline",
+                    "ianaift:digitalWrapperOverheadChannel",
+                    "ianaift:dlsw",
+                    "ianaift:docsCableDownstream",
+                    "ianaift:docsCableMCmtsDownstream",
+                    "ianaift:docsCableMaclayer",
+                    "ianaift:docsCableUpstream",
+                    "ianaift:docsCableUpstreamChannel",
+                    "ianaift:docsCableUpstreamRfPort",
+                    "ianaift:docsOfdmDownstream",
+                    "ianaift:docsOfdmaUpstream",
+                    "ianaift:ds0",
+                    "ianaift:ds0Bundle",
+                    "ianaift:ds1",
+                    "ianaift:ds1FDL",
+                    "ianaift:ds3",
+                    "ianaift:dtm",
+                    "ianaift:dvbAsiIn",
+                    "ianaift:dvbAsiOut",
+                    "ianaift:dvbRccDownstream",
+                    "ianaift:dvbRccMacLayer",
+                    "ianaift:dvbRccUpstream",
+                    "ianaift:dvbRcsMacLayer",
+                    "ianaift:dvbRcsTdma",
+                    "ianaift:dvbTdm",
+                    "ianaift:e1",
+                    "ianaift:econet",
+                    "ianaift:eon",
+                    "ianaift:eplrs",
+                    "ianaift:escon",
+                    "ianaift:ethernet3Mbit",
+                    "ianaift:ethernetCsmacd",
+                    "ianaift:fast",
+                    "ianaift:fastEther",
+                    "ianaift:fastEtherFX",
+                    "ianaift:fcipLink",
+                    "ianaift:fddi",
+                    "ianaift:fibreChannel",
+                    "ianaift:frDlciEndPt",
+                    "ianaift:frForward",
+                    "ianaift:frameRelay",
+                    "ianaift:frameRelayInterconnect",
+                    "ianaift:frameRelayMPI",
+                    "ianaift:frameRelayService",
+                    "ianaift:frf16MfrBundle",
+                    "ianaift:g703at2mb",
+                    "ianaift:g703at64k",
+                    "ianaift:g9981",
+                    "ianaift:g9982",
+                    "ianaift:g9983",
+                    "ianaift:gfast",
+                    "ianaift:gfp",
+                    "ianaift:gigabitEthernet",
+                    "ianaift:gpon",
+                    "ianaift:gr303IDT",
+                    "ianaift:gr303RDT",
+                    "ianaift:gtp",
+                    "ianaift:h323Gatekeeper",
+                    "ianaift:h323Proxy",
+                    "ianaift:hdh1822",
+                    "ianaift:hdlc",
+                    "ianaift:hdsl2",
+                    "ianaift:hiperlan2",
+                    "ianaift:hippi",
+                    "ianaift:hippiInterface",
+                    "ianaift:homepna",
+                    "ianaift:hostPad",
+                    "ianaift:hssi",
+                    "ianaift:hyperchannel",
+                    "ianaift:ibm370parChan",
+                    "ianaift:idsl",
+                    "ianaift:ieee1394",
+                    "ianaift:ieee80211",
+                    "ianaift:ieee80212",
+                    "ianaift:ieee802154",
+                    "ianaift:ieee80216WMAN",
+                    "ianaift:ieee8023adLag",
+                    "ianaift:if-gsn",
+                    "ianaift:ifPwType",
+                    "ianaift:ifVfiType",
+                    "ianaift:ilan",
+                    "ianaift:imt",
+                    "ianaift:infiniband",
+                    "ianaift:interleave",
+                    "ianaift:ip",
+                    "ianaift:ipForward",
+                    "ianaift:ipOverAtm",
+                    "ianaift:ipOverCdlc",
+                    "ianaift:ipOverClaw",
+                    "ianaift:ipSwitch",
+                    "ianaift:isdn",
+                    "ianaift:isdns",
+                    "ianaift:isdnu",
+                    "ianaift:iso88022llc",
+                    "ianaift:iso88023Csmacd",
+                    "ianaift:iso88024TokenBus",
+                    "ianaift:iso88025CRFPInt",
+                    "ianaift:iso88025Dtr",
+                    "ianaift:iso88025Fiber",
+                    "ianaift:iso88025TokenRing",
+                    "ianaift:iso88026Man",
+                    "ianaift:isup",
+                    "ianaift:l2vlan",
+                    "ianaift:l3ipvlan",
+                    "ianaift:l3ipxvlan",
+                    "ianaift:lapb",
+                    "ianaift:lapd",
+                    "ianaift:lapf",
+                    "ianaift:linegroup",
+                    "ianaift:lmp",
+                    "ianaift:localTalk",
+                    "ianaift:macSecControlledIF",
+                    "ianaift:macSecUncontrolledIF",
+                    "ianaift:mediaMailOverIp",
+                    "ianaift:mfSigLink",
+                    "ianaift:miox25",
+                    "ianaift:mocaVersion1",
+                    "ianaift:modem",
+                    "ianaift:mpc",
+                    "ianaift:mpegTransport",
+                    "ianaift:mpls",
+                    "ianaift:mplsTunnel",
+                    "ianaift:msdsl",
+                    "ianaift:mvl",
+                    "ianaift:myrinet",
+                    "ianaift:nfas",
+                    "ianaift:nsip",
+                    "ianaift:opticalChannel",
+                    "ianaift:opticalChannelGroup",
+                    "ianaift:opticalTransport",
+                    "ianaift:other",
+                    "ianaift:otnOdu",
+                    "ianaift:otnOtu",
+                    "ianaift:para",
+                    "ianaift:pdnEtherLoop1",
+                    "ianaift:pdnEtherLoop2",
+                    "ianaift:pip",
+                    "ianaift:plc",
+                    "ianaift:pon155",
+                    "ianaift:pon622",
+                    "ianaift:pos",
+                    "ianaift:ppp",
+                    "ianaift:pppMultilinkBundle",
+                    "ianaift:primaryISDN",
+                    "ianaift:propAtm",
+                    "ianaift:propBWAp2Mp",
+                    "ianaift:propCnls",
+                    "ianaift:propDocsWirelessDownstream",
+                    "ianaift:propDocsWirelessMaclayer",
+                    "ianaift:propDocsWirelessUpstream",
+                    "ianaift:propMultiplexor",
+                    "ianaift:propPointToPointSerial",
+                    "ianaift:propVirtual",
+                    "ianaift:propWirelessP2P",
+                    "ianaift:proteon10Mbit",
+                    "ianaift:proteon80Mbit",
+                    "ianaift:q2931",
+                    "ianaift:qam",
+                    "ianaift:qllc",
+                    "ianaift:radioMAC",
+                    "ianaift:radsl",
+                    "ianaift:reachDSL",
+                    "ianaift:regular1822",
+                    "ianaift:rfc1483",
+                    "ianaift:rfc877x25",
+                    "ianaift:rpr",
+                    "ianaift:rs232",
+                    "ianaift:rsrb",
+                    "ianaift:sdci",
+                    "ianaift:sdlc",
+                    "ianaift:sdsl",
+                    "ianaift:shdsl",
+                    "ianaift:sip",
+                    "ianaift:sipSig",
+                    "ianaift:sipTg",
+                    "ianaift:sixToFour",
+                    "ianaift:slip",
+                    "ianaift:smdsDxi",
+                    "ianaift:smdsIcip",
+                    "ianaift:softwareLoopback",
+                    "ianaift:sonet",
+                    "ianaift:sonetOverheadChannel",
+                    "ianaift:sonetPath",
+                    "ianaift:sonetVT",
+                    "ianaift:srp",
+                    "ianaift:ss7SigLink",
+                    "ianaift:stackToStack",
+                    "ianaift:starLan",
+                    "ianaift:tdlc",
+                    "ianaift:teLink",
+                    "ianaift:termPad",
+                    "ianaift:tr008",
+                    "ianaift:transpHdlc",
+                    "ianaift:tunnel",
+                    "ianaift:ultra",
+                    "ianaift:usb",
+                    "ianaift:v11",
+                    "ianaift:v35",
+                    "ianaift:v36",
+                    "ianaift:v37",
+                    "ianaift:vdsl",
+                    "ianaift:vdsl2",
+                    "ianaift:virtualIpAddress",
+                    "ianaift:virtualTg",
+                    "ianaift:vmwareNicTeam",
+                    "ianaift:vmwareVirtualNic",
+                    "ianaift:voiceDID",
+                    "ianaift:voiceEBS",
+                    "ianaift:voiceEM",
+                    "ianaift:voiceEMFGD",
+                    "ianaift:voiceEncap",
+                    "ianaift:voiceFGDEANA",
+                    "ianaift:voiceFGDOS",
+                    "ianaift:voiceFXO",
+                    "ianaift:voiceFXS",
+                    "ianaift:voiceOverAtm",
+                    "ianaift:voiceOverCable",
+                    "ianaift:voiceOverFrameRelay",
+                    "ianaift:voiceOverIp",
+                    "ianaift:wwanPP",
+                    "ianaift:wwanPP2",
+                    "ianaift:x213",
+                    "ianaift:x25huntGroup",
+                    "ianaift:x25mlp",
+                    "ianaift:x25ple",
+                    "ianaift:x86Laps"
+                  ]
+                },
+                "admin-status": {
+                  "type": "string",
+                  "enum": [
+                    "up",
+                    "down",
+                    "testing"
+                  ]
+                },
+                "oper-status": {
+                  "type": "string",
+                  "enum": [
+                    "up",
+                    "down",
+                    "testing",
+                    "unknown",
+                    "dormant",
+                    "not-present",
+                    "lower-layer-down"
+                  ]
+                },
+                "last-change": {
+                  "type": "string"
+                },
+                "if-index": {
+                  "type": "integer",
+                  "format": "int32"
+                },
+                "phys-address": {
+                  "type": "string"
+                },
+                "higher-layer-if": {
+                  "type": "integer",
+                  "format": "interface-state-ref"
+                },
+                "lower-layer-if": {
+                  "type": "integer",
+                  "format": "interface-state-ref"
+                },
+                "speed": {
+                  "type": "string"
+                },
+                "statistics": {
+                  "type": "object",
+                  "properties": {
+                    "discontinuity-time": {
+                      "type": "string"
+                    },
+                    "in-octets": {
+                      "type": "string"
+                    },
+                    "in-unicast-pkts": {
+                      "type": "string"
+                    },
+                    "in-broadcast-pkts": {
+                      "type": "string"
+                    },
+                    "in-multicast-pkts": {
+                      "type": "string"
+                    },
+                    "in-discards": {
+                      "type": "string"
+                    },
+                    "in-errors": {
+                      "type": "string"
+                    },
+                    "in-unknown-protos": {
+                      "type": "string"
+                    },
+                    "out-octets": {
+                      "type": "string"
+                    },
+                    "out-unicast-pkts": {
+                      "type": "string"
+                    },
+                    "out-broadcast-pkts": {
+                      "type": "string"
+                    },
+                    "out-multicast-pkts": {
+                      "type": "string"
+                    },
+                    "out-discards": {
+                      "type": "string"
+                    },
+                    "out-errors": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "interface"
+        }
+      },
+      "InterfaceStatisticsSchemaById": {
+        "type": "object",
+        "properties": {
+          "statistics": {
+            "type": "object",
+            "properties": {
+              "discontinuity-time": {
+                "type": "string"
+              },
+              "in-octets": {
+                "type": "string"
+              },
+              "in-unicast-pkts": {
+                "type": "string"
+              },
+              "in-broadcast-pkts": {
+                "type": "string"
+              },
+              "in-multicast-pkts": {
+                "type": "string"
+              },
+              "in-discards": {
+                "type": "string"
+              },
+              "in-errors": {
+                "type": "string"
+              },
+              "in-unknown-protos": {
+                "type": "string"
+              },
+              "out-octets": {
+                "type": "string"
+              },
+              "out-unicast-pkts": {
+                "type": "string"
+              },
+              "out-broadcast-pkts": {
+                "type": "string"
+              },
+              "out-multicast-pkts": {
+                "type": "string"
+              },
+              "out-discards": {
+                "type": "string"
+              },
+              "out-errors": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "InterfaceStatisticsSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "statistics": {
+            "type": "object",
+            "properties": {
+              "discontinuity-time": {
+                "type": "string"
+              },
+              "in-octets": {
+                "type": "string"
+              },
+              "in-unicast-pkts": {
+                "type": "string"
+              },
+              "in-broadcast-pkts": {
+                "type": "string"
+              },
+              "in-multicast-pkts": {
+                "type": "string"
+              },
+              "in-discards": {
+                "type": "string"
+              },
+              "in-errors": {
+                "type": "string"
+              },
+              "in-unknown-protos": {
+                "type": "string"
+              },
+              "out-octets": {
+                "type": "string"
+              },
+              "out-unicast-pkts": {
+                "type": "string"
+              },
+              "out-broadcast-pkts": {
+                "type": "string"
+              },
+              "out-multicast-pkts": {
+                "type": "string"
+              },
+              "out-discards": {
+                "type": "string"
+              },
+              "out-errors": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "statistics"
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "basicAuth": [],
+      "ApiKeyAuth": [],
+      "bearerAuth": []
+    }
+  ]
+}

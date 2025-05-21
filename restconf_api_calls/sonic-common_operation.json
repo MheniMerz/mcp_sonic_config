@@ -1,0 +1,560 @@
+{
+  "paths": {
+    "/data/sonic-common:operation": {
+      "patch": {
+        "summary": "PATCH operation on \"operation\"",
+        "description": "This endpoint modifies the device's \"operation\" resource at XPath: operation.",
+        "tags": [
+          "Modify Operation"
+        ],
+        "operationId": "PatchOperationById",
+        "requestBody": {
+          "description": "This definition is used internally by CVL and\n \tis not exposed in NBI. Leaf 'operation' allows\n \tevaluation of must expression for CREATE/UPDATE/DELETE\n \toperation.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-CommonOperationSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-CommonOperationSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"operation\"",
+        "description": "This endpoint replaces the device's \"operation\" resource at XPath: operation.",
+        "tags": [
+          "Replace Operation"
+        ],
+        "operationId": "PutOperationById",
+        "requestBody": {
+          "description": "This definition is used internally by CVL and\n \tis not exposed in NBI. Leaf 'operation' allows\n \tevaluation of must expression for CREATE/UPDATE/DELETE\n \toperation.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-CommonOperationSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-CommonOperationSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"operation\"",
+        "description": "This endpoint adds to the device's \"operation\" resource at XPath: operation.",
+        "tags": [
+          "Add Operation"
+        ],
+        "operationId": "PostOperationById",
+        "requestBody": {
+          "description": "This definition is used internally by CVL and\n \tis not exposed in NBI. Leaf 'operation' allows\n \tevaluation of must expression for CREATE/UPDATE/DELETE\n \toperation.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-CommonOperationSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-CommonOperationSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"operation\"",
+        "description": "This endpoint removes the device's \"operation\" resource at XPath: operation.",
+        "tags": [
+          "Remove Operation"
+        ],
+        "operationId": "DeleteOperationById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"operation\"",
+        "description": "This endpoint retrieves the device's \"operation\" resource at XPath: operation.",
+        "tags": [
+          "View Operation"
+        ],
+        "operationId": "GetOperationById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-common:operation/operation": {
+      "patch": {
+        "summary": "PATCH operation on \"operation\"",
+        "description": "This endpoint modifies the device's \"operation\" resource at XPath: operation/operation.",
+        "tags": [
+          "Modify Operation"
+        ],
+        "operationId": "PatchOperationById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "operation"
+                ],
+                "properties": {
+                  "operation": {
+                    "type": "string",
+                    "enum": [
+                      "NOP",
+                      "CREATE",
+                      "UPDATE",
+                      "DELETE"
+                    ]
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "operation"
+                },
+                "type": "object",
+                "required": [
+                  "operation"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"operation\"",
+        "description": "This endpoint replaces the device's \"operation\" resource at XPath: operation/operation.",
+        "tags": [
+          "Replace Operation"
+        ],
+        "operationId": "PutOperationById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "operation"
+                ],
+                "properties": {
+                  "operation": {
+                    "type": "string",
+                    "enum": [
+                      "NOP",
+                      "CREATE",
+                      "UPDATE",
+                      "DELETE"
+                    ]
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "operation"
+                },
+                "type": "object",
+                "required": [
+                  "operation"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"operation\"",
+        "description": "This endpoint retrieves the device's \"operation\" resource at XPath: operation/operation.",
+        "tags": [
+          "View Operation"
+        ],
+        "operationId": "GetOperationById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"operation\"",
+        "description": "This endpoint removes the device's \"operation\" resource at XPath: operation/operation.",
+        "tags": [
+          "Remove Operation"
+        ],
+        "operationId": "DeleteOperationById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    }
+  },
+  "openapi": "3.0.3",
+  "info": {
+    "description": "HOST DESTINATION:  https://192.168.200.63:443 (proxy through YANG Suite server)",
+    "title": "OpenAPI v3.0.3",
+    "version": "3.0.3"
+  },
+  "servers": [
+    {
+      "url": "/restconf/proxy/https://192.168.200.63:443/restconf/data/ietf-yang-library:modules-state",
+      "description": "YANG SUITE Proxy RESTCONF API"
+    }
+  ],
+  "components": {
+    "securitySchemes": {
+      "basicAuth": {
+        "type": "http",
+        "scheme": "basic"
+      },
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "scheme": "api_key",
+        "in": "header",
+        "name": "X-API-KEY"
+      },
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JSON Web Token"
+      }
+    },
+    "schemas": {
+      "Sonic-CommonOperationSchemaById": {
+        "type": "object",
+        "properties": {
+          "operation": {
+            "type": "object",
+            "properties": {
+              "operation": {
+                "type": "string",
+                "enum": [
+                  "NOP",
+                  "CREATE",
+                  "UPDATE",
+                  "DELETE"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "Sonic-CommonOperationSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "operation": {
+            "type": "object",
+            "properties": {
+              "operation": {
+                "type": "string",
+                "enum": [
+                  "NOP",
+                  "CREATE",
+                  "UPDATE",
+                  "DELETE"
+                ]
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "operation"
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "basicAuth": [],
+      "ApiKeyAuth": [],
+      "bearerAuth": []
+    }
+  ]
+}

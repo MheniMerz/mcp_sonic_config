@@ -1,0 +1,3246 @@
+{
+  "paths": {
+    "/data/openconfig-messages:messages": {
+      "patch": {
+        "summary": "PATCH operation on \"messages\"",
+        "description": "This endpoint modifies the device's \"messages\" resource at XPath: messages.",
+        "tags": [
+          "Modify Messages"
+        ],
+        "operationId": "PatchMessagesById",
+        "requestBody": {
+          "description": "Top-level container for Syslog messages.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Openconfig-MessagesMessagesSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Openconfig-MessagesMessagesSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"messages\"",
+        "description": "This endpoint replaces the device's \"messages\" resource at XPath: messages.",
+        "tags": [
+          "Replace Messages"
+        ],
+        "operationId": "PutMessagesById",
+        "requestBody": {
+          "description": "Top-level container for Syslog messages.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Openconfig-MessagesMessagesSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Openconfig-MessagesMessagesSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"messages\"",
+        "description": "This endpoint adds to the device's \"messages\" resource at XPath: messages.",
+        "tags": [
+          "Add Messages"
+        ],
+        "operationId": "PostMessagesById",
+        "requestBody": {
+          "description": "Top-level container for Syslog messages.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Openconfig-MessagesMessagesSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Openconfig-MessagesMessagesSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"messages\"",
+        "description": "This endpoint removes the device's \"messages\" resource at XPath: messages.",
+        "tags": [
+          "Remove Messages"
+        ],
+        "operationId": "DeleteMessagesById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"messages\"",
+        "description": "This endpoint retrieves the device's \"messages\" resource at XPath: messages.",
+        "tags": [
+          "View Messages"
+        ],
+        "operationId": "GetMessagesById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/config": {
+      "patch": {
+        "summary": "PATCH operation on \"config\"",
+        "description": "This endpoint modifies the device's \"config\" resource at XPath: messages/config.",
+        "tags": [
+          "Modify Config"
+        ],
+        "operationId": "PatchConfigById",
+        "requestBody": {
+          "description": "Configuration data for Syslog messages.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MessagesConfigSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/MessagesConfigSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"config\"",
+        "description": "This endpoint replaces the device's \"config\" resource at XPath: messages/config.",
+        "tags": [
+          "Replace Config"
+        ],
+        "operationId": "PutConfigById",
+        "requestBody": {
+          "description": "Configuration data for Syslog messages.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MessagesConfigSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/MessagesConfigSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"config\"",
+        "description": "This endpoint adds to the device's \"config\" resource at XPath: messages/config.",
+        "tags": [
+          "Add Config"
+        ],
+        "operationId": "PostConfigById",
+        "requestBody": {
+          "description": "Configuration data for Syslog messages.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MessagesConfigSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/MessagesConfigSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"config\"",
+        "description": "This endpoint removes the device's \"config\" resource at XPath: messages/config.",
+        "tags": [
+          "Remove Config"
+        ],
+        "operationId": "DeleteConfigById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"config\"",
+        "description": "This endpoint retrieves the device's \"config\" resource at XPath: messages/config.",
+        "tags": [
+          "View Config"
+        ],
+        "operationId": "GetConfigById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/config/severity": {
+      "patch": {
+        "summary": "PATCH operation on \"severity\"",
+        "description": "This endpoint modifies the device's \"severity\" resource at XPath: messages/config/severity.",
+        "tags": [
+          "Modify Severity"
+        ],
+        "operationId": "PatchSeverityById",
+        "requestBody": {
+          "description": "Specifies that only messages of the given severity (or\ngreater severity) are sent over the RPC.\n\nThis is analogous to differentiating which severity is to be\nsent to legacy Syslog servers, as opposed to local buffer or\nfiles.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "severity"
+                ],
+                "properties": {
+                  "severity": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "severity"
+                },
+                "type": "object",
+                "required": [
+                  "severity"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"severity\"",
+        "description": "This endpoint replaces the device's \"severity\" resource at XPath: messages/config/severity.",
+        "tags": [
+          "Replace Severity"
+        ],
+        "operationId": "PutSeverityById",
+        "requestBody": {
+          "description": "Specifies that only messages of the given severity (or\ngreater severity) are sent over the RPC.\n\nThis is analogous to differentiating which severity is to be\nsent to legacy Syslog servers, as opposed to local buffer or\nfiles.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "severity"
+                ],
+                "properties": {
+                  "severity": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "severity"
+                },
+                "type": "object",
+                "required": [
+                  "severity"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"severity\"",
+        "description": "This endpoint retrieves the device's \"severity\" resource at XPath: messages/config/severity.",
+        "tags": [
+          "View Severity"
+        ],
+        "operationId": "GetSeverityById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"severity\"",
+        "description": "This endpoint removes the device's \"severity\" resource at XPath: messages/config/severity.",
+        "tags": [
+          "Remove Severity"
+        ],
+        "operationId": "DeleteSeverityById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/state": {
+      "get": {
+        "summary": "GET operation on \"state\"",
+        "description": "This endpoint retrieves the device's \"state\" resource at XPath: messages/state.",
+        "tags": [
+          "View State"
+        ],
+        "operationId": "GetStateById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/state/severity": {
+      "get": {
+        "summary": "GET operation on \"severity\"",
+        "description": "This endpoint retrieves the device's \"severity\" resource at XPath: messages/state/severity.",
+        "tags": [
+          "View Severity"
+        ],
+        "operationId": "GetSeverityById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/state/message": {
+      "get": {
+        "summary": "GET operation on \"message\"",
+        "description": "This endpoint retrieves the device's \"message\" resource at XPath: messages/state/message.",
+        "tags": [
+          "View Message"
+        ],
+        "operationId": "GetMessageById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/state/message/msg": {
+      "get": {
+        "summary": "GET operation on \"msg\"",
+        "description": "This endpoint retrieves the device's \"msg\" resource at XPath: messages/state/message/msg.",
+        "tags": [
+          "View Msg"
+        ],
+        "operationId": "GetMsgById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/state/message/priority": {
+      "get": {
+        "summary": "GET operation on \"priority\"",
+        "description": "This endpoint retrieves the device's \"priority\" resource at XPath: messages/state/message/priority.",
+        "tags": [
+          "View Priority"
+        ],
+        "operationId": "GetPriorityById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/state/message/app-name": {
+      "get": {
+        "summary": "GET operation on \"app-name\"",
+        "description": "This endpoint retrieves the device's \"app-name\" resource at XPath: messages/state/message/app-name.",
+        "tags": [
+          "View App-Name"
+        ],
+        "operationId": "GetApp-NameById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/state/message/procid": {
+      "get": {
+        "summary": "GET operation on \"procid\"",
+        "description": "This endpoint retrieves the device's \"procid\" resource at XPath: messages/state/message/procid.",
+        "tags": [
+          "View Procid"
+        ],
+        "operationId": "GetProcidById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/state/message/msgid": {
+      "get": {
+        "summary": "GET operation on \"msgid\"",
+        "description": "This endpoint retrieves the device's \"msgid\" resource at XPath: messages/state/message/msgid.",
+        "tags": [
+          "View Msgid"
+        ],
+        "operationId": "GetMsgidById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/debug-entries": {
+      "patch": {
+        "summary": "PATCH operation on \"debug-entries\"",
+        "description": "This endpoint modifies the device's \"debug-entries\" resource at XPath: messages/debug-entries.",
+        "tags": [
+          "Modify Debug-Entries"
+        ],
+        "operationId": "PatchDebug-EntriesById",
+        "requestBody": {
+          "description": "Enclosing container for list of debugs to enable.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MessagesDebug-EntriesSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/MessagesDebug-EntriesSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"debug-entries\"",
+        "description": "This endpoint replaces the device's \"debug-entries\" resource at XPath: messages/debug-entries.",
+        "tags": [
+          "Replace Debug-Entries"
+        ],
+        "operationId": "PutDebug-EntriesById",
+        "requestBody": {
+          "description": "Enclosing container for list of debugs to enable.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MessagesDebug-EntriesSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/MessagesDebug-EntriesSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"debug-entries\"",
+        "description": "This endpoint adds to the device's \"debug-entries\" resource at XPath: messages/debug-entries.",
+        "tags": [
+          "Add Debug-Entries"
+        ],
+        "operationId": "PostDebug-EntriesById",
+        "requestBody": {
+          "description": "Enclosing container for list of debugs to enable.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MessagesDebug-EntriesSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/MessagesDebug-EntriesSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"debug-entries\"",
+        "description": "This endpoint removes the device's \"debug-entries\" resource at XPath: messages/debug-entries.",
+        "tags": [
+          "Remove Debug-Entries"
+        ],
+        "operationId": "DeleteDebug-EntriesById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"debug-entries\"",
+        "description": "This endpoint retrieves the device's \"debug-entries\" resource at XPath: messages/debug-entries.",
+        "tags": [
+          "View Debug-Entries"
+        ],
+        "operationId": "GetDebug-EntriesById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/debug-entries/debug-service": {
+      "patch": {
+        "summary": "PATCH operation on \"debug-service\"",
+        "description": "This endpoint modifies the device's \"debug-service\" resource at XPath: messages/debug-entries/debug-service.",
+        "tags": [
+          "Modify Debug-Service"
+        ],
+        "operationId": "PatchDebug-ServiceById",
+        "requestBody": {
+          "description": "List of debugging entries.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Debug-EntriesDebug-ServiceSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Debug-EntriesDebug-ServiceSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"debug-service\"",
+        "description": "This endpoint replaces the device's \"debug-service\" resource at XPath: messages/debug-entries/debug-service.",
+        "tags": [
+          "Replace Debug-Service"
+        ],
+        "operationId": "PutDebug-ServiceById",
+        "requestBody": {
+          "description": "List of debugging entries.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Debug-EntriesDebug-ServiceSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Debug-EntriesDebug-ServiceSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"debug-service\"",
+        "description": "This endpoint adds to the device's \"debug-service\" resource at XPath: messages/debug-entries/debug-service.",
+        "tags": [
+          "Add Debug-Service"
+        ],
+        "operationId": "PostDebug-ServiceById",
+        "requestBody": {
+          "description": "List of debugging entries.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Debug-EntriesDebug-ServiceSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Debug-EntriesDebug-ServiceSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"debug-service\"",
+        "description": "This endpoint retrieves the device's \"debug-service\" resource at XPath: messages/debug-entries/debug-service.",
+        "tags": [
+          "View Debug-Service"
+        ],
+        "operationId": "GetDebug-ServiceById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/debug-entries/debug-service={debug-service-service}": {
+      "get": {
+        "summary": "GET operation on \"debug-service\"",
+        "description": "This endpoint retrieves the device's \"debug-service\" resource at XPath: messages/debug-entries/debug-service.",
+        "tags": [
+          "View Debug-Service"
+        ],
+        "operationId": "GetDebug-ServiceElemById",
+        "parameters": [
+          {
+            "name": "debug-service-service",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "x-path": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"debug-service\"",
+        "description": "This endpoint removes the device's \"debug-service\" resource at XPath: messages/debug-entries/debug-service.",
+        "tags": [
+          "Remove Debug-Service"
+        ],
+        "operationId": "DeleteDebug-ServiceById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/debug-entries/debug-service/service": {},
+    "/data/openconfig-messages:messages/debug-entries/debug-service={debug-service-service}/config": {
+      "patch": {
+        "summary": "PATCH operation on \"config\"",
+        "description": "This endpoint modifies the device's \"config\" resource at XPath: messages/debug-entries/debug-service/config.",
+        "tags": [
+          "Modify Config"
+        ],
+        "operationId": "PatchConfigById",
+        "requestBody": {
+          "description": "Configuration data for debug service entries.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Debug-ServiceConfigSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Debug-ServiceConfigSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "debug-service-service",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "x-path": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"config\"",
+        "description": "This endpoint replaces the device's \"config\" resource at XPath: messages/debug-entries/debug-service/config.",
+        "tags": [
+          "Replace Config"
+        ],
+        "operationId": "PutConfigById",
+        "requestBody": {
+          "description": "Configuration data for debug service entries.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Debug-ServiceConfigSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Debug-ServiceConfigSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "debug-service-service",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "x-path": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"config\"",
+        "description": "This endpoint adds to the device's \"config\" resource at XPath: messages/debug-entries/debug-service/config.",
+        "tags": [
+          "Add Config"
+        ],
+        "operationId": "PostConfigById",
+        "requestBody": {
+          "description": "Configuration data for debug service entries.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Debug-ServiceConfigSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Debug-ServiceConfigSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "debug-service-service",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "x-path": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"config\"",
+        "description": "This endpoint removes the device's \"config\" resource at XPath: messages/debug-entries/debug-service/config.",
+        "tags": [
+          "Remove Config"
+        ],
+        "operationId": "DeleteConfigById",
+        "parameters": [
+          {
+            "name": "debug-service-service",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "x-path": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"config\"",
+        "description": "This endpoint retrieves the device's \"config\" resource at XPath: messages/debug-entries/debug-service/config.",
+        "tags": [
+          "View Config"
+        ],
+        "operationId": "GetConfigById",
+        "parameters": [
+          {
+            "name": "debug-service-service",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "x-path": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/debug-entries/debug-service/config/service": {},
+    "/data/openconfig-messages:messages/debug-entries/debug-service/config={debug-service-service}/service": {
+      "patch": {
+        "summary": "PATCH operation on \"service\"",
+        "description": "This endpoint modifies the device's \"service\" resource at XPath: messages/debug-entries/debug-service/config/service.",
+        "tags": [
+          "Modify Service"
+        ],
+        "operationId": "PatchServiceById",
+        "requestBody": {
+          "description": "Enumeration of all services which can have debugging enabled.\nVendors are to augment this base identity with their platform\nor OS specific debug options.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "service"
+                ],
+                "properties": {
+                  "service": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "service"
+                },
+                "type": "object",
+                "required": [
+                  "service"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "debug-service-service",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "x-path": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"service\"",
+        "description": "This endpoint replaces the device's \"service\" resource at XPath: messages/debug-entries/debug-service/config/service.",
+        "tags": [
+          "Replace Service"
+        ],
+        "operationId": "PutServiceById",
+        "requestBody": {
+          "description": "Enumeration of all services which can have debugging enabled.\nVendors are to augment this base identity with their platform\nor OS specific debug options.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "service"
+                ],
+                "properties": {
+                  "service": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "service"
+                },
+                "type": "object",
+                "required": [
+                  "service"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "debug-service-service",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "x-path": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"service\"",
+        "description": "This endpoint retrieves the device's \"service\" resource at XPath: messages/debug-entries/debug-service/config/service.",
+        "tags": [
+          "View Service"
+        ],
+        "operationId": "GetServiceById",
+        "parameters": [
+          {
+            "name": "debug-service-service",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "x-path": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"service\"",
+        "description": "This endpoint removes the device's \"service\" resource at XPath: messages/debug-entries/debug-service/config/service.",
+        "tags": [
+          "Remove Service"
+        ],
+        "operationId": "DeleteServiceById",
+        "parameters": [
+          {
+            "name": "debug-service-service",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "x-path": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/debug-entries/debug-service={debug-service-service}/config/enabled": {
+      "patch": {
+        "summary": "PATCH operation on \"enabled\"",
+        "description": "This endpoint modifies the device's \"enabled\" resource at XPath: messages/debug-entries/debug-service/config/enabled.",
+        "tags": [
+          "Modify Enabled"
+        ],
+        "operationId": "PatchEnabledById",
+        "requestBody": {
+          "description": "Enable and disable debugging.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "enabled"
+                ],
+                "properties": {
+                  "enabled": {
+                    "type": "boolean"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "enabled"
+                },
+                "type": "object",
+                "required": [
+                  "enabled"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "debug-service-service",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "x-path": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"enabled\"",
+        "description": "This endpoint replaces the device's \"enabled\" resource at XPath: messages/debug-entries/debug-service/config/enabled.",
+        "tags": [
+          "Replace Enabled"
+        ],
+        "operationId": "PutEnabledById",
+        "requestBody": {
+          "description": "Enable and disable debugging.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "enabled"
+                ],
+                "properties": {
+                  "enabled": {
+                    "type": "boolean"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "enabled"
+                },
+                "type": "object",
+                "required": [
+                  "enabled"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "debug-service-service",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "x-path": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"enabled\"",
+        "description": "This endpoint retrieves the device's \"enabled\" resource at XPath: messages/debug-entries/debug-service/config/enabled.",
+        "tags": [
+          "View Enabled"
+        ],
+        "operationId": "GetEnabledById",
+        "parameters": [
+          {
+            "name": "debug-service-service",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "x-path": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"enabled\"",
+        "description": "This endpoint removes the device's \"enabled\" resource at XPath: messages/debug-entries/debug-service/config/enabled.",
+        "tags": [
+          "Remove Enabled"
+        ],
+        "operationId": "DeleteEnabledById",
+        "parameters": [
+          {
+            "name": "debug-service-service",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "x-path": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/debug-entries/debug-service={debug-service-service}/state": {
+      "get": {
+        "summary": "GET operation on \"state\"",
+        "description": "This endpoint retrieves the device's \"state\" resource at XPath: messages/debug-entries/debug-service/state.",
+        "tags": [
+          "View State"
+        ],
+        "operationId": "GetStateById",
+        "parameters": [
+          {
+            "name": "debug-service-service",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "x-path": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/debug-entries/debug-service/state/service": {},
+    "/data/openconfig-messages:messages/debug-entries/debug-service/state={debug-service-service}/service": {
+      "get": {
+        "summary": "GET operation on \"service\"",
+        "description": "This endpoint retrieves the device's \"service\" resource at XPath: messages/debug-entries/debug-service/state/service.",
+        "tags": [
+          "View Service"
+        ],
+        "operationId": "GetServiceById",
+        "parameters": [
+          {
+            "name": "debug-service-service",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "x-path": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/debug-entries/debug-service={debug-service-service}/state/enabled": {
+      "get": {
+        "summary": "GET operation on \"enabled\"",
+        "description": "This endpoint retrieves the device's \"enabled\" resource at XPath: messages/debug-entries/debug-service/state/enabled.",
+        "tags": [
+          "View Enabled"
+        ],
+        "operationId": "GetEnabledById",
+        "parameters": [
+          {
+            "name": "debug-service-service",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "x-path": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    }
+  },
+  "openapi": "3.0.3",
+  "info": {
+    "description": "HOST DESTINATION:  https://192.168.200.63:443 (proxy through YANG Suite server)",
+    "title": "OpenAPI v3.0.3",
+    "version": "3.0.3"
+  },
+  "servers": [
+    {
+      "url": "/restconf/proxy/https://192.168.200.63:443/restconf/data/ietf-yang-library:modules-state",
+      "description": "YANG SUITE Proxy RESTCONF API"
+    }
+  ],
+  "components": {
+    "securitySchemes": {
+      "basicAuth": {
+        "type": "http",
+        "scheme": "basic"
+      },
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "scheme": "api_key",
+        "in": "header",
+        "name": "X-API-KEY"
+      },
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JSON Web Token"
+      }
+    },
+    "schemas": {
+      "Openconfig-MessagesMessagesSchemaById": {
+        "type": "object",
+        "properties": {
+          "messages": {
+            "type": "object",
+            "properties": {
+              "config": {
+                "type": "object",
+                "properties": {
+                  "interface": {
+                    "type": "string",
+                    "x-path": ""
+                  },
+                  "subinterface": {
+                    "type": "string",
+                    "x-path": ""
+                  },
+                  "set-name": {
+                    "type": "string",
+                    "x-path": ""
+                  },
+                  "type": {
+                    "type": "string",
+                    "x-path": ""
+                  },
+                  "severity": {
+                    "type": "string"
+                  },
+                  "service": {
+                    "type": "string"
+                  },
+                  "enabled": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "state": {
+                "type": "object",
+                "properties": {
+                  "severity": {
+                    "type": "string"
+                  },
+                  "message": {
+                    "type": "object",
+                    "properties": {
+                      "msg": {
+                        "type": "string"
+                      },
+                      "priority": {
+                        "type": "integer",
+                        "format": "uint8"
+                      },
+                      "app-name": {
+                        "type": "string"
+                      },
+                      "procid": {
+                        "type": "string"
+                      },
+                      "msgid": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "service": {
+                    "type": "string"
+                  },
+                  "enabled": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "debug-entries": {
+                "properties": {
+                  "debug-service": {
+                    "type": "object",
+                    "properties": {
+                      "service": {
+                        "type": "string",
+                        "x-path": ""
+                      },
+                      "config": {
+                        "type": "object",
+                        "properties": {
+                          "service": {
+                            "type": "string"
+                          },
+                          "enabled": {
+                            "type": "boolean"
+                          }
+                        }
+                      },
+                      "state": {
+                        "type": "object",
+                        "properties": {
+                          "service": {
+                            "type": "string"
+                          },
+                          "enabled": {
+                            "type": "boolean"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "type": "object"
+              }
+            }
+          }
+        }
+      },
+      "Openconfig-MessagesMessagesSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "messages": {
+            "type": "object",
+            "properties": {
+              "config": {
+                "type": "object",
+                "properties": {
+                  "interface": {
+                    "type": "string",
+                    "x-path": ""
+                  },
+                  "subinterface": {
+                    "type": "string",
+                    "x-path": ""
+                  },
+                  "set-name": {
+                    "type": "string",
+                    "x-path": ""
+                  },
+                  "type": {
+                    "type": "string",
+                    "x-path": ""
+                  },
+                  "severity": {
+                    "type": "string"
+                  },
+                  "service": {
+                    "type": "string"
+                  },
+                  "enabled": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "state": {
+                "type": "object",
+                "properties": {
+                  "severity": {
+                    "type": "string"
+                  },
+                  "message": {
+                    "type": "object",
+                    "properties": {
+                      "msg": {
+                        "type": "string"
+                      },
+                      "priority": {
+                        "type": "integer",
+                        "format": "uint8"
+                      },
+                      "app-name": {
+                        "type": "string"
+                      },
+                      "procid": {
+                        "type": "string"
+                      },
+                      "msgid": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "service": {
+                    "type": "string"
+                  },
+                  "enabled": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "debug-entries": {
+                "properties": {
+                  "debug-service": {
+                    "type": "object",
+                    "properties": {
+                      "service": {
+                        "type": "string",
+                        "x-path": ""
+                      },
+                      "config": {
+                        "type": "object",
+                        "properties": {
+                          "service": {
+                            "type": "string"
+                          },
+                          "enabled": {
+                            "type": "boolean"
+                          }
+                        }
+                      },
+                      "state": {
+                        "type": "object",
+                        "properties": {
+                          "service": {
+                            "type": "string"
+                          },
+                          "enabled": {
+                            "type": "boolean"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "type": "object"
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "messages"
+        }
+      },
+      "MessagesConfigSchemaById": {
+        "type": "object",
+        "properties": {
+          "config": {
+            "type": "object",
+            "properties": {
+              "severity": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "MessagesConfigSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "config": {
+            "type": "object",
+            "properties": {
+              "severity": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "config"
+        }
+      },
+      "MessagesStateSchemaById": {
+        "type": "object",
+        "properties": {
+          "state": {
+            "type": "object",
+            "properties": {
+              "severity": {
+                "type": "string"
+              },
+              "message": {
+                "type": "object",
+                "properties": {
+                  "msg": {
+                    "type": "string"
+                  },
+                  "priority": {
+                    "type": "integer",
+                    "format": "uint8"
+                  },
+                  "app-name": {
+                    "type": "string"
+                  },
+                  "procid": {
+                    "type": "string"
+                  },
+                  "msgid": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "MessagesStateSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "state": {
+            "type": "object",
+            "properties": {
+              "severity": {
+                "type": "string"
+              },
+              "message": {
+                "type": "object",
+                "properties": {
+                  "msg": {
+                    "type": "string"
+                  },
+                  "priority": {
+                    "type": "integer",
+                    "format": "uint8"
+                  },
+                  "app-name": {
+                    "type": "string"
+                  },
+                  "procid": {
+                    "type": "string"
+                  },
+                  "msgid": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "state"
+        }
+      },
+      "StateMessageSchemaById": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "object",
+            "properties": {
+              "msg": {
+                "type": "string"
+              },
+              "priority": {
+                "type": "integer",
+                "format": "uint8"
+              },
+              "app-name": {
+                "type": "string"
+              },
+              "procid": {
+                "type": "string"
+              },
+              "msgid": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "StateMessageSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "object",
+            "properties": {
+              "msg": {
+                "type": "string"
+              },
+              "priority": {
+                "type": "integer",
+                "format": "uint8"
+              },
+              "app-name": {
+                "type": "string"
+              },
+              "procid": {
+                "type": "string"
+              },
+              "msgid": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "message"
+        }
+      },
+      "MessagesDebug-EntriesSchemaById": {
+        "type": "object",
+        "properties": {
+          "debug-entries": {
+            "type": "object",
+            "properties": {
+              "debug-service": {
+                "type": "object",
+                "properties": {
+                  "service": {
+                    "type": "string",
+                    "x-path": ""
+                  },
+                  "config": {
+                    "type": "object",
+                    "properties": {
+                      "service": {
+                        "type": "string"
+                      },
+                      "enabled": {
+                        "type": "boolean"
+                      }
+                    }
+                  },
+                  "state": {
+                    "type": "object",
+                    "properties": {
+                      "service": {
+                        "type": "string"
+                      },
+                      "enabled": {
+                        "type": "boolean"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "MessagesDebug-EntriesSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "debug-entries": {
+            "type": "object",
+            "properties": {
+              "debug-service": {
+                "type": "object",
+                "properties": {
+                  "service": {
+                    "type": "string",
+                    "x-path": ""
+                  },
+                  "config": {
+                    "type": "object",
+                    "properties": {
+                      "service": {
+                        "type": "string"
+                      },
+                      "enabled": {
+                        "type": "boolean"
+                      }
+                    }
+                  },
+                  "state": {
+                    "type": "object",
+                    "properties": {
+                      "service": {
+                        "type": "string"
+                      },
+                      "enabled": {
+                        "type": "boolean"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "debug-entries"
+        }
+      },
+      "Debug-EntriesDebug-ServiceSchemaById": {
+        "type": "object",
+        "properties": {
+          "debug-service": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "config": {
+                  "type": "object",
+                  "properties": {
+                    "interface": {
+                      "type": "string",
+                      "x-path": ""
+                    },
+                    "subinterface": {
+                      "type": "string",
+                      "x-path": ""
+                    },
+                    "set-name": {
+                      "type": "string",
+                      "x-path": ""
+                    },
+                    "type": {
+                      "type": "string",
+                      "x-path": ""
+                    },
+                    "severity": {
+                      "type": "string"
+                    },
+                    "service": {
+                      "type": "string"
+                    },
+                    "enabled": {
+                      "type": "boolean"
+                    }
+                  }
+                },
+                "service": {
+                  "type": "string",
+                  "x-path": ""
+                },
+                "state": {
+                  "type": "object",
+                  "properties": {
+                    "service": {
+                      "type": "string"
+                    },
+                    "enabled": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Debug-EntriesDebug-ServiceSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "debug-service": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "config": {
+                  "type": "object",
+                  "properties": {
+                    "interface": {
+                      "type": "string",
+                      "x-path": ""
+                    },
+                    "subinterface": {
+                      "type": "string",
+                      "x-path": ""
+                    },
+                    "set-name": {
+                      "type": "string",
+                      "x-path": ""
+                    },
+                    "type": {
+                      "type": "string",
+                      "x-path": ""
+                    },
+                    "severity": {
+                      "type": "string"
+                    },
+                    "service": {
+                      "type": "string"
+                    },
+                    "enabled": {
+                      "type": "boolean"
+                    }
+                  }
+                },
+                "service": {
+                  "type": "string",
+                  "x-path": ""
+                },
+                "state": {
+                  "type": "object",
+                  "properties": {
+                    "service": {
+                      "type": "string"
+                    },
+                    "enabled": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "debug-service"
+        }
+      },
+      "Debug-ServiceConfigSchemaById": {
+        "type": "object",
+        "properties": {
+          "config": {
+            "type": "object",
+            "properties": {
+              "service": {
+                "type": "string",
+                "x-path": ""
+              },
+              "enabled": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      },
+      "Debug-ServiceConfigSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "config": {
+            "type": "object",
+            "properties": {
+              "service": {
+                "type": "string",
+                "x-path": ""
+              },
+              "enabled": {
+                "type": "boolean"
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "config"
+        }
+      },
+      "Debug-ServiceStateSchemaById": {
+        "type": "object",
+        "properties": {
+          "state": {
+            "type": "object",
+            "properties": {
+              "service": {
+                "type": "string",
+                "x-path": ""
+              },
+              "enabled": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      },
+      "Debug-ServiceStateSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "state": {
+            "type": "object",
+            "properties": {
+              "service": {
+                "type": "string",
+                "x-path": ""
+              },
+              "enabled": {
+                "type": "boolean"
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "state"
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "basicAuth": [],
+      "ApiKeyAuth": [],
+      "bearerAuth": []
+    }
+  ]
+}

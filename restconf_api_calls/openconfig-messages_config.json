@@ -1,0 +1,536 @@
+{
+  "paths": {
+    "/data/openconfig-messages:messages/config": {
+      "patch": {
+        "summary": "PATCH operation on \"config\"",
+        "description": "This endpoint modifies the device's \"config\" resource at XPath: messages/config.",
+        "tags": [
+          "Modify Config"
+        ],
+        "operationId": "PatchConfigById",
+        "requestBody": {
+          "description": "Configuration data for Syslog messages.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MessagesConfigSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/MessagesConfigSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"config\"",
+        "description": "This endpoint replaces the device's \"config\" resource at XPath: messages/config.",
+        "tags": [
+          "Replace Config"
+        ],
+        "operationId": "PutConfigById",
+        "requestBody": {
+          "description": "Configuration data for Syslog messages.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MessagesConfigSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/MessagesConfigSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"config\"",
+        "description": "This endpoint adds to the device's \"config\" resource at XPath: messages/config.",
+        "tags": [
+          "Add Config"
+        ],
+        "operationId": "PostConfigById",
+        "requestBody": {
+          "description": "Configuration data for Syslog messages.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MessagesConfigSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/MessagesConfigSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"config\"",
+        "description": "This endpoint removes the device's \"config\" resource at XPath: messages/config.",
+        "tags": [
+          "Remove Config"
+        ],
+        "operationId": "DeleteConfigById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"config\"",
+        "description": "This endpoint retrieves the device's \"config\" resource at XPath: messages/config.",
+        "tags": [
+          "View Config"
+        ],
+        "operationId": "GetConfigById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/openconfig-messages:messages/config/severity": {
+      "patch": {
+        "summary": "PATCH operation on \"severity\"",
+        "description": "This endpoint modifies the device's \"severity\" resource at XPath: messages/config/severity.",
+        "tags": [
+          "Modify Severity"
+        ],
+        "operationId": "PatchSeverityById",
+        "requestBody": {
+          "description": "Specifies that only messages of the given severity (or\ngreater severity) are sent over the RPC.\n\nThis is analogous to differentiating which severity is to be\nsent to legacy Syslog servers, as opposed to local buffer or\nfiles.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "severity"
+                ],
+                "properties": {
+                  "severity": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "severity"
+                },
+                "type": "object",
+                "required": [
+                  "severity"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"severity\"",
+        "description": "This endpoint replaces the device's \"severity\" resource at XPath: messages/config/severity.",
+        "tags": [
+          "Replace Severity"
+        ],
+        "operationId": "PutSeverityById",
+        "requestBody": {
+          "description": "Specifies that only messages of the given severity (or\ngreater severity) are sent over the RPC.\n\nThis is analogous to differentiating which severity is to be\nsent to legacy Syslog servers, as opposed to local buffer or\nfiles.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "severity"
+                ],
+                "properties": {
+                  "severity": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "severity"
+                },
+                "type": "object",
+                "required": [
+                  "severity"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"severity\"",
+        "description": "This endpoint retrieves the device's \"severity\" resource at XPath: messages/config/severity.",
+        "tags": [
+          "View Severity"
+        ],
+        "operationId": "GetSeverityById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"severity\"",
+        "description": "This endpoint removes the device's \"severity\" resource at XPath: messages/config/severity.",
+        "tags": [
+          "Remove Severity"
+        ],
+        "operationId": "DeleteSeverityById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    }
+  },
+  "openapi": "3.0.3",
+  "info": {
+    "description": "HOST DESTINATION:  https://192.168.200.63:443 (proxy through YANG Suite server)",
+    "title": "OpenAPI v3.0.3",
+    "version": "3.0.3"
+  },
+  "servers": [
+    {
+      "url": "/restconf/proxy/https://192.168.200.63:443/restconf/data/ietf-yang-library:modules-state",
+      "description": "YANG SUITE Proxy RESTCONF API"
+    }
+  ],
+  "components": {
+    "securitySchemes": {
+      "basicAuth": {
+        "type": "http",
+        "scheme": "basic"
+      },
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "scheme": "api_key",
+        "in": "header",
+        "name": "X-API-KEY"
+      },
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JSON Web Token"
+      }
+    },
+    "schemas": {
+      "MessagesConfigSchemaById": {
+        "type": "object",
+        "properties": {
+          "config": {
+            "type": "object",
+            "properties": {
+              "severity": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "MessagesConfigSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "config": {
+            "type": "object",
+            "properties": {
+              "severity": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "config"
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "basicAuth": [],
+      "ApiKeyAuth": [],
+      "bearerAuth": []
+    }
+  ]
+}

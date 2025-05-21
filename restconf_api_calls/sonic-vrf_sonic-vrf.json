@@ -1,0 +1,1505 @@
+{
+  "paths": {
+    "/data/sonic-vrf:sonic-vrf": {
+      "patch": {
+        "summary": "PATCH operation on \"sonic-vrf\"",
+        "description": "This endpoint modifies the device's \"sonic-vrf\" resource at XPath: sonic-vrf.",
+        "tags": [
+          "Modify Sonic-Vrf"
+        ],
+        "operationId": "PatchSonic-VrfById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-VrfSonic-VrfSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-VrfSonic-VrfSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"sonic-vrf\"",
+        "description": "This endpoint replaces the device's \"sonic-vrf\" resource at XPath: sonic-vrf.",
+        "tags": [
+          "Replace Sonic-Vrf"
+        ],
+        "operationId": "PutSonic-VrfById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-VrfSonic-VrfSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-VrfSonic-VrfSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"sonic-vrf\"",
+        "description": "This endpoint adds to the device's \"sonic-vrf\" resource at XPath: sonic-vrf.",
+        "tags": [
+          "Add Sonic-Vrf"
+        ],
+        "operationId": "PostSonic-VrfById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-VrfSonic-VrfSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-VrfSonic-VrfSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"sonic-vrf\"",
+        "description": "This endpoint removes the device's \"sonic-vrf\" resource at XPath: sonic-vrf.",
+        "tags": [
+          "Remove Sonic-Vrf"
+        ],
+        "operationId": "DeleteSonic-VrfById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"sonic-vrf\"",
+        "description": "This endpoint retrieves the device's \"sonic-vrf\" resource at XPath: sonic-vrf.",
+        "tags": [
+          "View Sonic-Vrf"
+        ],
+        "operationId": "GetSonic-VrfById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-vrf:sonic-vrf/VRF": {
+      "patch": {
+        "summary": "PATCH operation on \"VRF\"",
+        "description": "This endpoint modifies the device's \"VRF\" resource at XPath: sonic-vrf/VRF.",
+        "tags": [
+          "Modify Vrf"
+        ],
+        "operationId": "PatchVrfById",
+        "requestBody": {
+          "description": "Vrf configuration.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-VrfVrfSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-VrfVrfSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"VRF\"",
+        "description": "This endpoint replaces the device's \"VRF\" resource at XPath: sonic-vrf/VRF.",
+        "tags": [
+          "Replace Vrf"
+        ],
+        "operationId": "PutVrfById",
+        "requestBody": {
+          "description": "Vrf configuration.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-VrfVrfSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-VrfVrfSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"VRF\"",
+        "description": "This endpoint adds to the device's \"VRF\" resource at XPath: sonic-vrf/VRF.",
+        "tags": [
+          "Add Vrf"
+        ],
+        "operationId": "PostVrfById",
+        "requestBody": {
+          "description": "Vrf configuration.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-VrfVrfSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-VrfVrfSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"VRF\"",
+        "description": "This endpoint removes the device's \"VRF\" resource at XPath: sonic-vrf/VRF.",
+        "tags": [
+          "Remove Vrf"
+        ],
+        "operationId": "DeleteVrfById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"VRF\"",
+        "description": "This endpoint retrieves the device's \"VRF\" resource at XPath: sonic-vrf/VRF.",
+        "tags": [
+          "View Vrf"
+        ],
+        "operationId": "GetVrfById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-vrf:sonic-vrf/VRF/VRF_LIST": {
+      "patch": {
+        "summary": "PATCH operation on \"VRF_LIST\"",
+        "description": "This endpoint modifies the device's \"VRF_LIST\" resource at XPath: sonic-vrf/VRF/VRF_LIST.",
+        "tags": [
+          "Modify Vrf_List"
+        ],
+        "operationId": "PatchVrf_ListById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VrfVrf_ListSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/VrfVrf_ListSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"VRF_LIST\"",
+        "description": "This endpoint replaces the device's \"VRF_LIST\" resource at XPath: sonic-vrf/VRF/VRF_LIST.",
+        "tags": [
+          "Replace Vrf_List"
+        ],
+        "operationId": "PutVrf_ListById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VrfVrf_ListSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/VrfVrf_ListSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"VRF_LIST\"",
+        "description": "This endpoint adds to the device's \"VRF_LIST\" resource at XPath: sonic-vrf/VRF/VRF_LIST.",
+        "tags": [
+          "Add Vrf_List"
+        ],
+        "operationId": "PostVrf_ListById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VrfVrf_ListSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/VrfVrf_ListSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"VRF_LIST\"",
+        "description": "This endpoint retrieves the device's \"VRF_LIST\" resource at XPath: sonic-vrf/VRF/VRF_LIST.",
+        "tags": [
+          "View Vrf_List"
+        ],
+        "operationId": "GetVrf_ListById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-vrf:sonic-vrf/VRF/VRF_LIST={VRF_LIST-name}": {
+      "get": {
+        "summary": "GET operation on \"VRF_LIST\"",
+        "description": "This endpoint retrieves the device's \"VRF_LIST\" resource at XPath: sonic-vrf/VRF/VRF_LIST.",
+        "tags": [
+          "View Vrf_List"
+        ],
+        "operationId": "GetVrf_ListElemById",
+        "parameters": [
+          {
+            "name": "VRF_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"VRF_LIST\"",
+        "description": "This endpoint removes the device's \"VRF_LIST\" resource at XPath: sonic-vrf/VRF/VRF_LIST.",
+        "tags": [
+          "Remove Vrf_List"
+        ],
+        "operationId": "DeleteVrf_ListById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-vrf:sonic-vrf/VRF/VRF_LIST/name": {},
+    "/data/sonic-vrf:sonic-vrf/VRF/VRF_LIST={VRF_LIST-name}/fallback": {
+      "patch": {
+        "summary": "PATCH operation on \"fallback\"",
+        "description": "This endpoint modifies the device's \"fallback\" resource at XPath: sonic-vrf/VRF/VRF_LIST/fallback.",
+        "tags": [
+          "Modify Fallback"
+        ],
+        "operationId": "PatchFallbackById",
+        "requestBody": {
+          "description": "Enable/disable fallback feature which is useful for specified VRF user to access internet through global/main route.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "fallback"
+                ],
+                "properties": {
+                  "fallback": {
+                    "type": "boolean"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "fallback"
+                },
+                "type": "object",
+                "required": [
+                  "fallback"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "VRF_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"fallback\"",
+        "description": "This endpoint replaces the device's \"fallback\" resource at XPath: sonic-vrf/VRF/VRF_LIST/fallback.",
+        "tags": [
+          "Replace Fallback"
+        ],
+        "operationId": "PutFallbackById",
+        "requestBody": {
+          "description": "Enable/disable fallback feature which is useful for specified VRF user to access internet through global/main route.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "fallback"
+                ],
+                "properties": {
+                  "fallback": {
+                    "type": "boolean"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "fallback"
+                },
+                "type": "object",
+                "required": [
+                  "fallback"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "VRF_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"fallback\"",
+        "description": "This endpoint retrieves the device's \"fallback\" resource at XPath: sonic-vrf/VRF/VRF_LIST/fallback.",
+        "tags": [
+          "View Fallback"
+        ],
+        "operationId": "GetFallbackById",
+        "parameters": [
+          {
+            "name": "VRF_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"fallback\"",
+        "description": "This endpoint removes the device's \"fallback\" resource at XPath: sonic-vrf/VRF/VRF_LIST/fallback.",
+        "tags": [
+          "Remove Fallback"
+        ],
+        "operationId": "DeleteFallbackById",
+        "parameters": [
+          {
+            "name": "VRF_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-vrf:sonic-vrf/VRF/VRF_LIST={VRF_LIST-name}/vni": {
+      "patch": {
+        "summary": "PATCH operation on \"vni\"",
+        "description": "This endpoint modifies the device's \"vni\" resource at XPath: sonic-vrf/VRF/VRF_LIST/vni.",
+        "tags": [
+          "Modify Vni"
+        ],
+        "operationId": "PatchVniById",
+        "requestBody": {
+          "description": "VNI mapped to VRF",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "vni"
+                ],
+                "properties": {
+                  "vni": {
+                    "type": "integer",
+                    "format": "uint32"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "vni"
+                },
+                "type": "object",
+                "required": [
+                  "vni"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "VRF_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"vni\"",
+        "description": "This endpoint replaces the device's \"vni\" resource at XPath: sonic-vrf/VRF/VRF_LIST/vni.",
+        "tags": [
+          "Replace Vni"
+        ],
+        "operationId": "PutVniById",
+        "requestBody": {
+          "description": "VNI mapped to VRF",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "vni"
+                ],
+                "properties": {
+                  "vni": {
+                    "type": "integer",
+                    "format": "uint32"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "vni"
+                },
+                "type": "object",
+                "required": [
+                  "vni"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "VRF_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"vni\"",
+        "description": "This endpoint retrieves the device's \"vni\" resource at XPath: sonic-vrf/VRF/VRF_LIST/vni.",
+        "tags": [
+          "View Vni"
+        ],
+        "operationId": "GetVniById",
+        "parameters": [
+          {
+            "name": "VRF_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"vni\"",
+        "description": "This endpoint removes the device's \"vni\" resource at XPath: sonic-vrf/VRF/VRF_LIST/vni.",
+        "tags": [
+          "Remove Vni"
+        ],
+        "operationId": "DeleteVniById",
+        "parameters": [
+          {
+            "name": "VRF_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    }
+  },
+  "openapi": "3.0.3",
+  "info": {
+    "description": "HOST DESTINATION:  https://192.168.200.63:443 (proxy through YANG Suite server)",
+    "title": "OpenAPI v3.0.3",
+    "version": "3.0.3"
+  },
+  "servers": [
+    {
+      "url": "/restconf/proxy/https://192.168.200.63:443/restconf/data/ietf-yang-library:modules-state",
+      "description": "YANG SUITE Proxy RESTCONF API"
+    }
+  ],
+  "components": {
+    "securitySchemes": {
+      "basicAuth": {
+        "type": "http",
+        "scheme": "basic"
+      },
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "scheme": "api_key",
+        "in": "header",
+        "name": "X-API-KEY"
+      },
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JSON Web Token"
+      }
+    },
+    "schemas": {
+      "Sonic-VrfSonic-VrfSchemaById": {
+        "type": "object",
+        "properties": {
+          "sonic-vrf": {
+            "type": "object",
+            "properties": {
+              "VRF": {
+                "properties": {
+                  "VRF_LIST": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "fallback": {
+                        "type": "boolean"
+                      },
+                      "vni": {
+                        "type": "integer",
+                        "format": "uint32"
+                      }
+                    }
+                  }
+                },
+                "type": "object"
+              }
+            }
+          }
+        }
+      },
+      "Sonic-VrfSonic-VrfSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "sonic-vrf": {
+            "type": "object",
+            "properties": {
+              "VRF": {
+                "properties": {
+                  "VRF_LIST": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "fallback": {
+                        "type": "boolean"
+                      },
+                      "vni": {
+                        "type": "integer",
+                        "format": "uint32"
+                      }
+                    }
+                  }
+                },
+                "type": "object"
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "sonic-vrf"
+        }
+      },
+      "Sonic-VrfVrfSchemaById": {
+        "type": "object",
+        "properties": {
+          "VRF": {
+            "type": "object",
+            "properties": {
+              "VRF_LIST": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "fallback": {
+                    "type": "boolean"
+                  },
+                  "vni": {
+                    "type": "integer",
+                    "format": "uint32"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Sonic-VrfVrfSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "VRF": {
+            "type": "object",
+            "properties": {
+              "VRF_LIST": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "fallback": {
+                    "type": "boolean"
+                  },
+                  "vni": {
+                    "type": "integer",
+                    "format": "uint32"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "VRF"
+        }
+      },
+      "VrfVrf_ListSchemaById": {
+        "type": "object",
+        "properties": {
+          "VRF_LIST": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "fallback": {
+                  "type": "boolean"
+                },
+                "vni": {
+                  "type": "integer",
+                  "format": "uint32"
+                }
+              }
+            }
+          }
+        }
+      },
+      "VrfVrf_ListSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "VRF_LIST": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "fallback": {
+                  "type": "boolean"
+                },
+                "vni": {
+                  "type": "integer",
+                  "format": "uint32"
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "VRF_LIST"
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "basicAuth": [],
+      "ApiKeyAuth": [],
+      "bearerAuth": []
+    }
+  ]
+}

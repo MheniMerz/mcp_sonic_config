@@ -1,0 +1,3155 @@
+{
+  "paths": {
+    "/data/sonic-port:sonic-port": {
+      "patch": {
+        "summary": "PATCH operation on \"sonic-port\"",
+        "description": "This endpoint modifies the device's \"sonic-port\" resource at XPath: sonic-port.",
+        "tags": [
+          "Modify Sonic-Port"
+        ],
+        "operationId": "PatchSonic-PortById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-PortSonic-PortSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-PortSonic-PortSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"sonic-port\"",
+        "description": "This endpoint replaces the device's \"sonic-port\" resource at XPath: sonic-port.",
+        "tags": [
+          "Replace Sonic-Port"
+        ],
+        "operationId": "PutSonic-PortById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-PortSonic-PortSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-PortSonic-PortSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"sonic-port\"",
+        "description": "This endpoint adds to the device's \"sonic-port\" resource at XPath: sonic-port.",
+        "tags": [
+          "Add Sonic-Port"
+        ],
+        "operationId": "PostSonic-PortById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-PortSonic-PortSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-PortSonic-PortSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"sonic-port\"",
+        "description": "This endpoint removes the device's \"sonic-port\" resource at XPath: sonic-port.",
+        "tags": [
+          "Remove Sonic-Port"
+        ],
+        "operationId": "DeleteSonic-PortById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"sonic-port\"",
+        "description": "This endpoint retrieves the device's \"sonic-port\" resource at XPath: sonic-port.",
+        "tags": [
+          "View Sonic-Port"
+        ],
+        "operationId": "GetSonic-PortById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-port:sonic-port/PORT": {
+      "patch": {
+        "summary": "PATCH operation on \"PORT\"",
+        "description": "This endpoint modifies the device's \"PORT\" resource at XPath: sonic-port/PORT.",
+        "tags": [
+          "Modify Port"
+        ],
+        "operationId": "PatchPortById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-PortPortSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-PortPortSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"PORT\"",
+        "description": "This endpoint replaces the device's \"PORT\" resource at XPath: sonic-port/PORT.",
+        "tags": [
+          "Replace Port"
+        ],
+        "operationId": "PutPortById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-PortPortSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-PortPortSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"PORT\"",
+        "description": "This endpoint adds to the device's \"PORT\" resource at XPath: sonic-port/PORT.",
+        "tags": [
+          "Add Port"
+        ],
+        "operationId": "PostPortById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-PortPortSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-PortPortSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"PORT\"",
+        "description": "This endpoint removes the device's \"PORT\" resource at XPath: sonic-port/PORT.",
+        "tags": [
+          "Remove Port"
+        ],
+        "operationId": "DeletePortById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"PORT\"",
+        "description": "This endpoint retrieves the device's \"PORT\" resource at XPath: sonic-port/PORT.",
+        "tags": [
+          "View Port"
+        ],
+        "operationId": "GetPortById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-port:sonic-port/PORT/PORT_LIST": {
+      "patch": {
+        "summary": "PATCH operation on \"PORT_LIST\"",
+        "description": "This endpoint modifies the device's \"PORT_LIST\" resource at XPath: sonic-port/PORT/PORT_LIST.",
+        "tags": [
+          "Modify Port_List"
+        ],
+        "operationId": "PatchPort_ListById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PortPort_ListSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/PortPort_ListSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"PORT_LIST\"",
+        "description": "This endpoint replaces the device's \"PORT_LIST\" resource at XPath: sonic-port/PORT/PORT_LIST.",
+        "tags": [
+          "Replace Port_List"
+        ],
+        "operationId": "PutPort_ListById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PortPort_ListSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/PortPort_ListSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"PORT_LIST\"",
+        "description": "This endpoint adds to the device's \"PORT_LIST\" resource at XPath: sonic-port/PORT/PORT_LIST.",
+        "tags": [
+          "Add Port_List"
+        ],
+        "operationId": "PostPort_ListById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PortPort_ListSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/PortPort_ListSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"PORT_LIST\"",
+        "description": "This endpoint retrieves the device's \"PORT_LIST\" resource at XPath: sonic-port/PORT/PORT_LIST.",
+        "tags": [
+          "View Port_List"
+        ],
+        "operationId": "GetPort_ListById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-port:sonic-port/PORT/PORT_LIST={PORT_LIST-ifname}": {
+      "get": {
+        "summary": "GET operation on \"PORT_LIST\"",
+        "description": "This endpoint retrieves the device's \"PORT_LIST\" resource at XPath: sonic-port/PORT/PORT_LIST.",
+        "tags": [
+          "View Port_List"
+        ],
+        "operationId": "GetPort_ListElemById",
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"PORT_LIST\"",
+        "description": "This endpoint removes the device's \"PORT_LIST\" resource at XPath: sonic-port/PORT/PORT_LIST.",
+        "tags": [
+          "Remove Port_List"
+        ],
+        "operationId": "DeletePort_ListById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-port:sonic-port/PORT/PORT_LIST/ifname": {},
+    "/data/sonic-port:sonic-port/PORT/PORT_LIST={PORT_LIST-ifname}/index": {
+      "patch": {
+        "summary": "PATCH operation on \"index\"",
+        "description": "This endpoint modifies the device's \"index\" resource at XPath: sonic-port/PORT/PORT_LIST/index.",
+        "tags": [
+          "Modify Index"
+        ],
+        "operationId": "PatchIndexById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "index"
+                ],
+                "properties": {
+                  "index": {
+                    "type": "integer",
+                    "format": "uint16"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "index"
+                },
+                "type": "object",
+                "required": [
+                  "index"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"index\"",
+        "description": "This endpoint replaces the device's \"index\" resource at XPath: sonic-port/PORT/PORT_LIST/index.",
+        "tags": [
+          "Replace Index"
+        ],
+        "operationId": "PutIndexById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "index"
+                ],
+                "properties": {
+                  "index": {
+                    "type": "integer",
+                    "format": "uint16"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "index"
+                },
+                "type": "object",
+                "required": [
+                  "index"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"index\"",
+        "description": "This endpoint retrieves the device's \"index\" resource at XPath: sonic-port/PORT/PORT_LIST/index.",
+        "tags": [
+          "View Index"
+        ],
+        "operationId": "GetIndexById",
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"index\"",
+        "description": "This endpoint removes the device's \"index\" resource at XPath: sonic-port/PORT/PORT_LIST/index.",
+        "tags": [
+          "Remove Index"
+        ],
+        "operationId": "DeleteIndexById",
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-port:sonic-port/PORT/PORT_LIST={PORT_LIST-ifname}/speed": {
+      "patch": {
+        "summary": "PATCH operation on \"speed\"",
+        "description": "This endpoint modifies the device's \"speed\" resource at XPath: sonic-port/PORT/PORT_LIST/speed.",
+        "tags": [
+          "Modify Speed"
+        ],
+        "operationId": "PatchSpeedById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "speed"
+                ],
+                "properties": {
+                  "speed": {
+                    "type": "integer",
+                    "format": "uint64"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "speed"
+                },
+                "type": "object",
+                "required": [
+                  "speed"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"speed\"",
+        "description": "This endpoint replaces the device's \"speed\" resource at XPath: sonic-port/PORT/PORT_LIST/speed.",
+        "tags": [
+          "Replace Speed"
+        ],
+        "operationId": "PutSpeedById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "speed"
+                ],
+                "properties": {
+                  "speed": {
+                    "type": "integer",
+                    "format": "uint64"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "speed"
+                },
+                "type": "object",
+                "required": [
+                  "speed"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"speed\"",
+        "description": "This endpoint retrieves the device's \"speed\" resource at XPath: sonic-port/PORT/PORT_LIST/speed.",
+        "tags": [
+          "View Speed"
+        ],
+        "operationId": "GetSpeedById",
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"speed\"",
+        "description": "This endpoint removes the device's \"speed\" resource at XPath: sonic-port/PORT/PORT_LIST/speed.",
+        "tags": [
+          "Remove Speed"
+        ],
+        "operationId": "DeleteSpeedById",
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-port:sonic-port/PORT/PORT_LIST={PORT_LIST-ifname}/valid_speeds": {
+      "patch": {
+        "summary": "PATCH operation on \"valid_speeds\"",
+        "description": "This endpoint modifies the device's \"valid_speeds\" resource at XPath: sonic-port/PORT/PORT_LIST/valid_speeds.",
+        "tags": [
+          "Modify Valid_Speeds"
+        ],
+        "operationId": "PatchValid_SpeedsById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "valid_speeds"
+                ],
+                "properties": {
+                  "valid_speeds": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "valid_speeds"
+                },
+                "type": "object",
+                "required": [
+                  "valid_speeds"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"valid_speeds\"",
+        "description": "This endpoint replaces the device's \"valid_speeds\" resource at XPath: sonic-port/PORT/PORT_LIST/valid_speeds.",
+        "tags": [
+          "Replace Valid_Speeds"
+        ],
+        "operationId": "PutValid_SpeedsById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "valid_speeds"
+                ],
+                "properties": {
+                  "valid_speeds": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "valid_speeds"
+                },
+                "type": "object",
+                "required": [
+                  "valid_speeds"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"valid_speeds\"",
+        "description": "This endpoint retrieves the device's \"valid_speeds\" resource at XPath: sonic-port/PORT/PORT_LIST/valid_speeds.",
+        "tags": [
+          "View Valid_Speeds"
+        ],
+        "operationId": "GetValid_SpeedsById",
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"valid_speeds\"",
+        "description": "This endpoint removes the device's \"valid_speeds\" resource at XPath: sonic-port/PORT/PORT_LIST/valid_speeds.",
+        "tags": [
+          "Remove Valid_Speeds"
+        ],
+        "operationId": "DeleteValid_SpeedsById",
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-port:sonic-port/PORT/PORT_LIST={PORT_LIST-ifname}/alias": {
+      "patch": {
+        "summary": "PATCH operation on \"alias\"",
+        "description": "This endpoint modifies the device's \"alias\" resource at XPath: sonic-port/PORT/PORT_LIST/alias.",
+        "tags": [
+          "Modify Alias"
+        ],
+        "operationId": "PatchAliasById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "alias"
+                ],
+                "properties": {
+                  "alias": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "alias"
+                },
+                "type": "object",
+                "required": [
+                  "alias"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"alias\"",
+        "description": "This endpoint replaces the device's \"alias\" resource at XPath: sonic-port/PORT/PORT_LIST/alias.",
+        "tags": [
+          "Replace Alias"
+        ],
+        "operationId": "PutAliasById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "alias"
+                ],
+                "properties": {
+                  "alias": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "alias"
+                },
+                "type": "object",
+                "required": [
+                  "alias"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"alias\"",
+        "description": "This endpoint retrieves the device's \"alias\" resource at XPath: sonic-port/PORT/PORT_LIST/alias.",
+        "tags": [
+          "View Alias"
+        ],
+        "operationId": "GetAliasById",
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"alias\"",
+        "description": "This endpoint removes the device's \"alias\" resource at XPath: sonic-port/PORT/PORT_LIST/alias.",
+        "tags": [
+          "Remove Alias"
+        ],
+        "operationId": "DeleteAliasById",
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-port:sonic-port/PORT/PORT_LIST={PORT_LIST-ifname}/description": {
+      "patch": {
+        "summary": "PATCH operation on \"description\"",
+        "description": "This endpoint modifies the device's \"description\" resource at XPath: sonic-port/PORT/PORT_LIST/description.",
+        "tags": [
+          "Modify Description"
+        ],
+        "operationId": "PatchDescriptionById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "description"
+                ],
+                "properties": {
+                  "description": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "description"
+                },
+                "type": "object",
+                "required": [
+                  "description"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"description\"",
+        "description": "This endpoint replaces the device's \"description\" resource at XPath: sonic-port/PORT/PORT_LIST/description.",
+        "tags": [
+          "Replace Description"
+        ],
+        "operationId": "PutDescriptionById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "description"
+                ],
+                "properties": {
+                  "description": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "description"
+                },
+                "type": "object",
+                "required": [
+                  "description"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"description\"",
+        "description": "This endpoint retrieves the device's \"description\" resource at XPath: sonic-port/PORT/PORT_LIST/description.",
+        "tags": [
+          "View Description"
+        ],
+        "operationId": "GetDescriptionById",
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"description\"",
+        "description": "This endpoint removes the device's \"description\" resource at XPath: sonic-port/PORT/PORT_LIST/description.",
+        "tags": [
+          "Remove Description"
+        ],
+        "operationId": "DeleteDescriptionById",
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-port:sonic-port/PORT/PORT_LIST={PORT_LIST-ifname}/mtu": {
+      "patch": {
+        "summary": "PATCH operation on \"mtu\"",
+        "description": "This endpoint modifies the device's \"mtu\" resource at XPath: sonic-port/PORT/PORT_LIST/mtu.",
+        "tags": [
+          "Modify Mtu"
+        ],
+        "operationId": "PatchMtuById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "mtu"
+                ],
+                "properties": {
+                  "mtu": {
+                    "type": "integer",
+                    "format": "uint32"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "mtu"
+                },
+                "type": "object",
+                "required": [
+                  "mtu"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"mtu\"",
+        "description": "This endpoint replaces the device's \"mtu\" resource at XPath: sonic-port/PORT/PORT_LIST/mtu.",
+        "tags": [
+          "Replace Mtu"
+        ],
+        "operationId": "PutMtuById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "mtu"
+                ],
+                "properties": {
+                  "mtu": {
+                    "type": "integer",
+                    "format": "uint32"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "mtu"
+                },
+                "type": "object",
+                "required": [
+                  "mtu"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"mtu\"",
+        "description": "This endpoint retrieves the device's \"mtu\" resource at XPath: sonic-port/PORT/PORT_LIST/mtu.",
+        "tags": [
+          "View Mtu"
+        ],
+        "operationId": "GetMtuById",
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"mtu\"",
+        "description": "This endpoint removes the device's \"mtu\" resource at XPath: sonic-port/PORT/PORT_LIST/mtu.",
+        "tags": [
+          "Remove Mtu"
+        ],
+        "operationId": "DeleteMtuById",
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-port:sonic-port/PORT/PORT_LIST={PORT_LIST-ifname}/lanes": {
+      "patch": {
+        "summary": "PATCH operation on \"lanes\"",
+        "description": "This endpoint modifies the device's \"lanes\" resource at XPath: sonic-port/PORT/PORT_LIST/lanes.",
+        "tags": [
+          "Modify Lanes"
+        ],
+        "operationId": "PatchLanesById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "lanes"
+                ],
+                "properties": {
+                  "lanes": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "lanes"
+                },
+                "type": "object",
+                "required": [
+                  "lanes"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"lanes\"",
+        "description": "This endpoint replaces the device's \"lanes\" resource at XPath: sonic-port/PORT/PORT_LIST/lanes.",
+        "tags": [
+          "Replace Lanes"
+        ],
+        "operationId": "PutLanesById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "lanes"
+                ],
+                "properties": {
+                  "lanes": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "lanes"
+                },
+                "type": "object",
+                "required": [
+                  "lanes"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"lanes\"",
+        "description": "This endpoint retrieves the device's \"lanes\" resource at XPath: sonic-port/PORT/PORT_LIST/lanes.",
+        "tags": [
+          "View Lanes"
+        ],
+        "operationId": "GetLanesById",
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"lanes\"",
+        "description": "This endpoint removes the device's \"lanes\" resource at XPath: sonic-port/PORT/PORT_LIST/lanes.",
+        "tags": [
+          "Remove Lanes"
+        ],
+        "operationId": "DeleteLanesById",
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-port:sonic-port/PORT/PORT_LIST={PORT_LIST-ifname}/admin_status": {
+      "patch": {
+        "summary": "PATCH operation on \"admin_status\"",
+        "description": "This endpoint modifies the device's \"admin_status\" resource at XPath: sonic-port/PORT/PORT_LIST/admin_status.",
+        "tags": [
+          "Modify Admin_Status"
+        ],
+        "operationId": "PatchAdmin_StatusById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "admin_status"
+                ],
+                "properties": {
+                  "admin_status": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "admin_status"
+                },
+                "type": "object",
+                "required": [
+                  "admin_status"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"admin_status\"",
+        "description": "This endpoint replaces the device's \"admin_status\" resource at XPath: sonic-port/PORT/PORT_LIST/admin_status.",
+        "tags": [
+          "Replace Admin_Status"
+        ],
+        "operationId": "PutAdmin_StatusById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "admin_status"
+                ],
+                "properties": {
+                  "admin_status": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "admin_status"
+                },
+                "type": "object",
+                "required": [
+                  "admin_status"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"admin_status\"",
+        "description": "This endpoint retrieves the device's \"admin_status\" resource at XPath: sonic-port/PORT/PORT_LIST/admin_status.",
+        "tags": [
+          "View Admin_Status"
+        ],
+        "operationId": "GetAdmin_StatusById",
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"admin_status\"",
+        "description": "This endpoint removes the device's \"admin_status\" resource at XPath: sonic-port/PORT/PORT_LIST/admin_status.",
+        "tags": [
+          "Remove Admin_Status"
+        ],
+        "operationId": "DeleteAdmin_StatusById",
+        "parameters": [
+          {
+            "name": "PORT_LIST-ifname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    }
+  },
+  "openapi": "3.0.3",
+  "info": {
+    "description": "HOST DESTINATION:  https://192.168.200.63:443 (proxy through YANG Suite server)",
+    "title": "OpenAPI v3.0.3",
+    "version": "3.0.3"
+  },
+  "servers": [
+    {
+      "url": "/restconf/proxy/https://192.168.200.63:443/restconf/data/ietf-yang-library:modules-state",
+      "description": "YANG SUITE Proxy RESTCONF API"
+    }
+  ],
+  "components": {
+    "securitySchemes": {
+      "basicAuth": {
+        "type": "http",
+        "scheme": "basic"
+      },
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "scheme": "api_key",
+        "in": "header",
+        "name": "X-API-KEY"
+      },
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JSON Web Token"
+      }
+    },
+    "schemas": {
+      "Sonic-PortSonic-PortSchemaById": {
+        "type": "object",
+        "properties": {
+          "sonic-port": {
+            "type": "object",
+            "properties": {
+              "PORT": {
+                "properties": {
+                  "PORT_LIST": {
+                    "type": "object",
+                    "properties": {
+                      "ifname": {
+                        "type": "string"
+                      },
+                      "index": {
+                        "type": "integer",
+                        "format": "uint16"
+                      },
+                      "speed": {
+                        "type": "integer",
+                        "format": "uint64"
+                      },
+                      "valid_speeds": {
+                        "type": "string"
+                      },
+                      "alias": {
+                        "type": "string"
+                      },
+                      "description": {
+                        "type": "string"
+                      },
+                      "mtu": {
+                        "type": "integer",
+                        "format": "uint32"
+                      },
+                      "lanes": {
+                        "type": "string"
+                      },
+                      "admin_status": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "type": "object"
+              }
+            }
+          }
+        }
+      },
+      "Sonic-PortSonic-PortSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "sonic-port": {
+            "type": "object",
+            "properties": {
+              "PORT": {
+                "properties": {
+                  "PORT_LIST": {
+                    "type": "object",
+                    "properties": {
+                      "ifname": {
+                        "type": "string"
+                      },
+                      "index": {
+                        "type": "integer",
+                        "format": "uint16"
+                      },
+                      "speed": {
+                        "type": "integer",
+                        "format": "uint64"
+                      },
+                      "valid_speeds": {
+                        "type": "string"
+                      },
+                      "alias": {
+                        "type": "string"
+                      },
+                      "description": {
+                        "type": "string"
+                      },
+                      "mtu": {
+                        "type": "integer",
+                        "format": "uint32"
+                      },
+                      "lanes": {
+                        "type": "string"
+                      },
+                      "admin_status": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "type": "object"
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "sonic-port"
+        }
+      },
+      "Sonic-PortPortSchemaById": {
+        "type": "object",
+        "properties": {
+          "PORT": {
+            "type": "object",
+            "properties": {
+              "PORT_LIST": {
+                "type": "object",
+                "properties": {
+                  "ifname": {
+                    "type": "string"
+                  },
+                  "index": {
+                    "type": "integer",
+                    "format": "uint16"
+                  },
+                  "speed": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "valid_speeds": {
+                    "type": "string"
+                  },
+                  "alias": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "mtu": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "lanes": {
+                    "type": "string"
+                  },
+                  "admin_status": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Sonic-PortPortSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "PORT": {
+            "type": "object",
+            "properties": {
+              "PORT_LIST": {
+                "type": "object",
+                "properties": {
+                  "ifname": {
+                    "type": "string"
+                  },
+                  "index": {
+                    "type": "integer",
+                    "format": "uint16"
+                  },
+                  "speed": {
+                    "type": "integer",
+                    "format": "uint64"
+                  },
+                  "valid_speeds": {
+                    "type": "string"
+                  },
+                  "alias": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "mtu": {
+                    "type": "integer",
+                    "format": "uint32"
+                  },
+                  "lanes": {
+                    "type": "string"
+                  },
+                  "admin_status": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "PORT"
+        }
+      },
+      "PortPort_ListSchemaById": {
+        "type": "object",
+        "properties": {
+          "PORT_LIST": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "index": {
+                  "type": "string",
+                  "x-path": "",
+                  "format": "uint32"
+                },
+                "ifname": {
+                  "type": "string"
+                },
+                "speed": {
+                  "type": "integer",
+                  "format": "uint64"
+                },
+                "valid_speeds": {
+                  "type": "string"
+                },
+                "alias": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "mtu": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "lanes": {
+                  "type": "string"
+                },
+                "admin_status": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "PortPort_ListSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "PORT_LIST": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "index": {
+                  "type": "string",
+                  "x-path": "",
+                  "format": "uint32"
+                },
+                "ifname": {
+                  "type": "string"
+                },
+                "speed": {
+                  "type": "integer",
+                  "format": "uint64"
+                },
+                "valid_speeds": {
+                  "type": "string"
+                },
+                "alias": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "mtu": {
+                  "type": "integer",
+                  "format": "uint32"
+                },
+                "lanes": {
+                  "type": "string"
+                },
+                "admin_status": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "PORT_LIST"
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "basicAuth": [],
+      "ApiKeyAuth": [],
+      "bearerAuth": []
+    }
+  ]
+}

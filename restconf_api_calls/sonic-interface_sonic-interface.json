@@ -1,0 +1,1357 @@
+{
+  "paths": {
+    "/data/sonic-interface:sonic-interface": {
+      "patch": {
+        "summary": "PATCH operation on \"sonic-interface\"",
+        "description": "This endpoint modifies the device's \"sonic-interface\" resource at XPath: sonic-interface.",
+        "tags": [
+          "Modify Sonic-Interface"
+        ],
+        "operationId": "PatchSonic-InterfaceById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-InterfaceSonic-InterfaceSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-InterfaceSonic-InterfaceSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"sonic-interface\"",
+        "description": "This endpoint replaces the device's \"sonic-interface\" resource at XPath: sonic-interface.",
+        "tags": [
+          "Replace Sonic-Interface"
+        ],
+        "operationId": "PutSonic-InterfaceById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-InterfaceSonic-InterfaceSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-InterfaceSonic-InterfaceSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"sonic-interface\"",
+        "description": "This endpoint adds to the device's \"sonic-interface\" resource at XPath: sonic-interface.",
+        "tags": [
+          "Add Sonic-Interface"
+        ],
+        "operationId": "PostSonic-InterfaceById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-InterfaceSonic-InterfaceSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-InterfaceSonic-InterfaceSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"sonic-interface\"",
+        "description": "This endpoint removes the device's \"sonic-interface\" resource at XPath: sonic-interface.",
+        "tags": [
+          "Remove Sonic-Interface"
+        ],
+        "operationId": "DeleteSonic-InterfaceById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"sonic-interface\"",
+        "description": "This endpoint retrieves the device's \"sonic-interface\" resource at XPath: sonic-interface.",
+        "tags": [
+          "View Sonic-Interface"
+        ],
+        "operationId": "GetSonic-InterfaceById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-interface:sonic-interface/INTERFACE": {
+      "patch": {
+        "summary": "PATCH operation on \"INTERFACE\"",
+        "description": "This endpoint modifies the device's \"INTERFACE\" resource at XPath: sonic-interface/INTERFACE.",
+        "tags": [
+          "Modify Interface"
+        ],
+        "operationId": "PatchInterfaceById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-InterfaceInterfaceSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-InterfaceInterfaceSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"INTERFACE\"",
+        "description": "This endpoint replaces the device's \"INTERFACE\" resource at XPath: sonic-interface/INTERFACE.",
+        "tags": [
+          "Replace Interface"
+        ],
+        "operationId": "PutInterfaceById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-InterfaceInterfaceSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-InterfaceInterfaceSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"INTERFACE\"",
+        "description": "This endpoint adds to the device's \"INTERFACE\" resource at XPath: sonic-interface/INTERFACE.",
+        "tags": [
+          "Add Interface"
+        ],
+        "operationId": "PostInterfaceById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-InterfaceInterfaceSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-InterfaceInterfaceSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"INTERFACE\"",
+        "description": "This endpoint removes the device's \"INTERFACE\" resource at XPath: sonic-interface/INTERFACE.",
+        "tags": [
+          "Remove Interface"
+        ],
+        "operationId": "DeleteInterfaceById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"INTERFACE\"",
+        "description": "This endpoint retrieves the device's \"INTERFACE\" resource at XPath: sonic-interface/INTERFACE.",
+        "tags": [
+          "View Interface"
+        ],
+        "operationId": "GetInterfaceById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-interface:sonic-interface/INTERFACE/INTERFACE_LIST": {
+      "patch": {
+        "summary": "PATCH operation on \"INTERFACE_LIST\"",
+        "description": "This endpoint modifies the device's \"INTERFACE_LIST\" resource at XPath: sonic-interface/INTERFACE/INTERFACE_LIST.",
+        "tags": [
+          "Modify Interface_List"
+        ],
+        "operationId": "PatchInterface_ListById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InterfaceInterface_ListSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/InterfaceInterface_ListSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"INTERFACE_LIST\"",
+        "description": "This endpoint replaces the device's \"INTERFACE_LIST\" resource at XPath: sonic-interface/INTERFACE/INTERFACE_LIST.",
+        "tags": [
+          "Replace Interface_List"
+        ],
+        "operationId": "PutInterface_ListById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InterfaceInterface_ListSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/InterfaceInterface_ListSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"INTERFACE_LIST\"",
+        "description": "This endpoint adds to the device's \"INTERFACE_LIST\" resource at XPath: sonic-interface/INTERFACE/INTERFACE_LIST.",
+        "tags": [
+          "Add Interface_List"
+        ],
+        "operationId": "PostInterface_ListById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InterfaceInterface_ListSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/InterfaceInterface_ListSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"INTERFACE_LIST\"",
+        "description": "This endpoint retrieves the device's \"INTERFACE_LIST\" resource at XPath: sonic-interface/INTERFACE/INTERFACE_LIST.",
+        "tags": [
+          "View Interface_List"
+        ],
+        "operationId": "GetInterface_ListById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-interface:sonic-interface/INTERFACE/INTERFACE_LIST={INTERFACE_LIST-portname}": {
+      "get": {
+        "summary": "GET operation on \"INTERFACE_LIST\"",
+        "description": "This endpoint retrieves the device's \"INTERFACE_LIST\" resource at XPath: sonic-interface/INTERFACE/INTERFACE_LIST.",
+        "tags": [
+          "View Interface_List"
+        ],
+        "operationId": "GetInterface_ListElemById",
+        "parameters": [
+          {
+            "name": "INTERFACE_LIST-portname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "x-path": ""
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"INTERFACE_LIST\"",
+        "description": "This endpoint removes the device's \"INTERFACE_LIST\" resource at XPath: sonic-interface/INTERFACE/INTERFACE_LIST.",
+        "tags": [
+          "Remove Interface_List"
+        ],
+        "operationId": "DeleteInterface_ListById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-interface:sonic-interface/INTERFACE/INTERFACE_LIST/portname": {},
+    "/data/sonic-interface:sonic-interface/INTERFACE/INTERFACE_IPADDR_LIST": {
+      "patch": {
+        "summary": "PATCH operation on \"INTERFACE_IPADDR_LIST\"",
+        "description": "This endpoint modifies the device's \"INTERFACE_IPADDR_LIST\" resource at XPath: sonic-interface/INTERFACE/INTERFACE_IPADDR_LIST.",
+        "tags": [
+          "Modify Interface_Ipaddr_List"
+        ],
+        "operationId": "PatchInterface_Ipaddr_ListById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InterfaceInterface_Ipaddr_ListSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/InterfaceInterface_Ipaddr_ListSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"INTERFACE_IPADDR_LIST\"",
+        "description": "This endpoint replaces the device's \"INTERFACE_IPADDR_LIST\" resource at XPath: sonic-interface/INTERFACE/INTERFACE_IPADDR_LIST.",
+        "tags": [
+          "Replace Interface_Ipaddr_List"
+        ],
+        "operationId": "PutInterface_Ipaddr_ListById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InterfaceInterface_Ipaddr_ListSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/InterfaceInterface_Ipaddr_ListSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"INTERFACE_IPADDR_LIST\"",
+        "description": "This endpoint adds to the device's \"INTERFACE_IPADDR_LIST\" resource at XPath: sonic-interface/INTERFACE/INTERFACE_IPADDR_LIST.",
+        "tags": [
+          "Add Interface_Ipaddr_List"
+        ],
+        "operationId": "PostInterface_Ipaddr_ListById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InterfaceInterface_Ipaddr_ListSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/InterfaceInterface_Ipaddr_ListSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"INTERFACE_IPADDR_LIST\"",
+        "description": "This endpoint retrieves the device's \"INTERFACE_IPADDR_LIST\" resource at XPath: sonic-interface/INTERFACE/INTERFACE_IPADDR_LIST.",
+        "tags": [
+          "View Interface_Ipaddr_List"
+        ],
+        "operationId": "GetInterface_Ipaddr_ListById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-interface:sonic-interface/INTERFACE/INTERFACE_IPADDR_LIST={INTERFACE_IPADDR_LIST-portname},{INTERFACE_IPADDR_LIST-ip_prefix}": {
+      "get": {
+        "summary": "GET operation on \"INTERFACE_IPADDR_LIST\"",
+        "description": "This endpoint retrieves the device's \"INTERFACE_IPADDR_LIST\" resource at XPath: sonic-interface/INTERFACE/INTERFACE_IPADDR_LIST.",
+        "tags": [
+          "View Interface_Ipaddr_List"
+        ],
+        "operationId": "GetInterface_Ipaddr_ListElemById",
+        "parameters": [
+          {
+            "name": "INTERFACE_IPADDR_LIST-portname",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "x-path": ""
+            }
+          },
+          {
+            "name": "INTERFACE_IPADDR_LIST-ip_prefix",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"INTERFACE_IPADDR_LIST\"",
+        "description": "This endpoint removes the device's \"INTERFACE_IPADDR_LIST\" resource at XPath: sonic-interface/INTERFACE/INTERFACE_IPADDR_LIST.",
+        "tags": [
+          "Remove Interface_Ipaddr_List"
+        ],
+        "operationId": "DeleteInterface_Ipaddr_ListById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-interface:sonic-interface/INTERFACE/INTERFACE_IPADDR_LIST/portname": {},
+    "/data/sonic-interface:sonic-interface/INTERFACE/INTERFACE_IPADDR_LIST/ip_prefix": {}
+  },
+  "openapi": "3.0.3",
+  "info": {
+    "description": "HOST DESTINATION:  https://192.168.200.63:443 (proxy through YANG Suite server)",
+    "title": "OpenAPI v3.0.3",
+    "version": "3.0.3"
+  },
+  "servers": [
+    {
+      "url": "/restconf/proxy/https://192.168.200.63:443/restconf/data/ietf-yang-library:modules-state",
+      "description": "YANG SUITE Proxy RESTCONF API"
+    }
+  ],
+  "components": {
+    "securitySchemes": {
+      "basicAuth": {
+        "type": "http",
+        "scheme": "basic"
+      },
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "scheme": "api_key",
+        "in": "header",
+        "name": "X-API-KEY"
+      },
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JSON Web Token"
+      }
+    },
+    "schemas": {
+      "Sonic-InterfaceSonic-InterfaceSchemaById": {
+        "type": "object",
+        "properties": {
+          "sonic-interface": {
+            "type": "object",
+            "properties": {
+              "INTERFACE": {
+                "properties": {
+                  "INTERFACE_LIST": {
+                    "type": "object",
+                    "properties": {
+                      "portname": {
+                        "type": "string",
+                        "x-path": ""
+                      }
+                    }
+                  },
+                  "INTERFACE_IPADDR_LIST": {
+                    "type": "object",
+                    "properties": {
+                      "portname": {
+                        "type": "string",
+                        "x-path": ""
+                      },
+                      "ip_prefix": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "type": "object"
+              }
+            }
+          }
+        }
+      },
+      "Sonic-InterfaceSonic-InterfaceSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "sonic-interface": {
+            "type": "object",
+            "properties": {
+              "INTERFACE": {
+                "properties": {
+                  "INTERFACE_LIST": {
+                    "type": "object",
+                    "properties": {
+                      "portname": {
+                        "type": "string",
+                        "x-path": ""
+                      }
+                    }
+                  },
+                  "INTERFACE_IPADDR_LIST": {
+                    "type": "object",
+                    "properties": {
+                      "portname": {
+                        "type": "string",
+                        "x-path": ""
+                      },
+                      "ip_prefix": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "type": "object"
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "sonic-interface"
+        }
+      },
+      "Sonic-InterfaceInterfaceSchemaById": {
+        "type": "object",
+        "properties": {
+          "INTERFACE": {
+            "type": "object",
+            "properties": {
+              "INTERFACE_LIST": {
+                "type": "object",
+                "properties": {
+                  "portname": {
+                    "type": "string",
+                    "x-path": ""
+                  }
+                }
+              },
+              "INTERFACE_IPADDR_LIST": {
+                "type": "object",
+                "properties": {
+                  "portname": {
+                    "type": "string",
+                    "x-path": ""
+                  },
+                  "ip_prefix": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Sonic-InterfaceInterfaceSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "INTERFACE": {
+            "type": "object",
+            "properties": {
+              "INTERFACE_LIST": {
+                "type": "object",
+                "properties": {
+                  "portname": {
+                    "type": "string",
+                    "x-path": ""
+                  }
+                }
+              },
+              "INTERFACE_IPADDR_LIST": {
+                "type": "object",
+                "properties": {
+                  "portname": {
+                    "type": "string",
+                    "x-path": ""
+                  },
+                  "ip_prefix": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "INTERFACE"
+        }
+      },
+      "InterfaceInterface_ListSchemaById": {
+        "type": "object",
+        "properties": {
+          "INTERFACE_LIST": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "portname": {
+                  "type": "string",
+                  "x-path": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "InterfaceInterface_ListSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "INTERFACE_LIST": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "portname": {
+                  "type": "string",
+                  "x-path": ""
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "INTERFACE_LIST"
+        }
+      },
+      "InterfaceInterface_Ipaddr_ListSchemaById": {
+        "type": "object",
+        "properties": {
+          "INTERFACE_IPADDR_LIST": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "portname": {
+                  "type": "string",
+                  "x-path": ""
+                },
+                "ip_prefix": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "InterfaceInterface_Ipaddr_ListSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "INTERFACE_IPADDR_LIST": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "portname": {
+                  "type": "string",
+                  "x-path": ""
+                },
+                "ip_prefix": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "INTERFACE_IPADDR_LIST"
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "basicAuth": [],
+      "ApiKeyAuth": [],
+      "bearerAuth": []
+    }
+  ]
+}

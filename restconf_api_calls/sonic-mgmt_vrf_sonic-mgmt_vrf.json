@@ -1,0 +1,1114 @@
+{
+  "paths": {
+    "/data/sonic-mgmt_vrf:sonic-mgmt_vrf": {
+      "patch": {
+        "summary": "PATCH operation on \"sonic-mgmt_vrf\"",
+        "description": "This endpoint modifies the device's \"sonic-mgmt_vrf\" resource at XPath: sonic-mgmt_vrf.",
+        "tags": [
+          "Modify Sonic-Mgmt_Vrf"
+        ],
+        "operationId": "PatchSonic-Mgmt_VrfById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-Mgmt_VrfSonic-Mgmt_VrfSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-Mgmt_VrfSonic-Mgmt_VrfSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"sonic-mgmt_vrf\"",
+        "description": "This endpoint replaces the device's \"sonic-mgmt_vrf\" resource at XPath: sonic-mgmt_vrf.",
+        "tags": [
+          "Replace Sonic-Mgmt_Vrf"
+        ],
+        "operationId": "PutSonic-Mgmt_VrfById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-Mgmt_VrfSonic-Mgmt_VrfSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-Mgmt_VrfSonic-Mgmt_VrfSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"sonic-mgmt_vrf\"",
+        "description": "This endpoint adds to the device's \"sonic-mgmt_vrf\" resource at XPath: sonic-mgmt_vrf.",
+        "tags": [
+          "Add Sonic-Mgmt_Vrf"
+        ],
+        "operationId": "PostSonic-Mgmt_VrfById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-Mgmt_VrfSonic-Mgmt_VrfSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-Mgmt_VrfSonic-Mgmt_VrfSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"sonic-mgmt_vrf\"",
+        "description": "This endpoint removes the device's \"sonic-mgmt_vrf\" resource at XPath: sonic-mgmt_vrf.",
+        "tags": [
+          "Remove Sonic-Mgmt_Vrf"
+        ],
+        "operationId": "DeleteSonic-Mgmt_VrfById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"sonic-mgmt_vrf\"",
+        "description": "This endpoint retrieves the device's \"sonic-mgmt_vrf\" resource at XPath: sonic-mgmt_vrf.",
+        "tags": [
+          "View Sonic-Mgmt_Vrf"
+        ],
+        "operationId": "GetSonic-Mgmt_VrfById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-mgmt_vrf:sonic-mgmt_vrf/MGMT_VRF_CONFIG": {
+      "patch": {
+        "summary": "PATCH operation on \"MGMT_VRF_CONFIG\"",
+        "description": "This endpoint modifies the device's \"MGMT_VRF_CONFIG\" resource at XPath: sonic-mgmt_vrf/MGMT_VRF_CONFIG.",
+        "tags": [
+          "Modify Mgmt_Vrf_Config"
+        ],
+        "operationId": "PatchMgmt_Vrf_ConfigById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-Mgmt_VrfMgmt_Vrf_ConfigSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-Mgmt_VrfMgmt_Vrf_ConfigSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"MGMT_VRF_CONFIG\"",
+        "description": "This endpoint replaces the device's \"MGMT_VRF_CONFIG\" resource at XPath: sonic-mgmt_vrf/MGMT_VRF_CONFIG.",
+        "tags": [
+          "Replace Mgmt_Vrf_Config"
+        ],
+        "operationId": "PutMgmt_Vrf_ConfigById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-Mgmt_VrfMgmt_Vrf_ConfigSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-Mgmt_VrfMgmt_Vrf_ConfigSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"MGMT_VRF_CONFIG\"",
+        "description": "This endpoint adds to the device's \"MGMT_VRF_CONFIG\" resource at XPath: sonic-mgmt_vrf/MGMT_VRF_CONFIG.",
+        "tags": [
+          "Add Mgmt_Vrf_Config"
+        ],
+        "operationId": "PostMgmt_Vrf_ConfigById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-Mgmt_VrfMgmt_Vrf_ConfigSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-Mgmt_VrfMgmt_Vrf_ConfigSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"MGMT_VRF_CONFIG\"",
+        "description": "This endpoint removes the device's \"MGMT_VRF_CONFIG\" resource at XPath: sonic-mgmt_vrf/MGMT_VRF_CONFIG.",
+        "tags": [
+          "Remove Mgmt_Vrf_Config"
+        ],
+        "operationId": "DeleteMgmt_Vrf_ConfigById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"MGMT_VRF_CONFIG\"",
+        "description": "This endpoint retrieves the device's \"MGMT_VRF_CONFIG\" resource at XPath: sonic-mgmt_vrf/MGMT_VRF_CONFIG.",
+        "tags": [
+          "View Mgmt_Vrf_Config"
+        ],
+        "operationId": "GetMgmt_Vrf_ConfigById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-mgmt_vrf:sonic-mgmt_vrf/MGMT_VRF_CONFIG/vrf_global": {
+      "patch": {
+        "summary": "PATCH operation on \"vrf_global\"",
+        "description": "This endpoint modifies the device's \"vrf_global\" resource at XPath: sonic-mgmt_vrf/MGMT_VRF_CONFIG/vrf_global.",
+        "tags": [
+          "Modify Vrf_Global"
+        ],
+        "operationId": "PatchVrf_GlobalById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Mgmt_Vrf_ConfigVrf_GlobalSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Mgmt_Vrf_ConfigVrf_GlobalSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"vrf_global\"",
+        "description": "This endpoint replaces the device's \"vrf_global\" resource at XPath: sonic-mgmt_vrf/MGMT_VRF_CONFIG/vrf_global.",
+        "tags": [
+          "Replace Vrf_Global"
+        ],
+        "operationId": "PutVrf_GlobalById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Mgmt_Vrf_ConfigVrf_GlobalSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Mgmt_Vrf_ConfigVrf_GlobalSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"vrf_global\"",
+        "description": "This endpoint adds to the device's \"vrf_global\" resource at XPath: sonic-mgmt_vrf/MGMT_VRF_CONFIG/vrf_global.",
+        "tags": [
+          "Add Vrf_Global"
+        ],
+        "operationId": "PostVrf_GlobalById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Mgmt_Vrf_ConfigVrf_GlobalSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Mgmt_Vrf_ConfigVrf_GlobalSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"vrf_global\"",
+        "description": "This endpoint removes the device's \"vrf_global\" resource at XPath: sonic-mgmt_vrf/MGMT_VRF_CONFIG/vrf_global.",
+        "tags": [
+          "Remove Vrf_Global"
+        ],
+        "operationId": "DeleteVrf_GlobalById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"vrf_global\"",
+        "description": "This endpoint retrieves the device's \"vrf_global\" resource at XPath: sonic-mgmt_vrf/MGMT_VRF_CONFIG/vrf_global.",
+        "tags": [
+          "View Vrf_Global"
+        ],
+        "operationId": "GetVrf_GlobalById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-mgmt_vrf:sonic-mgmt_vrf/MGMT_VRF_CONFIG/vrf_global/mgmtVrfEnabled": {
+      "patch": {
+        "summary": "PATCH operation on \"mgmtVrfEnabled\"",
+        "description": "This endpoint modifies the device's \"mgmtVrfEnabled\" resource at XPath: sonic-mgmt_vrf/MGMT_VRF_CONFIG/vrf_global/mgmtVrfEnabled.",
+        "tags": [
+          "Modify Mgmtvrfenabled"
+        ],
+        "operationId": "PatchMgmtvrfenabledById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "mgmtVrfEnabled"
+                ],
+                "properties": {
+                  "mgmtVrfEnabled": {
+                    "type": "boolean"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "mgmtVrfEnabled"
+                },
+                "type": "object",
+                "required": [
+                  "mgmtVrfEnabled"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"mgmtVrfEnabled\"",
+        "description": "This endpoint replaces the device's \"mgmtVrfEnabled\" resource at XPath: sonic-mgmt_vrf/MGMT_VRF_CONFIG/vrf_global/mgmtVrfEnabled.",
+        "tags": [
+          "Replace Mgmtvrfenabled"
+        ],
+        "operationId": "PutMgmtvrfenabledById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "mgmtVrfEnabled"
+                ],
+                "properties": {
+                  "mgmtVrfEnabled": {
+                    "type": "boolean"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "mgmtVrfEnabled"
+                },
+                "type": "object",
+                "required": [
+                  "mgmtVrfEnabled"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"mgmtVrfEnabled\"",
+        "description": "This endpoint retrieves the device's \"mgmtVrfEnabled\" resource at XPath: sonic-mgmt_vrf/MGMT_VRF_CONFIG/vrf_global/mgmtVrfEnabled.",
+        "tags": [
+          "View Mgmtvrfenabled"
+        ],
+        "operationId": "GetMgmtvrfenabledById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"mgmtVrfEnabled\"",
+        "description": "This endpoint removes the device's \"mgmtVrfEnabled\" resource at XPath: sonic-mgmt_vrf/MGMT_VRF_CONFIG/vrf_global/mgmtVrfEnabled.",
+        "tags": [
+          "Remove Mgmtvrfenabled"
+        ],
+        "operationId": "DeleteMgmtvrfenabledById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    }
+  },
+  "openapi": "3.0.3",
+  "info": {
+    "description": "HOST DESTINATION:  https://192.168.200.63:443 (proxy through YANG Suite server)",
+    "title": "OpenAPI v3.0.3",
+    "version": "3.0.3"
+  },
+  "servers": [
+    {
+      "url": "/restconf/proxy/https://192.168.200.63:443/restconf/data/ietf-yang-library:modules-state",
+      "description": "YANG SUITE Proxy RESTCONF API"
+    }
+  ],
+  "components": {
+    "securitySchemes": {
+      "basicAuth": {
+        "type": "http",
+        "scheme": "basic"
+      },
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "scheme": "api_key",
+        "in": "header",
+        "name": "X-API-KEY"
+      },
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JSON Web Token"
+      }
+    },
+    "schemas": {
+      "Sonic-Mgmt_VrfSonic-Mgmt_VrfSchemaById": {
+        "type": "object",
+        "properties": {
+          "sonic-mgmt_vrf": {
+            "type": "object",
+            "properties": {
+              "MGMT_VRF_CONFIG": {
+                "properties": {
+                  "vrf_global": {
+                    "type": "object",
+                    "properties": {
+                      "mgmtVrfEnabled": {
+                        "type": "boolean"
+                      }
+                    }
+                  }
+                },
+                "type": "object"
+              }
+            }
+          }
+        }
+      },
+      "Sonic-Mgmt_VrfSonic-Mgmt_VrfSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "sonic-mgmt_vrf": {
+            "type": "object",
+            "properties": {
+              "MGMT_VRF_CONFIG": {
+                "properties": {
+                  "vrf_global": {
+                    "type": "object",
+                    "properties": {
+                      "mgmtVrfEnabled": {
+                        "type": "boolean"
+                      }
+                    }
+                  }
+                },
+                "type": "object"
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "sonic-mgmt_vrf"
+        }
+      },
+      "Sonic-Mgmt_VrfMgmt_Vrf_ConfigSchemaById": {
+        "type": "object",
+        "properties": {
+          "MGMT_VRF_CONFIG": {
+            "type": "object",
+            "properties": {
+              "vrf_global": {
+                "type": "object",
+                "properties": {
+                  "mgmtVrfEnabled": {
+                    "type": "boolean"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Sonic-Mgmt_VrfMgmt_Vrf_ConfigSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "MGMT_VRF_CONFIG": {
+            "type": "object",
+            "properties": {
+              "vrf_global": {
+                "type": "object",
+                "properties": {
+                  "mgmtVrfEnabled": {
+                    "type": "boolean"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "MGMT_VRF_CONFIG"
+        }
+      },
+      "Mgmt_Vrf_ConfigVrf_GlobalSchemaById": {
+        "type": "object",
+        "properties": {
+          "vrf_global": {
+            "type": "object",
+            "properties": {
+              "mgmtVrfEnabled": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      },
+      "Mgmt_Vrf_ConfigVrf_GlobalSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "vrf_global": {
+            "type": "object",
+            "properties": {
+              "mgmtVrfEnabled": {
+                "type": "boolean"
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "vrf_global"
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "basicAuth": [],
+      "ApiKeyAuth": [],
+      "bearerAuth": []
+    }
+  ]
+}

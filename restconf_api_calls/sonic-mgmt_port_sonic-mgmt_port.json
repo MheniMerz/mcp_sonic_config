@@ -1,0 +1,2631 @@
+{
+  "paths": {
+    "/data/sonic-mgmt_port:sonic-mgmt_port": {
+      "patch": {
+        "summary": "PATCH operation on \"sonic-mgmt_port\"",
+        "description": "This endpoint modifies the device's \"sonic-mgmt_port\" resource at XPath: sonic-mgmt_port.",
+        "tags": [
+          "Modify Sonic-Mgmt_Port"
+        ],
+        "operationId": "PatchSonic-Mgmt_PortById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-Mgmt_PortSonic-Mgmt_PortSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-Mgmt_PortSonic-Mgmt_PortSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"sonic-mgmt_port\"",
+        "description": "This endpoint replaces the device's \"sonic-mgmt_port\" resource at XPath: sonic-mgmt_port.",
+        "tags": [
+          "Replace Sonic-Mgmt_Port"
+        ],
+        "operationId": "PutSonic-Mgmt_PortById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-Mgmt_PortSonic-Mgmt_PortSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-Mgmt_PortSonic-Mgmt_PortSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"sonic-mgmt_port\"",
+        "description": "This endpoint adds to the device's \"sonic-mgmt_port\" resource at XPath: sonic-mgmt_port.",
+        "tags": [
+          "Add Sonic-Mgmt_Port"
+        ],
+        "operationId": "PostSonic-Mgmt_PortById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-Mgmt_PortSonic-Mgmt_PortSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-Mgmt_PortSonic-Mgmt_PortSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"sonic-mgmt_port\"",
+        "description": "This endpoint removes the device's \"sonic-mgmt_port\" resource at XPath: sonic-mgmt_port.",
+        "tags": [
+          "Remove Sonic-Mgmt_Port"
+        ],
+        "operationId": "DeleteSonic-Mgmt_PortById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"sonic-mgmt_port\"",
+        "description": "This endpoint retrieves the device's \"sonic-mgmt_port\" resource at XPath: sonic-mgmt_port.",
+        "tags": [
+          "View Sonic-Mgmt_Port"
+        ],
+        "operationId": "GetSonic-Mgmt_PortById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-mgmt_port:sonic-mgmt_port/MGMT_PORT": {
+      "patch": {
+        "summary": "PATCH operation on \"MGMT_PORT\"",
+        "description": "This endpoint modifies the device's \"MGMT_PORT\" resource at XPath: sonic-mgmt_port/MGMT_PORT.",
+        "tags": [
+          "Modify Mgmt_Port"
+        ],
+        "operationId": "PatchMgmt_PortById",
+        "requestBody": {
+          "description": "MANAGEMENT PORT part of config_db.json",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-Mgmt_PortMgmt_PortSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-Mgmt_PortMgmt_PortSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"MGMT_PORT\"",
+        "description": "This endpoint replaces the device's \"MGMT_PORT\" resource at XPath: sonic-mgmt_port/MGMT_PORT.",
+        "tags": [
+          "Replace Mgmt_Port"
+        ],
+        "operationId": "PutMgmt_PortById",
+        "requestBody": {
+          "description": "MANAGEMENT PORT part of config_db.json",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-Mgmt_PortMgmt_PortSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-Mgmt_PortMgmt_PortSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"MGMT_PORT\"",
+        "description": "This endpoint adds to the device's \"MGMT_PORT\" resource at XPath: sonic-mgmt_port/MGMT_PORT.",
+        "tags": [
+          "Add Mgmt_Port"
+        ],
+        "operationId": "PostMgmt_PortById",
+        "requestBody": {
+          "description": "MANAGEMENT PORT part of config_db.json",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-Mgmt_PortMgmt_PortSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Sonic-Mgmt_PortMgmt_PortSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"MGMT_PORT\"",
+        "description": "This endpoint removes the device's \"MGMT_PORT\" resource at XPath: sonic-mgmt_port/MGMT_PORT.",
+        "tags": [
+          "Remove Mgmt_Port"
+        ],
+        "operationId": "DeleteMgmt_PortById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"MGMT_PORT\"",
+        "description": "This endpoint retrieves the device's \"MGMT_PORT\" resource at XPath: sonic-mgmt_port/MGMT_PORT.",
+        "tags": [
+          "View Mgmt_Port"
+        ],
+        "operationId": "GetMgmt_PortById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-mgmt_port:sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST": {
+      "patch": {
+        "summary": "PATCH operation on \"MGMT_PORT_LIST\"",
+        "description": "This endpoint modifies the device's \"MGMT_PORT_LIST\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST.",
+        "tags": [
+          "Modify Mgmt_Port_List"
+        ],
+        "operationId": "PatchMgmt_Port_ListById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Mgmt_PortMgmt_Port_ListSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Mgmt_PortMgmt_Port_ListSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"MGMT_PORT_LIST\"",
+        "description": "This endpoint replaces the device's \"MGMT_PORT_LIST\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST.",
+        "tags": [
+          "Replace Mgmt_Port_List"
+        ],
+        "operationId": "PutMgmt_Port_ListById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Mgmt_PortMgmt_Port_ListSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Mgmt_PortMgmt_Port_ListSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "POST operation on \"MGMT_PORT_LIST\"",
+        "description": "This endpoint adds to the device's \"MGMT_PORT_LIST\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST.",
+        "tags": [
+          "Add Mgmt_Port_List"
+        ],
+        "operationId": "PostMgmt_Port_ListById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Mgmt_PortMgmt_Port_ListSchemaById"
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "$ref": "#/components/schemas/Mgmt_PortMgmt_Port_ListSchemaByIdXml"
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"MGMT_PORT_LIST\"",
+        "description": "This endpoint retrieves the device's \"MGMT_PORT_LIST\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST.",
+        "tags": [
+          "View Mgmt_Port_List"
+        ],
+        "operationId": "GetMgmt_Port_ListById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-mgmt_port:sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST={MGMT_PORT_LIST-name}": {
+      "get": {
+        "summary": "GET operation on \"MGMT_PORT_LIST\"",
+        "description": "This endpoint retrieves the device's \"MGMT_PORT_LIST\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST.",
+        "tags": [
+          "View Mgmt_Port_List"
+        ],
+        "operationId": "GetMgmt_Port_ListElemById",
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"MGMT_PORT_LIST\"",
+        "description": "This endpoint removes the device's \"MGMT_PORT_LIST\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST.",
+        "tags": [
+          "Remove Mgmt_Port_List"
+        ],
+        "operationId": "DeleteMgmt_Port_ListById",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-mgmt_port:sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/name": {},
+    "/data/sonic-mgmt_port:sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST={MGMT_PORT_LIST-name}/speed": {
+      "patch": {
+        "summary": "PATCH operation on \"speed\"",
+        "description": "This endpoint modifies the device's \"speed\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/speed.",
+        "tags": [
+          "Modify Speed"
+        ],
+        "operationId": "PatchSpeedById",
+        "requestBody": {
+          "description": "Management port speed in megabytes.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "speed"
+                ],
+                "properties": {
+                  "speed": {
+                    "type": "integer",
+                    "format": "uint16"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "speed"
+                },
+                "type": "object",
+                "required": [
+                  "speed"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"speed\"",
+        "description": "This endpoint replaces the device's \"speed\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/speed.",
+        "tags": [
+          "Replace Speed"
+        ],
+        "operationId": "PutSpeedById",
+        "requestBody": {
+          "description": "Management port speed in megabytes.",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "speed"
+                ],
+                "properties": {
+                  "speed": {
+                    "type": "integer",
+                    "format": "uint16"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "speed"
+                },
+                "type": "object",
+                "required": [
+                  "speed"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"speed\"",
+        "description": "This endpoint retrieves the device's \"speed\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/speed.",
+        "tags": [
+          "View Speed"
+        ],
+        "operationId": "GetSpeedById",
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"speed\"",
+        "description": "This endpoint removes the device's \"speed\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/speed.",
+        "tags": [
+          "Remove Speed"
+        ],
+        "operationId": "DeleteSpeedById",
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-mgmt_port:sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST={MGMT_PORT_LIST-name}/autoneg": {
+      "patch": {
+        "summary": "PATCH operation on \"autoneg\"",
+        "description": "This endpoint modifies the device's \"autoneg\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/autoneg.",
+        "tags": [
+          "Modify Autoneg"
+        ],
+        "operationId": "PatchAutonegById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "autoneg"
+                ],
+                "properties": {
+                  "autoneg": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "autoneg"
+                },
+                "type": "object",
+                "required": [
+                  "autoneg"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"autoneg\"",
+        "description": "This endpoint replaces the device's \"autoneg\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/autoneg.",
+        "tags": [
+          "Replace Autoneg"
+        ],
+        "operationId": "PutAutonegById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "autoneg"
+                ],
+                "properties": {
+                  "autoneg": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "autoneg"
+                },
+                "type": "object",
+                "required": [
+                  "autoneg"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"autoneg\"",
+        "description": "This endpoint retrieves the device's \"autoneg\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/autoneg.",
+        "tags": [
+          "View Autoneg"
+        ],
+        "operationId": "GetAutonegById",
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"autoneg\"",
+        "description": "This endpoint removes the device's \"autoneg\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/autoneg.",
+        "tags": [
+          "Remove Autoneg"
+        ],
+        "operationId": "DeleteAutonegById",
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-mgmt_port:sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST={MGMT_PORT_LIST-name}/alias": {
+      "patch": {
+        "summary": "PATCH operation on \"alias\"",
+        "description": "This endpoint modifies the device's \"alias\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/alias.",
+        "tags": [
+          "Modify Alias"
+        ],
+        "operationId": "PatchAliasById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "alias"
+                ],
+                "properties": {
+                  "alias": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "alias"
+                },
+                "type": "object",
+                "required": [
+                  "alias"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"alias\"",
+        "description": "This endpoint replaces the device's \"alias\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/alias.",
+        "tags": [
+          "Replace Alias"
+        ],
+        "operationId": "PutAliasById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "alias"
+                ],
+                "properties": {
+                  "alias": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "alias"
+                },
+                "type": "object",
+                "required": [
+                  "alias"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"alias\"",
+        "description": "This endpoint retrieves the device's \"alias\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/alias.",
+        "tags": [
+          "View Alias"
+        ],
+        "operationId": "GetAliasById",
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"alias\"",
+        "description": "This endpoint removes the device's \"alias\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/alias.",
+        "tags": [
+          "Remove Alias"
+        ],
+        "operationId": "DeleteAliasById",
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-mgmt_port:sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST={MGMT_PORT_LIST-name}/description": {
+      "patch": {
+        "summary": "PATCH operation on \"description\"",
+        "description": "This endpoint modifies the device's \"description\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/description.",
+        "tags": [
+          "Modify Description"
+        ],
+        "operationId": "PatchDescriptionById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "description"
+                ],
+                "properties": {
+                  "description": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "description"
+                },
+                "type": "object",
+                "required": [
+                  "description"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"description\"",
+        "description": "This endpoint replaces the device's \"description\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/description.",
+        "tags": [
+          "Replace Description"
+        ],
+        "operationId": "PutDescriptionById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "description"
+                ],
+                "properties": {
+                  "description": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "description"
+                },
+                "type": "object",
+                "required": [
+                  "description"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"description\"",
+        "description": "This endpoint retrieves the device's \"description\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/description.",
+        "tags": [
+          "View Description"
+        ],
+        "operationId": "GetDescriptionById",
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"description\"",
+        "description": "This endpoint removes the device's \"description\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/description.",
+        "tags": [
+          "Remove Description"
+        ],
+        "operationId": "DeleteDescriptionById",
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-mgmt_port:sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST={MGMT_PORT_LIST-name}/mtu": {
+      "patch": {
+        "summary": "PATCH operation on \"mtu\"",
+        "description": "This endpoint modifies the device's \"mtu\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/mtu.",
+        "tags": [
+          "Modify Mtu"
+        ],
+        "operationId": "PatchMtuById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "mtu"
+                ],
+                "properties": {
+                  "mtu": {
+                    "type": "integer",
+                    "format": "uint16"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "mtu"
+                },
+                "type": "object",
+                "required": [
+                  "mtu"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"mtu\"",
+        "description": "This endpoint replaces the device's \"mtu\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/mtu.",
+        "tags": [
+          "Replace Mtu"
+        ],
+        "operationId": "PutMtuById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "mtu"
+                ],
+                "properties": {
+                  "mtu": {
+                    "type": "integer",
+                    "format": "uint16"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "mtu"
+                },
+                "type": "object",
+                "required": [
+                  "mtu"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"mtu\"",
+        "description": "This endpoint retrieves the device's \"mtu\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/mtu.",
+        "tags": [
+          "View Mtu"
+        ],
+        "operationId": "GetMtuById",
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"mtu\"",
+        "description": "This endpoint removes the device's \"mtu\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/mtu.",
+        "tags": [
+          "Remove Mtu"
+        ],
+        "operationId": "DeleteMtuById",
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    },
+    "/data/sonic-mgmt_port:sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST={MGMT_PORT_LIST-name}/admin_status": {
+      "patch": {
+        "summary": "PATCH operation on \"admin_status\"",
+        "description": "This endpoint modifies the device's \"admin_status\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/admin_status.",
+        "tags": [
+          "Modify Admin_Status"
+        ],
+        "operationId": "PatchAdmin_StatusById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "admin_status"
+                ],
+                "properties": {
+                  "admin_status": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "admin_status"
+                },
+                "type": "object",
+                "required": [
+                  "admin_status"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "PUT operation on \"admin_status\"",
+        "description": "This endpoint replaces the device's \"admin_status\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/admin_status.",
+        "tags": [
+          "Replace Admin_Status"
+        ],
+        "operationId": "PutAdmin_StatusById",
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/yang-data+json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "admin_status"
+                ],
+                "properties": {
+                  "admin_status": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "application/yang-data+xml": {
+              "schema": {
+                "xml": {
+                  "name": "admin_status"
+                },
+                "type": "object",
+                "required": [
+                  "admin_status"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "GET operation on \"admin_status\"",
+        "description": "This endpoint retrieves the device's \"admin_status\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/admin_status.",
+        "tags": [
+          "View Admin_Status"
+        ],
+        "operationId": "GetAdmin_StatusById",
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "DELETE operation on \"admin_status\"",
+        "description": "This endpoint removes the device's \"admin_status\" resource at XPath: sonic-mgmt_port/MGMT_PORT/MGMT_PORT_LIST/admin_status.",
+        "tags": [
+          "Remove Admin_Status"
+        ],
+        "operationId": "DeleteAdmin_StatusById",
+        "parameters": [
+          {
+            "name": "MGMT_PORT_LIST-name",
+            "in": "path",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful OK",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "400": {
+            "description": "Internal error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "405": {
+            "description": "Method not allowed",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/yang-data+json": {},
+              "application/yang-data+xml": {}
+            }
+          }
+        }
+      }
+    }
+  },
+  "openapi": "3.0.3",
+  "info": {
+    "description": "HOST DESTINATION:  https://192.168.200.63:443 (proxy through YANG Suite server)",
+    "title": "OpenAPI v3.0.3",
+    "version": "3.0.3"
+  },
+  "servers": [
+    {
+      "url": "/restconf/proxy/https://192.168.200.63:443/restconf/data/ietf-yang-library:modules-state",
+      "description": "YANG SUITE Proxy RESTCONF API"
+    }
+  ],
+  "components": {
+    "securitySchemes": {
+      "basicAuth": {
+        "type": "http",
+        "scheme": "basic"
+      },
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "scheme": "api_key",
+        "in": "header",
+        "name": "X-API-KEY"
+      },
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JSON Web Token"
+      }
+    },
+    "schemas": {
+      "Sonic-Mgmt_PortSonic-Mgmt_PortSchemaById": {
+        "type": "object",
+        "properties": {
+          "sonic-mgmt_port": {
+            "type": "object",
+            "properties": {
+              "MGMT_PORT": {
+                "properties": {
+                  "MGMT_PORT_LIST": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "speed": {
+                        "type": "integer",
+                        "format": "uint16"
+                      },
+                      "autoneg": {
+                        "type": "string"
+                      },
+                      "alias": {
+                        "type": "string"
+                      },
+                      "description": {
+                        "type": "string"
+                      },
+                      "mtu": {
+                        "type": "integer",
+                        "format": "uint16"
+                      },
+                      "admin_status": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "type": "object"
+              }
+            }
+          }
+        }
+      },
+      "Sonic-Mgmt_PortSonic-Mgmt_PortSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "sonic-mgmt_port": {
+            "type": "object",
+            "properties": {
+              "MGMT_PORT": {
+                "properties": {
+                  "MGMT_PORT_LIST": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "speed": {
+                        "type": "integer",
+                        "format": "uint16"
+                      },
+                      "autoneg": {
+                        "type": "string"
+                      },
+                      "alias": {
+                        "type": "string"
+                      },
+                      "description": {
+                        "type": "string"
+                      },
+                      "mtu": {
+                        "type": "integer",
+                        "format": "uint16"
+                      },
+                      "admin_status": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "type": "object"
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "sonic-mgmt_port"
+        }
+      },
+      "Sonic-Mgmt_PortMgmt_PortSchemaById": {
+        "type": "object",
+        "properties": {
+          "MGMT_PORT": {
+            "type": "object",
+            "properties": {
+              "MGMT_PORT_LIST": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "speed": {
+                    "type": "integer",
+                    "format": "uint16"
+                  },
+                  "autoneg": {
+                    "type": "string"
+                  },
+                  "alias": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "mtu": {
+                    "type": "integer",
+                    "format": "uint16"
+                  },
+                  "admin_status": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Sonic-Mgmt_PortMgmt_PortSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "MGMT_PORT": {
+            "type": "object",
+            "properties": {
+              "MGMT_PORT_LIST": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "speed": {
+                    "type": "integer",
+                    "format": "uint16"
+                  },
+                  "autoneg": {
+                    "type": "string"
+                  },
+                  "alias": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "mtu": {
+                    "type": "integer",
+                    "format": "uint16"
+                  },
+                  "admin_status": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "MGMT_PORT"
+        }
+      },
+      "Mgmt_PortMgmt_Port_ListSchemaById": {
+        "type": "object",
+        "properties": {
+          "MGMT_PORT_LIST": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "x-path": "",
+                  "format": "oc-if:base-interface-ref",
+                  "enum": [
+                    "oc-lldp-types:C_VLAN",
+                    "oc-lldp-types:DOCSIS_CABLE_DEVICE",
+                    "oc-lldp-types:MAC_BRIDGE",
+                    "oc-lldp-types:OTHER",
+                    "oc-lldp-types:REPEATER",
+                    "oc-lldp-types:ROUTER",
+                    "oc-lldp-types:STATION_ONLY",
+                    "oc-lldp-types:S_VLAN",
+                    "oc-lldp-types:TELEPHONE",
+                    "oc-lldp-types:TWO_PORT_MAC_RELAY",
+                    "oc-lldp-types:WLAN_ACCESS_POINT"
+                  ]
+                },
+                "speed": {
+                  "type": "integer",
+                  "format": "uint16"
+                },
+                "autoneg": {
+                  "type": "string"
+                },
+                "alias": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "mtu": {
+                  "type": "integer",
+                  "format": "uint16"
+                },
+                "admin_status": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Mgmt_PortMgmt_Port_ListSchemaByIdXml": {
+        "type": "object",
+        "properties": {
+          "MGMT_PORT_LIST": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "x-path": "",
+                  "format": "oc-if:base-interface-ref",
+                  "enum": [
+                    "oc-lldp-types:C_VLAN",
+                    "oc-lldp-types:DOCSIS_CABLE_DEVICE",
+                    "oc-lldp-types:MAC_BRIDGE",
+                    "oc-lldp-types:OTHER",
+                    "oc-lldp-types:REPEATER",
+                    "oc-lldp-types:ROUTER",
+                    "oc-lldp-types:STATION_ONLY",
+                    "oc-lldp-types:S_VLAN",
+                    "oc-lldp-types:TELEPHONE",
+                    "oc-lldp-types:TWO_PORT_MAC_RELAY",
+                    "oc-lldp-types:WLAN_ACCESS_POINT"
+                  ]
+                },
+                "speed": {
+                  "type": "integer",
+                  "format": "uint16"
+                },
+                "autoneg": {
+                  "type": "string"
+                },
+                "alias": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "mtu": {
+                  "type": "integer",
+                  "format": "uint16"
+                },
+                "admin_status": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "xml": {
+          "name": "MGMT_PORT_LIST"
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "basicAuth": [],
+      "ApiKeyAuth": [],
+      "bearerAuth": []
+    }
+  ]
+}
